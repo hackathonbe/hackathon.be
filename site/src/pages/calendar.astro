@@ -1,0 +1,100 @@
+---
+import Layout from '../layouts/Layout.astro';
+const description = "Find upcoming hackathons in Belgium. Browse our calendar of tech events, coding competitions, and innovation challenges happening across the country.";
+---
+
+<Layout title="Hackathon Calendar - Belgium" description={description} url="/calendar">
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-4xl font-bold mb-12">Hackathon Calendar</h1>
+    
+    <h2 class="text-3xl font-bold mb-6 mt-8">Upcoming hackathons in Belgium</h2>
+    
+    <div id="eventsfeed">
+      <ul id="events-list" class="space-y-6"></ul>
+    </div>
+    
+    <div id="loading" class="text-center py-12">
+      <div class="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900"></div>
+      <p class="mt-4 text-gray-600">Loading events...</p>
+    </div>
+
+    <h2 class="text-3xl font-bold mb-8 mt-16 pt-8 border-t border-gray-200">Submit your hackathon</h2>
+    <div class="typeform-widget" data-url="https://hackathonbelgium.typeform.com/to/NVPAI3" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=NVPAI3&amp;utm_source=typeform.com-14717312-Free&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN" style="color: #999" target="_blank" rel="noopener noreferrer">Typeform</a> </div>
+  </div>
+</Layout>
+
+<script>
+  const GOOGLE_SHEETS_URL = "https://sheets.googleapis.com/v4/spreadsheets/1Wu0OTRYd_YKVka4mWMi6HeibqbNvssnf6w4Hivsq5Pw/values/A2:E/?key=AIzaSyB4Yi-WtP66fEjNq3m79He3WfomTgIneDI";
+
+  async function loadEvents() {
+    const loadingEl = document.getElementById('loading');
+    const eventsListEl = document.getElementById('events-list');
+    
+    try {
+      const response = await fetch(GOOGLE_SHEETS_URL);
+      const data = await response.json();
+      
+      if (loadingEl) loadingEl.style.display = 'none';
+      
+      if (data.values && data.values.length > 0) {
+        data.values.forEach(row => {
+          if (row && row.length >= 4) {
+            const [eventDate, eventName, eventCity, eventLink, eventDescription = ''] = row;
+            
+            const eventCard = document.createElement('li');
+            eventCard.className = 'bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow';
+            eventCard.innerHTML = `
+              <div class="flex flex-col md:flex-row gap-6">
+                <div class="md:w-32 text-center md:text-left">
+                  <div class="text-2xl font-bold text-blue-600">${eventDate || 'TBA'}</div>
+                  <div class="text-sm text-gray-500 mt-1">${eventCity || ''}</div>
+                </div>
+                <div class="flex-1">
+                  <h3 class="text-xl font-semibold mb-2">${eventName || 'Untitled Event'}</h3>
+                  ${eventDescription ? `<p class="text-gray-600 mb-4">${eventDescription}</p>` : ''}
+                  ${eventLink ? `
+                    <a href="${eventLink}" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-2 rounded-md transition-colors">
+                      More info →
+                    </a>
+                  ` : ''}
+                </div>
+              </div>
+            `;
+            
+            if (eventsListEl) {
+              eventsListEl.appendChild(eventCard);
+            }
+          }
+        });
+      } else {
+        if (eventsListEl) {
+          eventsListEl.innerHTML = '<li class="text-center py-12 text-gray-500">No events found</li>';
+        }
+      }
+    } catch (error) {
+      console.error('Error loading events:', error);
+      if (loadingEl) loadingEl.style.display = 'none';
+      if (eventsListEl) {
+        eventsListEl.innerHTML = '<li class="text-center py-12 text-red-500">Error loading events. Please try again later.</li>';
+      }
+    }
+  }
+
+  // Load events when the page loads
+  document.addEventListener('DOMContentLoaded', loadEvents);
+</script>
+
+
+<style>
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+  
+  .animate-spin {
+    animation: spin 1s linear infinite;
+  }
+</style>
+

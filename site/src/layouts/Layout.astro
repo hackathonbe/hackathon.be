@@ -1,0 +1,67 @@
+---
+const { title, description, image, url } = Astro.props;
+
+// Default SEO values
+const defaultTitle = 'Hackathon Belgium';
+const defaultDescription = 'Everything about hackathons happening in Belgium. Find hackathons, meet your peers, and join the community. 150+ events since 2011 across 20 cities.';
+const defaultImage = '/wp-media/Hackathon-belgium-logo-header-1.png';
+const siteUrl = 'https://hackathon.be';
+
+// Use provided values or defaults
+const pageTitle = title ? `${title}` : defaultTitle;
+const pageDescription = description || defaultDescription;
+const pageImage = image || defaultImage;
+const pageUrl = url || Astro.url.pathname;
+const canonicalUrl = `${siteUrl}${pageUrl}`;
+
+import Header from '../components/Header.astro';
+import '../styles.css';
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>{pageTitle}</title>
+    <meta name="title" content={pageTitle} />
+    <meta name="description" content={pageDescription} />
+    <meta name="keywords" content="hackathon, belgium, coding, innovation, entrepreneurship, startup weekend, developers, tech events" />
+    <meta name="author" content="Hackathon Belgium" />
+    <link rel="canonical" href={canonicalUrl} />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageDescription} />
+    <meta property="og:image" content={`${siteUrl}${pageImage}`} />
+    <meta property="og:site_name" content="Hackathon Belgium" />
+    <meta property="og:locale" content="en_US" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content={canonicalUrl} />
+    <meta property="twitter:title" content={pageTitle} />
+    <meta property="twitter:description" content={pageDescription} />
+    <meta property="twitter:image" content={`${siteUrl}${pageImage}`} />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    
+    <!-- Additional Meta -->
+    <meta name="theme-color" content="#2563eb" />
+    <meta name="robots" content="index, follow" />
+  </head>
+  <body class="antialiased text-gray-900">
+    <Header />
+    <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <slot />
+    </main>
+    <footer class="bg-gray-100">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-sm text-gray-600">Copyright © 2025 Hackathon Belgium</div>
+    </footer>
+  </body>
+</html>

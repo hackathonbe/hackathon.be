@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Question or Discussion
+    url: https://github.com/hackathonbe/hackathon.be/discussions
+    about: Ask questions or start a discussion about the project
+  - name: 📚 Documentation
+    url: https://github.com/hackathonbe/hackathon.be#readme
+    about: Read the project documentation and guides
+  - name: 🤝 Meetup Community
+    url: https://www.meetup.com/Hackathon-Belgium
+    about: Join our Meetup community for hackathon events
