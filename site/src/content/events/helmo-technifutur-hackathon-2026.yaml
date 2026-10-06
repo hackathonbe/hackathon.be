@@ -1,0 +1,29 @@
+name: 'HELMo x Technifutur Hackathon: énergie et environnement'
+series: helmo-technifutur-hackathon
+type: hackathon
+start_date: 2026-04-17
+end_date: 2026-04-19
+city: Liège
+region: wallonia
+venue: HELMo Campus de l'Ourthe
+format: in-person
+organizer: HELMo (computer science programmes) and Technifutur
+themes:
+  - energy
+  - environment
+audience: students
+languages:
+  - FR
+url: https://www.helmo.be/fr/agenda/hackathon-2026
+source_url: https://www.helmo.be/fr/agenda/hackathon-2026
+description: 48-hour energy and environment hackathon for around 100 students, trainees, alumni and
+  professionals in mixed teams.
+recurring: true
+published: false
+review: 'Semi-open: two schools, trainees, invited professionals and alumni'
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  'Same borderline openness as 2025: HELMo and Howest students, Technifutur trainees, professionals,
+  12 alumni seats. Public visit day 18 April. Photo report: https://www.helmo.be/fr/news/retour-en-images-sur-le-hackathon-2026'

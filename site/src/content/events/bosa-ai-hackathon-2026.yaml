@@ -1,0 +1,28 @@
+name: BOSA AI Hackathon
+type: hackathon
+start_date: 2026-03-17
+end_date: 2026-03-19
+city: Brussels
+region: brussels
+venue: Boulevard Simon Bolivar 30
+format: in-person
+organizer: FPS BOSA (Belgian federal digital transformation office)
+themes:
+  - AI
+  - sovereign AI
+  - RAG
+  - public sector
+  - open source
+audience: application
+url: https://bosa.belgium.be/en/events/ai-hackathon-2026
+source_url: https://digital-skills-jobs.europa.eu/en/latest/events/ai-hackathon-2026
+description: Three-day federal hackathon building sovereign, open-source AI prototypes for public
+  administration challenges.
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  Open to public-sector professionals, AI students and private-sector developers; sign-up deadline
+  was 19 Dec 2025 (per a public post on X). Official BOSA URL taken from the EU listing, not opened
+  directly.

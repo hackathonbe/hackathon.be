@@ -1,0 +1,30 @@
+name: TexTerra Hackathon
+edition: 2026 (2nd edition)
+series: texterra-hackathon
+type: hackathon
+start_date: 2026-03-27
+end_date: 2026-03-29
+city: Sint-Niklaas
+region: flanders
+venue: MAP - Den Brei
+format: in-person
+organizer: TexTerra / De Creatieve Stem (supported by VLAIO)
+themes:
+  - circular textiles
+  - knitting
+  - sustainability
+audience: open
+languages:
+  - NL
+url: https://www.texterra.be/hackathon-1
+source_url: https://www.texterra.be/hackathon-1
+description: Second textile hackathon weekend, with teams reworking tufting and knitting leftovers
+  into new products.
+recurring: true
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes: "The 2025 page's save-the-date said Ghent, but the 2026 event page gives Sint-Niklaas (MAP
+  - Den Brei); also listed on ontdeksintniklaas.be. Open to anyone with textile knowledge, aged 16+
+  or accompanied. Challenge partners: Mie-time and Breimuseum."

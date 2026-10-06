@@ -1,0 +1,29 @@
+name: 'IUI: Interuniversity Biohackathon Belgium'
+type: hackathon
+start_date: 2025-09-25
+end_date: 2025-09-26
+city: Leuven
+region: flanders
+venue: Aula ON5, Herestraat 49 (day 1); Zaal Couvreur, Leercentrum AGORA (day 2)
+format: in-person
+organizer: KU Leuven, VUB, University of Antwerp and ISCB Regional Student Group Belgium
+themes:
+  - bioinformatics
+  - AI
+  - machine learning
+audience: open
+languages:
+  - EN
+url: https://rsgbelgium.github.io/news/2025-09-01-interuniversity-hackathon
+source_url: https://phd.vlir.be/en/events/iui-interuniversity-biohackathon-belgium/
+description:
+  Two-day bioinformatics and AI hackathon for master and PhD students, postdocs and professionals
+  across Belgian universities.
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  Three tracks (data exploration, ML prediction, tool development). Registration closed 18 September
+  2025. The official URL was listed on the VLIR page but not opened. The Sep 2026 Joint Bioinformatics
+  Hackathon in Antwerp may be its successor (not verified).

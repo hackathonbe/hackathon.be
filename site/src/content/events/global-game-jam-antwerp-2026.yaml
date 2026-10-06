@@ -1,0 +1,28 @@
+name: Global Game Jam Antwerp
+edition: 2026 (16th Antwerp edition)
+series: global-game-jam-antwerp
+type: game-jam
+start_date: 2026-01-30
+end_date: 2026-02-01
+city: Antwerp
+region: flanders
+venue: Het Bos, Ankerrui 5/7
+format: in-person
+organizer: Global Game Jam Antwerp (powered by PreviewLabs)
+themes:
+  - games
+audience: open
+languages:
+  - EN
+  - NL
+url: https://globalgamejam.org/jam-sites/2026/global-game-jam-antwerp-powered-previewlabs
+source_url: https://globalgamejam.org/jam-sites/2026/global-game-jam-antwerp-powered-previewlabs
+description:
+  Long-running Antwerp site of the worldwide game jam, welcoming beginners and experienced
+  developers alike.
+recurring: true
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes: '18+, in-person only, capacity about 50. Own site: ggjantwerp.com; submissions on itch.io/jam/global-game-jam-antwerp-2026.'

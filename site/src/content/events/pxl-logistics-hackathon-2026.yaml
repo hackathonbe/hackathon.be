@@ -1,0 +1,23 @@
+name: Hackathon PXL (logistics)
+type: hackathon
+city: Hasselt
+region: flanders
+venue: PXL-NeXT
+format: in-person
+organizer: Hogeschool PXL (PXL-NeXT), supported by Portilog
+themes:
+  - logistics
+audience: students
+languages:
+  - NL
+source_url: https://www.flows.be/varia/2026/04/portilog-steunt-hackathon-pxl-als-hefboom-voor-jong-logistiek-talent/
+description: Student hackathon at PXL where teams work on logistics challenges set by companies.
+published: false
+review: Date and openness not confirmed (paywalled source)
+confidence: low
+listed_by: crawler
+checked_on: 2026-10-06
+notes: Article is paywalled. Date 21 April 2026 was derived from photo metadata, not stated in text.
+  Not confirmed whether students from outside PXL could take part or whether it is a course activity;
+  no official event page found. The 21 April 2026 date comes from photo metadata only, so the date
+  field is left empty.

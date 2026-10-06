@@ -154,26 +154,41 @@ hackathon.be/
 ├── site/                    # Astro project root
 │   ├── public/              # Static assets
 │   │   ├── robots.txt       # SEO: Search engine rules
-│   │   ├── sitemap.xml      # SEO: Site structure
 │   │   ├── favicon.ico      # Site icon
 │   │   ├── apple-touch-icon.png
 │   │   └── wp-media/        # Images
 │   ├── src/
 │   │   ├── components/      # Reusable Astro components
-│   │   │   └── Header.astro
+│   │   │   ├── Header.astro
+│   │   │   └── EventCard.astro
+│   │   ├── content/
+│   │   │   └── events/      # One YAML file per hackathon
+│   │   ├── content.config.ts # Schema every event file is checked against
 │   │   ├── layouts/         # Page layouts
 │   │   │   └── Layout.astro # Main layout with SEO
+│   │   ├── lib/             # Event helpers (dates, grouping, structured data)
 │   │   └── pages/           # File-based routing
 │   │       ├── index.astro  # Homepage
-│   │       ├── calendar.astro
+│   │       ├── calendar.astro   # Upcoming hackathons
+│   │       ├── hackathons/      # All hackathons, one page per event and per city
+│   │       ├── sitemap.xml.ts   # SEO: Site structure, generated at build
 │   │       └── ...
 │   ├── astro.config.mjs     # Astro configuration
 │   ├── tailwind.config.cjs  # Tailwind CSS config
 │   └── package.json
+├── docs/
+│   ├── listings.md          # How event listings work
+│   └── crawler-sources.md   # Where to look for new hackathons
 ├── GITHUB-PAGES-DEPLOYMENT.md
 ├── SEO-IMPROVEMENTS.md
 └── README.md                # You are here!
 ```
+
+### Event Listings
+
+Every hackathon on the site is one YAML file in `site/src/content/events/`. The file name is the
+event's address, and the build checks each file before it can go live. To add or correct an event,
+see [docs/listings.md](docs/listings.md).
 
 ### Making Changes
 

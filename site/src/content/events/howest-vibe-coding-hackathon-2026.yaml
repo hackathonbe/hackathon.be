@@ -1,0 +1,28 @@
+name: Howest Vibe Coding Hackathon
+type: hackathon
+start_date: 2026-03-10
+end_date: 2026-03-10
+city: Bruges
+region: flanders
+venue: Howest Campus Brugge Station, Gebouw A, Spoorwegstraat 4
+format: in-person
+organizer: Howest University of Applied Sciences
+themes:
+  - AI
+  - vibe coding
+  - software
+audience: students
+languages:
+  - NL
+  - EN
+url: https://howesttech.odoo.com/event/vibecodinghackathon-10/register
+source_url: https://howesttech.odoo.com/event/vibecodinghackathon-10/register
+description:
+  One-day event where around 100 IT and business students build apps by steering AI coding
+  tools.
+published: false
+review: May be limited to Howest students
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes: Sold out. Unclear whether students from outside Howest could register.

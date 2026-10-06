@@ -1,0 +1,29 @@
+name: INTU Hackathon
+type: hackathon
+start_date: 2025-10-03
+end_date: 2025-10-04
+city: Liège
+region: wallonia
+venue: La Grand Poste, Quai sur-Meuse
+format: in-person
+organizer: Loutil, KapLab (CHU de Liège) and CIHA
+themes:
+  - disability
+  - assistive technology
+  - health
+  - inclusion
+audience: open
+languages:
+  - FR
+url: https://www.billetweb.fr/intu-hackathon
+source_url: https://www.billetweb.fr/intu-hackathon
+description:
+  Makers, carers, designers and developers build practical assistive aids for four projects
+  led by people with disabilities.
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes: "Launch evening on 25 September 2025. Described as KapLab's first hackathon. Was promoted
+  on the ULiège student site (page now returns 410). Sponsor article: spacebel.com. Also reported
+  in the press (La DH) as 'Hackathon pour l'autonomie' by CIHA and KapLab."

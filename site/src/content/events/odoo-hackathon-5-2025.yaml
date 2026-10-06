@@ -1,0 +1,28 @@
+name: 'Odoo Hackathon #5'
+edition: 5th edition (2025)
+series: odoo-hackathon
+type: hackathon
+start_date: 2025-11-21
+end_date: 2025-11-23
+city: Ramillies
+region: wallonia
+venue: Odoo Farm 2, 9 Rue des Bourlottes, 1367 Ramillies
+format: in-person
+organizer: Odoo
+themes:
+  - software
+  - surprise theme ('What could go wrong?')
+audience: open
+url: https://www.odoo.com/event/hackathon-5-edition-8842/register
+source_url: https://allevents.in/ramillies/odoo-hackathon-5-edition/100001650084901359
+description: 48-hour coding marathon at Odoo's farm campus; theme revealed at kick-off, popular with
+  student teams.
+recurring: true
+published: true
+confidence: medium
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  'Corporate organiser but open registration; many student teams (HELHa news item: https://www.helha.be/hackathon-quatre-etudiant%C2%B7e%C2%B7s-en-technologie-de-linformatique-relevent-le-defi-chez-odoo/,
+  which gives 22-23 Nov and the theme). Official odoo.com page could not be opened (robots); dates
+  and venue from an aggregator.'

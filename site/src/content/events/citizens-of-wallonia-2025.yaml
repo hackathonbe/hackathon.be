@@ -1,0 +1,32 @@
+name: Citizens of Wallonia Hackathon
+edition: 2025 (10th edition)
+series: citizens-of-wallonia
+type: hackathon
+start_date: 2025-04-04
+end_date: 2025-04-06
+city: Charleroi
+region: wallonia
+venue: E6K / A6K, Square des Martyrs 1
+format: in-person
+organizer: FuturoCité (with Digital Wallonia / Wallonia region)
+themes:
+  - civic tech
+  - AI
+  - data
+  - digital inclusion
+  - sustainable territories
+audience: open
+languages:
+  - FR
+url: https://www.citizensofwallonia.be/
+source_url: https://www.citizensofwallonia.be/
+description:
+  48-hour civic hackathon where mixed teams prototype digital solutions for Walloon cities
+  and citizens.
+recurring: true
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes: Open from age 16, teams of 4-8, free with a refundable 20 EUR deposit. Site still showed the
+  2025 edition when checked; no 2026 date seen.

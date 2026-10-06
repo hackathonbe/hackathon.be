@@ -1,0 +1,26 @@
+name: Global Game Jam Brussels
+series: global-game-jam-brussels
+type: game-jam
+start_date: 2026-01-30
+end_date: 2026-02-01
+city: Brussels
+region: brussels
+venue: Dansaert Centrum, Aalststraat 7/11
+format: in-person
+organizer: Guillaume Poly and Outretaupe (Global Game Jam site)
+themes:
+  - games
+audience: open
+languages:
+  - EN
+  - NL
+  - FR
+url: https://globalgamejam.org/jam-sites/2026/global-game-jam-brussels
+source_url: https://globalgamejam.org/jam-sites/2026/global-game-jam-brussels
+description: Small Brussels site of the worldwide 48-hour game creation weekend.
+recurring: true
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes: 18+, free, capacity about 20.

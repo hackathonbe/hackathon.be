@@ -1,0 +1,30 @@
+name: Hackathon van de Zorg
+series: hackathon-van-de-zorg
+type: hackathon
+start_date: 2026-05-12
+end_date: 2026-05-13
+city: Aalst
+region: flanders
+venue: Odisee Hogeschool, campus Aalst
+format: in-person
+organizer: Odisee Hogeschool
+themes:
+  - health
+  - care innovation
+audience: students
+languages:
+  - NL
+url: https://pers.odisee.be/hackathon-van-de-zorg-brengt-meer-dan-300-studenten-samen-op-odisee-campus-in-aalst
+source_url: https://pers.odisee.be/hackathon-van-de-zorg-brengt-meer-dan-300-studenten-samen-op-odisee-campus-in-aalst
+description: Annual two-day event where 300+ students from care and ICT programmes solve challenges
+  from care organisations.
+recurring: true
+published: false
+review: May be limited to Odisee students
+confidence: medium
+listed_by: crawler
+checked_on: 2026-10-06
+notes: "Dates per Odisee press release (published 14 May 2026). A Dender Journaal article read as
+  15-16 May, so verify. Appears limited to Odisee students; check against the 'public' definition.
+  Partners: AZORG, Eerstelijnszone Aalst, Levensvreugde. Dates re-checked against the Odisee press
+  release on 6 Oct 2026."

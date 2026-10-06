@@ -1,0 +1,26 @@
+name: Hackers & Ravers
+type: hackathon
+start_date: 2026-05-30
+end_date: 2026-05-30
+city: Ghent
+region: flanders
+venue: Wintercircus
+format: in-person
+organizer: Soda (Soda Straw) and Wintercircus Gent
+themes:
+  - AI building on company data
+audience: application
+languages:
+  - EN
+url: https://sodastraw.ai/hackers-and-ravers
+source_url: https://manual.to/hackers-and-ravers-ghent/
+description:
+  Twelve-hour AI build day for company teams and solo applicants, ending with demos, judging
+  and a party.
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes: 'Partners listed on the event page: Google, Anthropic, Lovable, Cursor, Scaleup Flanders. Two
+  entry paths: companies enrol a team, or individuals apply solo and are matched. Language inferred
+  from the English-only event page.'

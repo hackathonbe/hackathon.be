@@ -1,0 +1,189 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { AUDIENCE_LABELS, FORMAT_LABELS, TYPE_LABELS } from '../../lib/event-fields';
+import {
+  REPO_URL,
+  cityPath,
+  eventJsonLd,
+  eventPath,
+  formatDateRange,
+  formatLongDate,
+  formatMonthYear,
+  getPublishedEvents,
+  isUpcoming,
+  jsonLdString,
+  languageList,
+  placeLabel,
+  type EventEntry,
+} from '../../lib/events';
+
+export async function getStaticPaths() {
+  const events = await getPublishedEvents();
+  return events.map((event) => ({
+    params: { slug: event.id },
+    props: {
+      event,
+      // Other editions of the same recurring event, newest first.
+      editions: event.data.series
+        ? events
+            .filter((other) => other.id !== event.id && other.data.series === event.data.series)
+            .reverse()
+        : [],
+    },
+  }));
+}
+
+interface Props {
+  event: EventEntry;
+  editions: EventEntry[];
+}
+
+const { event, editions } = Astro.props;
+const { data } = event;
+const upcoming = isUpcoming(event);
+const when = formatDateRange(event);
+const place = placeLabel(event);
+const typeLabel = TYPE_LABELS[data.type];
+const where = [data.venue, data.city].filter(Boolean).join(', ') || place;
+
+const title = `${data.name} - ${place}, ${data.start_date ? formatMonthYear(data.start_date) : ''}`;
+const description = `${typeLabel} in ${data.city ?? 'Belgium'}, ${when}. ${data.description ?? ''}`.trim();
+const jsonLd = eventJsonLd(event);
+const editUrl = `${REPO_URL}/edit/main/site/src/content/events/${event.id}.yaml`;
+
+const facts = [
+  ['When', when],
+  ['Where', where],
+  ['Organised by', data.organizer],
+  ['Format', data.format && FORMAT_LABELS[data.format]],
+  ['Who can join', data.audience && AUDIENCE_LABELS[data.audience]],
+  ['Language', languageList(event)],
+  ['Themes', data.themes.join(', ')],
+  ['Edition', data.edition],
+].filter(([, value]) => Boolean(value));
+---
+
+<Layout title={title} description={description} url={eventPath(event)}>
+  {jsonLd && <script type="application/ld+json" set:html={jsonLdString(jsonLd)} />}
+
+  <article class="max-w-4xl mx-auto">
+    <nav class="text-sm text-gray-500 mb-6" aria-label="Breadcrumb">
+      <a href="/hackathons/" class="hover:text-blue-600 hover:underline">All hackathons</a>
+      {
+        data.city && (
+          <>
+            <span aria-hidden="true"> / </span>
+            <a href={cityPath(data.city)} class="hover:text-blue-600 hover:underline">
+              {data.city}
+            </a>
+          </>
+        )
+      }
+    </nav>
+
+    <h1 class="text-4xl font-bold mb-4">{data.name}</h1>
+    <p class="text-xl font-semibold text-blue-600 mb-4">{when} · {place}</p>
+
+    <div class="flex flex-wrap gap-2 mb-8">
+      {
+        data.status !== 'scheduled' && (
+          <span class="text-sm font-semibold uppercase tracking-wide bg-red-50 text-red-700 px-3 py-1 rounded">
+            {data.status}
+          </span>
+        )
+      }
+      <span class="text-sm font-medium bg-blue-50 text-blue-700 px-3 py-1 rounded">{typeLabel}</span>
+      {
+        upcoming ? (
+          <span class="text-sm font-medium bg-green-50 text-green-700 px-3 py-1 rounded">
+            Upcoming
+          </span>
+        ) : (
+          <span class="text-sm font-medium bg-gray-100 text-gray-700 px-3 py-1 rounded">
+            Past event
+          </span>
+        )
+      }
+    </div>
+
+    {data.description && <p class="text-lg text-gray-700 leading-relaxed mb-8">{data.description}</p>}
+
+    <dl class="bg-white rounded-lg shadow-md px-6 py-2 mb-8 divide-y divide-gray-100">
+      {
+        facts.map(([label, value]) => (
+          <div class="py-3 sm:grid sm:grid-cols-[10rem_minmax(0,1fr)] sm:gap-6">
+            <dt class="text-sm font-semibold text-gray-500 sm:pt-0.5">{label}</dt>
+            <dd class="text-gray-900 break-words">{value}</dd>
+          </div>
+        ))
+      }
+    </dl>
+
+    <div class="flex flex-col sm:flex-row gap-4 mb-12">
+      {
+        data.url && (
+          <a
+            href={data.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-block text-center bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-md transition-colors"
+          >
+            Visit the event website →
+          </a>
+        )
+      }
+      {
+        data.city && (
+          <a
+            href={cityPath(data.city)}
+            class="inline-block text-center bg-white hover:bg-gray-50 text-gray-800 font-medium px-6 py-3 rounded-md border border-gray-200 transition-colors"
+          >
+            More hackathons in {data.city}
+          </a>
+        )
+      }
+    </div>
+
+    {
+      editions.length > 0 && (
+        <section class="mb-12">
+          <h2 class="text-2xl font-bold mb-4">Other editions</h2>
+          <ul class="space-y-2">
+            {editions.map((edition) => (
+              <li>
+                <a href={eventPath(edition)} class="text-blue-600 hover:underline">
+                  {edition.data.name}
+                </a>
+                <span class="text-gray-500">
+                  {' '}
+                  · {formatDateRange(edition)} · {placeLabel(edition)}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    <aside class="text-sm text-gray-500 border-t border-gray-200 pt-6">
+      {
+        data.listed_by === 'organizer' ? (
+          <p>This listing was provided by the organiser.</p>
+        ) : (
+          <p>
+            Hackathon Belgium put this listing together from public sources
+            {data.checked_on && <> and last checked it on {formatLongDate(data.checked_on)}</>}. It
+            is not an official page of the event.
+          </p>
+        )
+      }
+      <p class="mt-2">
+        Is this your event, or is something wrong?
+        <a href="/calendar#submit" class="text-blue-600 hover:underline">Tell us</a> or
+        <a href={editUrl} target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline"
+          >edit this listing on GitHub</a
+        >.
+      </p>
+    </aside>
+  </article>
+</Layout>

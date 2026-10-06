@@ -1,0 +1,70 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import EventRow from '../../components/EventRow.astro';
+import {
+  getPublishedEvents,
+  groupByCity,
+  groupByMonth,
+  isUpcoming,
+  startDay,
+  todayInBelgium,
+} from '../../lib/events';
+
+const events = await getPublishedEvents();
+const today = todayInBelgium();
+const cities = groupByCity(events);
+
+// Newest first, split by year, then by month.
+const newestFirst = [...events].reverse();
+const years = [...new Set(newestFirst.map((event) => startDay(event).slice(0, 4)))].map((year) => ({
+  year,
+  months: groupByMonth(newestFirst.filter((event) => startDay(event).startsWith(year))),
+}));
+
+const title = 'All Hackathons in Belgium - Past and Upcoming';
+const description = `${events.length} hackathons, game jams and similar events in Belgium, past and upcoming, by date and by city. Each one with its dates, organiser and a link to the event.`;
+---
+
+<Layout title={title} description={description} url="/hackathons/">
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-4xl font-bold mb-6">All hackathons in Belgium</h1>
+    <p class="text-lg text-gray-700 mb-10">
+      Every hackathon, game jam and similar event we have listed, newest first. For what is still to
+      come, see the <a href="/calendar" class="text-blue-600 hover:underline">calendar</a>.
+    </p>
+
+    <h2 class="text-2xl font-bold mb-4">By city</h2>
+    <ul class="flex flex-wrap gap-2 mb-12">
+      {
+        cities.map((group) => (
+          <li>
+            <a
+              href={group.path}
+              class="inline-block bg-white border border-gray-200 hover:border-blue-600 hover:text-blue-600 text-gray-700 text-sm px-3 py-1.5 rounded-full transition-colors"
+            >
+              {group.city} <span class="text-gray-400">{group.events.length}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+
+    {
+      years.map(({ year, months }) => (
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold mb-6 pt-8 border-t border-gray-200">{year}</h2>
+          {months.map((month) => (
+            <div class="mb-8">
+              <h3 class="text-lg font-semibold text-gray-700 mb-2">{month.label}</h3>
+              <ul class="divide-y divide-gray-200 bg-white rounded-lg shadow-md px-6">
+                {month.events.map((event) => (
+                  <EventRow event={event} upcoming={isUpcoming(event, today)} />
+                ))}
+              </ul>
+            </div>
+          ))}
+        </section>
+      ))
+    }
+  </div>
+</Layout>

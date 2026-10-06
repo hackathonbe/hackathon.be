@@ -1,0 +1,25 @@
+name: Hacking Health Liège
+series: hacking-health-liege
+type: hackathon
+start_date: 2027-03-12
+city: Liège
+region: wallonia
+format: in-person
+organizer: CHU de Liège, Bridge 2 Health (B2H), ULiège RISE
+themes:
+  - health
+  - medtech
+audience: open
+languages:
+  - FR
+url: https://www.hackinghealth.be/
+source_url: https://www.hackinghealth.be/
+description: Third yearly health hackathon in Liège; no coding skills needed, varied profiles welcome.
+recurring: true
+published: true
+confidence: medium
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  Official site announces 12 March 2027; venue and end date not given yet. Participant and project
+  registration via forms on the site.

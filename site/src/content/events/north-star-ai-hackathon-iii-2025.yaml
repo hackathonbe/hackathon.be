@@ -1,0 +1,24 @@
+name: AI Hackathon III
+edition: 3rd
+series: north-star-ai-hackathon
+type: hackathon
+start_date: 2025-08-30
+city: Antwerp
+region: flanders
+venue: The Beacon
+format: in-person
+organizer: North Star
+themes:
+  - AI
+url: https://www.ns2agi.com/events/ai-hackathon-iii
+source_url: https://www.ns2agi.com/events/ai-hackathon-iii
+description:
+  Third community AI build event by North Star, themed around changing outcomes with useful
+  AI tools.
+recurring: true
+published: true
+confidence: medium
+listed_by: crawler
+checked_on: 2026-10-06
+notes: Page gives 30 Aug 2025 but describes 'one weekend'; end date not confirmed. Eligibility not
+  stated (earlier editions were open to all).

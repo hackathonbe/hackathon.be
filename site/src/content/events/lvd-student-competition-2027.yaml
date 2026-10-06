@@ -1,0 +1,32 @@
+name: LVD Student Competition
+edition: 4th edition (2026-2027)
+series: lvd-student-competition
+type: makeathon
+start_date: 2027-02-26
+end_date: 2027-02-26
+city: Gullegem
+region: flanders
+venue: LVD XP Center, Nijverheidslaan 2
+format: in-person
+organizer: LVD Group
+themes:
+  - Sheet-metal design and manufacturing
+  - Industry 4.0
+audience: students
+languages:
+  - EN
+url: https://www.lvdgroup.com/en/events/live-events/student-competition-2026-4th-edition
+source_url: https://hackathonhub.eu/events/student-competition-2026-4th-edition-gullegem-2026
+description: Student teams submit a sheet-metal design, then ten finalist teams build it during a
+  live assembly final.
+recurring: true
+published: false
+review: Design competition; organiser does not call it a hackathon
+confidence: low
+listed_by: crawler
+checked_on: 2026-10-06
+notes: BORDERLINE - review before publishing. The organiser calls it a competition, not a hackathon;
+  only hackathonhub.eu lists it as one. It is a multi-month design contest (design deadline 2027-02-12)
+  with a one-day live final on 2027-02-26 in Gullegem; only the final is in person. Which schools
+  may enter is not stated on the page. Language taken from the English page, not confirmed. Date shown
+  is the in-person final; the design phase opened 25 Sep 2026.

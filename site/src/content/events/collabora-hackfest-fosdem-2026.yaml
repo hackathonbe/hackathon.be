@@ -1,0 +1,27 @@
+name: Collabora Office FOSDEM Fringe Hackfest
+type: hackathon
+start_date: 2026-02-02
+end_date: 2026-02-03
+city: Brussels
+region: brussels
+venue: Bedford Hotel & Congress Centre, Rue du Midi 135
+format: in-person
+organizer: Collabora
+themes:
+  - open source
+  - office suite
+  - LibreOffice
+audience: open
+languages:
+  - EN
+url: https://www.collaboraonline.com/events/collabora-office-fosdem-fringe-hackfest/
+source_url: https://www.collaboraonline.com/events/collabora-office-fosdem-fringe-hackfest/
+description:
+  Two-day post-FOSDEM hackfest for Collabora Office and LibreOffice contributors and open-source
+  newcomers.
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes: Billed as a 'hackfest' (code sprint) rather than a competitive hackathon; ran 10:00 to 22:00
+  each day. Language inferred from page.

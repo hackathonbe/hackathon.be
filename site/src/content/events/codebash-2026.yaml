@@ -1,0 +1,31 @@
+name: CodeBash
+series: codebash
+type: hackathon
+start_date: 2026-10-24
+end_date: 2026-10-24
+city: Mechelen
+region: flanders
+venue: Info Support, Generaal de Wittelaan 17
+format: in-person
+organizer: Info Support
+themes:
+  - programming contest
+  - algorithms
+  - optimisation
+audience: students
+languages:
+  - NL
+url: https://carriere.infosupport.com/codebash-2025/
+source_url: https://carriere.infosupport.com/codebash-2025/
+description:
+  Afternoon coding contest where IT students get four hours to crack one undisclosed optimisation
+  problem.
+recurring: true
+published: false
+review: Programming contest rather than a hackathon
+confidence: medium
+listed_by: crawler
+checked_on: 2026-10-06
+notes: Programming competition rather than a classic hackathon (PXL's listing calls the 2025 edition
+  a hackathon); decide whether it fits. Teams of up to four, 13:00-20:00. The URL slug says 2025 but
+  the page shows the 2026 edition.

@@ -1,0 +1,31 @@
+name: 'Drupal AI Hackathon: Play to Impact'
+series: drupal-ai-hackathon
+type: hackathon
+start_date: 2026-01-27
+end_date: 2026-01-28
+city: Brussels
+region: brussels
+venue: European Commission premises
+format: in-person
+organizer: European Commission (Drupal Community of Practice @ EC and EUIBAs, DG DIGIT)
+themes:
+  - AI
+  - Drupal
+  - open source
+  - public sector web
+audience: open
+languages:
+  - EN
+url: https://drupal-community-of-practice.ec.europa.eu/drupal-ai-hackathon-play-impact-2026-edition_en
+source_url: https://drupal-community-of-practice.ec.europa.eu/drupal-ai-hackathon-play-impact-2026-edition_en
+description:
+  Two-day hackathon at the Commission where teams prototype AI-assisted editing and no-code
+  site building in Drupal.
+recurring: true
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  Online kick-off on 22 Jan 2026. Open by registration to developers, designers and digital innovators
+  from across Europe. Title says '2026 edition', implying earlier editions.

@@ -1,0 +1,31 @@
+name: 'Hack the Narrative: CSLabs Hackathon'
+series: cslabs-hackathon
+type: hackathon
+start_date: 2026-03-27
+end_date: 2026-03-29
+city: Namur
+region: wallonia
+venue: Faculté d'informatique, UNamur, Rue Grandgagnage
+format: in-person
+organizer: CSLabs (junior enterprise of the UNamur Faculty of Computer Science)
+themes:
+  - digital literacy
+  - education
+  - fiction
+  - storytelling
+audience: open
+languages:
+  - FR
+url: https://hackathon.cslabs.be/
+source_url: https://www.unamur.be/fr/agenda/hackathon-leducation-aux-enjeux-du-numerique-en-utilisant-des-elements-de-fiction
+description: Weekend hackathon open to everyone, building fiction-inspired tools that teach people
+  about digital issues.
+recurring: true
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  Starts Friday 17:30, ends Sunday 18:00. Free with a 20 EUR refundable deposit; food and sleeping
+  space provided. Yearly event (2024 edition was reported as the 5th; a 2025 edition on cultural heritage
+  ran 28 Feb-2 Mar, before the window).

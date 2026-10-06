@@ -1,0 +1,29 @@
+name: OpenAI Build Week Community Hackathon Brussels
+type: hackathon
+start_date: 2026-07-18
+end_date: 2026-07-19
+city: Brussels
+region: brussels
+venue: WAT, Rue Volta 6A, 1050 Ixelles
+format: in-person
+organizer: Hack-Nation and North Star, in partnership with OpenAI Build Week
+themes:
+  - AI
+  - Codex
+  - agents
+audience: open
+languages:
+  - EN
+url: https://luma.com/zweuycee
+source_url: https://luma.com/zweuycee
+description: Community-run local weekend of a global OpenAI Codex build challenge, with mentors and
+  local pitching.
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  "Luma page gives 18-19 July at WAT without a reliable year; 2026 inferred because OpenAI Build
+  Week started 13 July 2026 (hackathons.space listing). Registration via Luma with approval/access
+  code. Language inferred. Year confirmed: the co-organiser's event archive (ns2agi.com) lists it
+  under July 2026."

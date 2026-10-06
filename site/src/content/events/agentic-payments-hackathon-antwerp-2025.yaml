@@ -1,0 +1,23 @@
+name: Agentic Payments Hackathon with Stripe
+type: hackathon
+start_date: 2025-11-22
+end_date: 2025-11-22
+city: Antwerp
+region: flanders
+format: in-person
+organizer: North Star with Stripe
+themes:
+  - AI agents
+  - payments
+  - fintech
+audience: application
+url: https://www.ns2agi.com/events/stripe-hackathon
+source_url: https://www.ns2agi.com/events/stripe-hackathon
+description: One-day build event exploring AI agents that handle checkout, reconciliation and other
+  money flows.
+published: false
+review: Invite-only (30 builders)
+confidence: medium
+listed_by: crawler
+checked_on: 2026-10-06
+notes: Page says 30 builders were invited, so it was invite/selection based. Venue not stated.

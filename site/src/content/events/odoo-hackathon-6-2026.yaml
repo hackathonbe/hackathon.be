@@ -1,0 +1,28 @@
+name: 'Odoo Hackathon #6'
+edition: 6th edition (2026)
+series: odoo-hackathon
+type: hackathon
+start_date: 2026-11-20
+end_date: 2026-11-22
+city: Ramillies
+region: wallonia
+venue: 9 Rue des Bourlottes, 1367 Ramillies
+format: in-person
+organizer: Odoo
+themes:
+  - software
+  - coding challenge
+audience: open
+languages:
+  - EN
+url: https://www.odoo.com/event/hackathon-6-edition-12473/register
+source_url: https://www.eventbrite.com/e/odoo-hackathon-6-tickets-1999380725572
+description: Sixth weekend coding hackathon at Odoo's Ramillies campus for developers and tech enthusiasts.
+recurring: true
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  Friday 18:00 to Sunday 18:00. Eventbrite listing showed sold out. Official odoo.com page appeared
+  in search results but could not be opened (robots).

@@ -1,0 +1,23 @@
+name: 'Robotics Hackathon I: LeRobot Worldwide Hackathon Antwerp'
+edition: 1st
+type: hackathon
+start_date: 2025-06-14
+end_date: 2025-06-15
+city: Antwerp
+region: flanders
+format: in-person
+organizer: North Star
+themes:
+  - robotics
+  - embodied AI
+  - hardware
+url: https://www.ns2agi.com/events/robotics-hackathon-i/
+source_url: https://www.ns2agi.com/events/robotics-hackathon-i/
+description:
+  Antwerp node of a worldwide robotics hackathon; teams built embodied-AI projects linking
+  software with physical robots.
+published: true
+confidence: medium
+listed_by: crawler
+checked_on: 2026-10-06
+notes: Venue and participation rules not stated on the page.

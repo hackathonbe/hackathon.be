@@ -1,0 +1,23 @@
+name: Modern Email Hackathon (FOSDEM Fringe)
+type: hackathon
+start_date: 2026-01-30
+end_date: 2026-01-30
+city: Brussels
+region: brussels
+format: in-person
+organizer: Modern Email community
+themes:
+  - open source
+  - email
+audience: application
+url: https://github.com/modern-email/FOSDEM-26/wiki/Hackathon-and-Dinner
+source_url: https://archive.fosdem.org/2026/fringe/
+description: Small pre-FOSDEM hack day and dinner for developers working on open email software and
+  standards.
+published: false
+review: Very small (20 seats); venue unknown
+confidence: low
+listed_by: crawler
+checked_on: 2026-10-06
+notes: Very small (capacity 20; participants had to contact an organiser by 25 Jan 2026). Venue not
+  given on the FOSDEM fringe list; GitHub wiki page not opened.

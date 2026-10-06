@@ -1,0 +1,28 @@
+name: 'Xbox Game Camp Belgium: DAE Game Jam'
+edition: 1st edition (2026)
+type: game-jam
+start_date: 2026-03-31
+end_date: 2026-04-02
+city: Kortrijk
+region: flanders
+venue: The Level, Botenkopersstraat 2
+format: in-person
+organizer: Howest Digital Arts & Entertainment (DAE), with Xbox, Games For Change and Flanders Game
+  Hub
+themes:
+  - games
+  - games for change
+audience: open
+languages:
+  - EN
+url: https://itch.io/jam/dae-gamejam-2026
+source_url: https://itch.io/jam/dae-gamejam-2026
+description: Two-day on-site game jam in Kortrijk built around DAE students, open to other students
+  and Belgian developers.
+published: true
+confidence: medium
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  Teams had to include 2nd-year DAE students; other schools' students and Belgian game devs welcome;
+  physical presence mandatory. Language inferred from the English page.

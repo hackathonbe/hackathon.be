@@ -1,0 +1,30 @@
+name: Vlaanderen Hackathon
+series: vlaanderen-hackathon
+type: hackathon
+start_date: 2025-10-13
+end_date: 2025-10-15
+region: flanders
+venue: Not published (winner announced at Flanders Expo, Ghent)
+format: in-person
+organizer: Digitaal Vlaanderen, VLAIO, PIO, Sandbox Vlaanderen
+themes:
+  - govtech
+  - AI
+  - data
+  - process automation
+audience: open
+languages:
+  - NL
+url: https://www.vlaio.be/nl/nieuws/oproep-dien-jouw-project-voor-de-vlaanderen-hackathon-2025
+source_url: https://www.vlaio.be/nl/nieuws/oproep-dien-jouw-project-voor-de-vlaanderen-hackathon-2025
+description:
+  Three-day public-sector hackathon building solutions for challenges submitted by Flemish
+  government bodies.
+recurring: true
+published: true
+confidence: medium
+listed_by: crawler
+checked_on: 2026-10-06
+notes: City is that of the awards ceremony (Trefdag Vlaanderen Digitaal, Flanders Expo Gent, 23 Oct
+  2025); the location of the three hackathon days themselves is not clearly stated on the page. Free,
+  anyone can take part; project ideas were due 10 June 2025.

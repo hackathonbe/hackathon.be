@@ -1,0 +1,22 @@
+name: 'PROV-AI: Public AI Hackathon'
+type: hackathon
+start_date: 2026-09-16
+end_date: 2026-09-16
+city: Antwerp
+region: flanders
+venue: AP Hogeschool
+format: in-person
+organizer: North Star (listed on ns2agi.com; co-organisers not stated)
+themes:
+  - AI
+  - public sector
+  - GovTech
+url: https://www.ns2agi.com/province
+source_url: https://www.ns2agi.com/province
+description: One-day hackathon building AI tools together with people working in local public services.
+published: true
+confidence: medium
+listed_by: crawler
+checked_on: 2026-10-06
+notes: Organiser, eligibility and registration details not stated on the page. The name and URL slug
+  suggest a provincial government partner, but that is not confirmed.

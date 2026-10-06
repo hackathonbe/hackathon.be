@@ -1,0 +1,30 @@
+name: Hack The Future
+edition: 2026 (The Curse of Achrona)
+series: hack-the-future
+type: hackathon
+start_date: 2026-11-24
+end_date: 2026-11-25
+city: Antwerp
+region: flanders
+format: in-person
+organizer: Hack The Future / Cronos Groep
+themes:
+  - IT
+  - creative
+  - student challenges
+audience: students
+languages:
+  - NL
+url: https://www.2026.hackthefuture.be/
+source_url: https://www.hackthefuture.be/
+description: Next edition of the themed two-day hackathon for IT and creative students.
+recurring: true
+published: true
+confidence: medium
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  Dates from hackthefuture.be; city and edition title from the Cyber3Lab events calendar (cyber3lab.be).
+  Venue not confirmed for 2026; the 2026 subsite URL appeared in that calendar and was not opened.
+  Language assumed from the 2025 edition. Dates re-checked on hackthefuture.be on 6 Oct 2026; the
+  page does not name the city or venue.

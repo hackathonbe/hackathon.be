@@ -1,0 +1,29 @@
+name: 'HELMo x Technifutur Hackathon: Industrie 5.0'
+series: helmo-technifutur-hackathon
+type: hackathon
+start_date: 2025-04-11
+end_date: 2025-04-13
+city: Liège
+region: wallonia
+venue: HELMo Campus de l'Ourthe
+format: in-person
+organizer: HELMo (computer science programmes) and Technifutur
+themes:
+  - Industry 5.0
+audience: students
+languages:
+  - FR
+url: https://www.helmo.be/fr/agenda/hackathon-industrie5-0
+source_url: https://www.helmo.be/fr/agenda/hackathon-industrie5-0
+description:
+  48-hour hackathon with about 100 participants in mixed teams of students, trainees, alumni
+  and professionals.
+recurring: true
+published: false
+review: 'Semi-open: two schools, trainees, invited professionals and alumni'
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  "Borderline 'public': teams mix HELMo and Howest students, Technifutur trainees, professionals
+  and HELMo alumni (12 alumni seats). Public could visit on 12 April without registration."

@@ -1,0 +1,28 @@
+name: FemTech Hackathon
+type: hackathon
+start_date: 2025-11-28
+end_date: 2025-11-28
+city: Brussels
+region: brussels
+venue: BeCentral
+format: in-person
+organizer: Fem Futures Collective (Clusity, High Her, FutureKind)
+themes:
+  - femtech
+  - women's health
+  - finance
+  - retail
+  - sports
+audience: open
+url: https://www.femtech-hackathon.com/
+source_url: https://news.manley.eu/le-plus-grand-hackathon-femtech-de-belgique-veut-en-finir-avec-le-retard-de-la-rd-dediee-aux-femmes
+description:
+  One-day hackathon building women-centred products across health, sport, retail and finance,
+  with around 100 participants.
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes: Single day, 09:00 to 21:00; registration deadline was 15 Nov 2025. Official site URL taken
+  from the press release and not opened. Event language not stated (press release in FR, NL, EN).
+  Also listed at https://b2h.be/fr/events/femtech-hackaton-2025/.

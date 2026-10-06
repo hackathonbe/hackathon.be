@@ -123,6 +123,16 @@ Have an idea? We'd love to hear it!
    - Why this would benefit users
    - Any alternatives you've considered
 
+### 📅 Add or Correct a Hackathon
+
+Know a hackathon in Belgium that is missing, or spotted a mistake in a listing?
+
+- Each event is one YAML file in `site/src/content/events/`. Add a file or edit the existing one
+  and open a pull request. Every event page links to its file.
+- [docs/listings.md](docs/listings.md) explains the fields, the file names and which events belong
+  on the site.
+- Not comfortable with GitHub? Use the form on the [calendar page](https://hackathon.be/calendar).
+
 ### 📝 Improve Documentation
 
 - Fix typos or clarify instructions

@@ -1,0 +1,37 @@
+---
+// A hackathon as one line in a long list: date, name, place.
+import { TYPE_LABELS } from '../lib/event-fields';
+import { eventPath, formatDateRange, placeLabel, type EventEntry } from '../lib/events';
+
+interface Props {
+  event: EventEntry;
+  upcoming?: boolean;
+}
+
+const { event, upcoming = false } = Astro.props;
+const { data } = event;
+---
+
+<li class="py-3 grid gap-x-6 gap-y-1 sm:grid-cols-[11rem_minmax(0,1fr)_9rem]">
+  <span class="text-sm font-semibold text-blue-600">{formatDateRange(event, false)}</span>
+  <span class="min-w-0">
+    <a href={eventPath(event)} class="font-medium text-gray-900 hover:text-blue-600 hover:underline"
+      >{data.name}</a
+    >
+    {
+      data.type !== 'hackathon' && (
+        <span class="ml-2 text-xs font-medium bg-blue-50 text-blue-700 px-2 py-0.5 rounded whitespace-nowrap">
+          {TYPE_LABELS[data.type]}
+        </span>
+      )
+    }
+    {
+      upcoming && (
+        <span class="ml-2 text-xs font-medium bg-green-50 text-green-700 px-2 py-0.5 rounded whitespace-nowrap">
+          Upcoming
+        </span>
+      )
+    }
+  </span>
+  <span class="text-sm text-gray-500">{placeLabel(event)}</span>
+</li>

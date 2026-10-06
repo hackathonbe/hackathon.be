@@ -1,0 +1,30 @@
+name: TexTerra Hackathon
+edition: 2025 (1st edition)
+series: texterra-hackathon
+type: hackathon
+start_date: 2025-04-04
+end_date: 2025-04-06
+city: Kortrijk
+region: flanders
+venue: Texture Museum
+format: in-person
+organizer: TexTerra / De Creatieve Stem (supported by VLAIO)
+themes:
+  - circular textiles
+  - fashion
+  - sustainability
+audience: open
+languages:
+  - NL
+url: https://www.texterra.be/hackathon
+source_url: https://www.texterra.be/hackathon
+description: Weekend where textile-savvy teams prototype circular reuse solutions for challenges set
+  by fashion and event brands.
+recurring: true
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  Challenge partners included JBC, Mie-time, Wolvis and Tomorrowland. Open to anyone with textile
+  knowledge, individually or as a team.

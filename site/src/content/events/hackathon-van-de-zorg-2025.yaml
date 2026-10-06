@@ -1,0 +1,28 @@
+name: Hackathon van de Zorg
+series: hackathon-van-de-zorg
+type: hackathon
+start_date: 2025-05-08
+end_date: 2025-05-09
+city: Aalst
+region: flanders
+format: in-person
+organizer: Odisee Hogeschool with ZorgLab Aalst and Stad Aalst
+themes:
+  - health
+  - care innovation
+audience: students
+languages:
+  - NL
+url: https://aalst.be/nieuws/studenten-hacken-de-zorg-van-morgen-tijdens-hackathon-2025-0
+source_url: https://denderjournaal.be/studenten-hacken-de-zorg-van-morgen-tijdens-hackathon-2025/
+description: Two-day student challenge solving real care problems submitted by local hospitals and
+  care homes.
+recurring: true
+published: false
+review: May be limited to Odisee students
+confidence: medium
+listed_by: crawler
+checked_on: 2026-10-06
+notes: Venue not named in the source (2026 edition was on the Odisee Aalst campus). Appears limited
+  to Odisee students, so check against the 'public' definition. aalst.be page returned 403; details
+  taken from Dender Journaal.

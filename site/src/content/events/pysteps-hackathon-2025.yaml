@@ -1,0 +1,31 @@
+name: pySTEPS Hackathon
+type: hackathon
+start_date: 2025-09-08
+end_date: 2025-09-12
+city: Avin (Hannut)
+region: wallonia
+venue: Château d'Avin
+format: in-person
+organizer: Royal Meteorological Institute of Belgium (RMI) with the pySTEPS community; VUB staff on
+  the organising committee
+themes:
+  - Open-source precipitation nowcasting
+  - radar and deep learning
+audience: application
+languages:
+  - EN
+url: https://github.com/pySTEPS/pysteps/discussions/480
+source_url: https://researchportal.vub.be/en/activities/pysteps-hackathon-2025/
+description: Week-long residential coding sprint for the pySTEPS weather nowcasting library, with
+  researchers and practitioners from several institutions.
+published: false
+review: Eligibility not stated; residential code sprint
+confidence: medium
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  Dates and place confirmed on two pages (VUB research portal and the pySTEPS GitHub discussion).
+  Registration procedure and eligibility not stated on either page; participants came from outside
+  RMI (PhD students, consultants, other institutes), so treated as open by application. Avin is a
+  village in the municipality of Hannut, province of Liège. Whether it recurs yearly in Belgium is
+  not confirmed.

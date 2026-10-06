@@ -1,0 +1,30 @@
+name: Cyber Security Challenge Belgium
+edition: 2026 (12th edition)
+series: cyber-security-challenge-belgium
+type: ctf
+start_date: 2026-03-28
+end_date: 2026-03-28
+city: Brussels
+region: brussels
+venue: Royal Military Academy
+format: hybrid
+organizer: Cyber Security Challenge Belgium (led by NVISO, supported by the Centre for Cybersecurity
+  Belgium)
+themes:
+  - cybersecurity
+audience: students
+languages:
+  - EN
+url: https://cybersecuritychallenge.be/
+source_url: https://news.belgium.be/en/behind-scenes-cyber-security-challenge-belgium-2026
+description: 'National student capture-the-flag: online qualifiers, then an on-site final for the
+  best teams in Brussels.'
+recurring: true
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  Date is the on-site final (Saturday 28 March 2026). Online qualifiers took place about a month
+  earlier, exact dates not found. 1,020 registered, 135 finalists. Open to students of Belgian higher-education
+  institutions, teams of up to 4. The official homepage still showed 2025 dates when fetched.

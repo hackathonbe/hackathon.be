@@ -1,0 +1,29 @@
+name: 'European AI Challenge: From Data to Policy'
+edition: 2026 (1st edition)
+type: hackathon
+start_date: 2026-10-29
+end_date: 2026-10-30
+city: Brussels
+region: brussels
+venue: FARI (day 1) and European Commission JRC premises (day 2)
+format: in-person
+organizer: European Commission Joint Research Centre and FARI - AI for the Common Good Institute (ULB/VUB)
+themes:
+  - AI
+  - geospatial data
+  - flood risk
+  - climate policy
+audience: students
+languages:
+  - EN
+url: https://www.fari.brussels/calendar/european-ai-challenge-2026
+source_url: https://www.fari.brussels/calendar/european-ai-challenge-2026
+description: Two-day student challenge using AI and Commission geodata to map flood risk and draft
+  policy recommendations.
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  Billed as a 'challenge', not a hackathon; team-based with jury and prizes. Bachelor and master
+  students (and some high-school pupils), selected by application. Free.

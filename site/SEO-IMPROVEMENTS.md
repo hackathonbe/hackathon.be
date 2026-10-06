@@ -38,9 +38,9 @@ Created at `/public/robots.txt`:
 
 ### 4. Sitemap.xml
 
-Created at `/public/sitemap.xml`:
+Generated at build time by `src/pages/sitemap.xml.ts`:
 
-- All 4 main pages listed with priorities
+- The main pages, every published event and every city page, with priorities
 - Change frequencies set appropriately:
   - Homepage: Weekly (priority 1.0)
   - Calendar: Daily (priority 0.9) - most dynamic
@@ -122,8 +122,7 @@ Updated all pages with custom descriptions:
 
 ## 📝 Maintenance
 
-- Update sitemap when adding new pages
-- Keep lastmod dates current in sitemap
+- The sitemap lists events and cities by itself; add any other new page to `src/pages/sitemap.xml.ts`
 - Review and update meta descriptions quarterly
 - Monitor search console for any crawl errors
 - Update structured data if organization details change

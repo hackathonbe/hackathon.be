@@ -1,0 +1,22 @@
+name: 'ThinkYoung Hackathons: Grand Final'
+edition: 2024-2025 series
+type: hackathon
+start_date: 2025-10-20
+end_date: 2025-10-20
+city: Brussels
+region: brussels
+format: in-person
+organizer: ThinkYoung
+audience: application
+url: https://www.thinkyounghackathons.org/final
+source_url: https://www.thinkyounghackathons.org/
+description: Brussels final of a youth hackathon series that held city rounds in Paris, Brussels,
+  Palermo and Hamburg.
+published: false
+review: Only date and city confirmed; may be a pitch final
+confidence: low
+listed_by: crawler
+checked_on: 2026-10-06
+notes: Only the date and city of the final are confirmed. Venue, theme and whether the final was a
+  working hackathon or a pitch event are not confirmed. The Brussels city round was on 6 Dec 2024
+  (outside window). The /final page was not opened.
