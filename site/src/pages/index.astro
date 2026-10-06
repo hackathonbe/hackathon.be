@@ -1,10 +1,31 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { Image, getImage } from 'astro:assets';
+import heroTeams from '../assets/photos/swleuventeams.jpg';
+import heroBrussels from '../assets/photos/SWBRU_0850.jpg';
+import networking from '../assets/photos/networking.jpg';
+import teamwork from '../assets/photos/swleuven.jpg';
+import vrHackathon from '../assets/photos/vrhackathon.jpg';
+import michel from '../assets/photos/michel-e1456686054610.jpg';
+import jcc from '../assets/photos/JCC_Speaker_HackBelgium_300.jpg';
+
+const heroSources = [
+  { src: heroTeams, tagline: 'Find a hackathon' },
+  { src: heroBrussels, tagline: 'Meet your peers' },
+  { src: networking, tagline: 'Join the community' },
+];
+const slides = await Promise.all(
+  heroSources.map(async ({ src, tagline }) => ({
+    image: (await getImage({ src, width: 1600, format: 'webp', quality: 70 })).src,
+    tagline,
+  }))
+);
 const title = "Hackathon Belgium — Home";
 const description = "Find hackathons happening in Belgium. Join our community of 5000+ participants across 20 cities. 150+ events since 2011. Meet your peers, innovate, and learn.";
 ---
 
 <Layout title={title} description={description}>
+  <link slot="head" rel="preload" as="image" href={slides[0].image} fetchpriority="high" />
   <!-- Structured Data (JSON-LD) -->
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
@@ -42,7 +63,7 @@ const description = "Find hackathons happening in Belgium. Join our community of
   <!-- Hero Section with Background Slideshow -->
   <section class="relative mb-16 -mt-8 -mx-4 sm:-mx-6 lg:-mx-8 rounded-lg overflow-hidden">
     <!-- Background slideshow -->
-    <div id="hero-bg" class="absolute inset-0 bg-cover bg-center transition-all duration-1000 ease-in-out" style="background-image: url('/wp-media/swleuventeams.jpg');">
+    <div id="hero-bg" class="absolute inset-0 bg-cover bg-center transition-all duration-1000 ease-in-out" style={`background-image: url('${slides[0].image}');`} data-slides={JSON.stringify(slides)}>
       <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70"></div>
     </div>
     
@@ -74,24 +95,13 @@ const description = "Find hackathons happening in Belgium. Join our community of
   </section>
 
   <script>
-    const slides = [
-      {
-        image: '/wp-media/swleuventeams.jpg',
-        tagline: 'Find a hackathon'
-      },
-      {
-        image: '/wp-media/SWBRU_0850.jpg',
-        tagline: 'Meet your peers'
-      },
-      {
-        image: '/wp-media/networking.jpg',
-        tagline: 'Join the community'
-      }
-    ];
-    
     let currentIndex = 0;
     const heroBg = document.getElementById('hero-bg');
     const heroTagline = document.getElementById('hero-tagline');
+    const slides = JSON.parse(heroBg?.dataset.slides ?? '[]');
+
+    // Warm the cache so slide changes don't wait on the network
+    slides.slice(1).forEach((slide) => { new Image().src = slide.image; });
     
     function changeSlide() {
       // Fade out tagline
@@ -137,10 +147,14 @@ const description = "Find hackathons happening in Belgium. Join our community of
     <div class="grid md:grid-cols-3 gap-6 mt-8">
       <div class="bg-blue-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
         <div class="h-48 overflow-hidden">
-          <img 
-            src="/wp-media/swleuven.jpg" 
-            alt="Team working together at hackathon" 
+          <Image
+            src={teamwork}
+            alt="Team working together at hackathon"
             class="w-full h-full object-cover"
+            width={800}
+            widths={[400, 800]}
+            sizes="(min-width: 768px) 33vw, 100vw"
+            loading="lazy"
           />
         </div>
         <div class="p-6">
@@ -151,10 +165,14 @@ const description = "Find hackathons happening in Belgium. Join our community of
 
       <div class="bg-green-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
         <div class="h-48 overflow-hidden">
-          <img 
-            src="/wp-media/networking.jpg" 
-            alt="Networking at hackathon event" 
+          <Image
+            src={networking}
+            alt="Networking at hackathon event"
             class="w-full h-full object-cover"
+            width={800}
+            widths={[400, 800]}
+            sizes="(min-width: 768px) 33vw, 100vw"
+            loading="lazy"
           />
         </div>
         <div class="p-6">
@@ -165,10 +183,14 @@ const description = "Find hackathons happening in Belgium. Join our community of
 
       <div class="bg-purple-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
         <div class="h-48 overflow-hidden">
-          <img 
-            src="/wp-media/vrhackathon.jpg" 
-            alt="Coding and building at hackathon" 
+          <Image
+            src={vrHackathon}
+            alt="Coding and building at hackathon"
             class="w-full h-full object-cover"
+            width={800}
+            widths={[400, 800]}
+            sizes="(min-width: 768px) 33vw, 100vw"
+            loading="lazy"
           />
         </div>
         <div class="p-6">
@@ -230,11 +252,7 @@ const description = "Find hackathons happening in Belgium. Join our community of
       <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow relative">
         <div class="flex items-start gap-6">
           <div class="flex-shrink-0">
-            <img 
-              src="/wp-media/michel-e1456686054610.jpg" 
-              alt="Michel Duchateau" 
-              class="w-32 h-32 rounded-full object-cover shadow-lg"
-            />
+            <Image src={michel} alt="Michel Duchateau" class="w-32 h-32 rounded-full object-cover shadow-lg" width={256} height={256} loading="lazy" />
           </div>
           <div class="flex-1 pr-12">
             <h3 class="text-xl font-bold mb-2 text-gray-900">Michel Duchateau</h3>
@@ -283,11 +301,7 @@ const description = "Find hackathons happening in Belgium. Join our community of
       <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow relative">
         <div class="flex items-start gap-4">
           <div class="flex-shrink-0">
-            <img 
-              src="/wp-media/JCC_Speaker_HackBelgium_300.jpg" 
-              alt="Jean-Christophe Cuvelier"               
-              class="w-32 h-32 rounded-full object-cover shadow-lg"
-            />
+            <Image src={jcc} alt="Jean-Christophe Cuvelier" class="w-32 h-32 rounded-full object-cover shadow-lg" width={256} height={256} loading="lazy" />
           </div>
           <div class="flex-1 pr-12">
             <h3 class="text-xl font-bold mb-2 text-gray-900">Jean-Christophe Cuvelier</h3>

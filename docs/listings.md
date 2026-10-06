@@ -119,4 +119,5 @@ publishes them by merging. The crawler follows these rules:
 - Before adding an event it checks for an existing file for the same event (same series, start date
   and city), so one event is not listed twice.
 
-The pages it watches are in [crawler-sources.md](crawler-sources.md).
+The pages it watches are in [crawler-sources.md](crawler-sources.md). Its instructions, and how to
+schedule it, are in [crawler-prompt.md](crawler-prompt.md).

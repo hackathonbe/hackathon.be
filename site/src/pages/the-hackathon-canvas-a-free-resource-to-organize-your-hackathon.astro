@@ -1,5 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { Image } from 'astro:assets';
+import banner from '../assets/photos/hackathoncanvasbanner.png';
+import canvas from '../assets/photos/hackathoncanvas.png';
 const description = "Download the free Hackathon Canvas - a practical tool to help you organize successful hackathons. Plan, structure, and execute your hackathon event with our proven framework.";
 ---
 
@@ -8,13 +11,7 @@ const description = "Download the free Hackathon Canvas - a practical tool to he
     <h1 class="text-5xl font-bold mb-12 text-gray-900">The Hackathon Canvas – a free resource to organize your hackathon</h1>
     
     <div class="mb-12">
-      <img 
-        src="https://hackathon.be/wp-media/hackathoncanvasbanner.png" 
-        alt="Hackathon Canvas Banner" 
-        class="w-full rounded-lg shadow-lg"
-        width="1024" 
-        height="370"
-      />
+      <Image src={banner} alt="Hackathon Canvas Banner" class="w-full rounded-lg shadow-lg" width={1024} height={370} loading="eager" />
     </div>
 
     <div class="prose prose-lg max-w-none">
@@ -36,13 +33,7 @@ const description = "Download the free Hackathon Canvas - a practical tool to he
       </p>
 
       <div class="flex justify-center my-8">
-        <img 
-          src="https://hackathon.be/wp-media/hackathoncanvas.png" 
-          alt="Hackathon Canvas Template" 
-          class="rounded-lg shadow-md"
-          width="300" 
-          height="212"
-        />
+        <Image src={canvas} alt="Hackathon Canvas Template" class="rounded-lg shadow-md" width={300} height={212} densities={[1, 2]} loading="lazy" />
       </div>
 
       <p class="text-lg text-gray-700 mb-8">
