@@ -111,7 +111,6 @@ hackathon.be/
 │   ├── src/
 │   ├── public/
 │   │   ├── robots.txt          # SEO: Search engine guidance
-│   │   ├── sitemap.xml         # SEO: Site structure
 │   │   ├── favicon.ico         # Site icon
 │   │   └── apple-touch-icon.png
 │   └── dist/                   # Built site (generated)
