@@ -1,0 +1,27 @@
+name: 'Art-IE Hackathon: Hack de haven met AI!'
+type: hackathon
+start_date: 2026-02-27
+end_date: 2026-02-27
+city: Antwerp
+region: flanders
+venue: Havenhuis (Port House)
+format: in-person
+organizer: Art-IE (listed by VAIA - Flanders AI Academy)
+themes:
+  - AI
+  - port
+  - logistics
+  - sustainability
+audience: students
+languages:
+  - NL
+url: https://www.vaia.be/nl/opleidingen/art-ie-hackathon-2026-hack-de-haven-met-ai
+source_url: https://www.vaia.be/nl/opleidingen/art-ie-hackathon-2026-hack-de-haven-met-ai
+description: Free one-day challenge where higher-education students apply AI to real port business
+  cases.
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes: Open to any higher-education student. Cases included automated waste sorting and sustainable
+  logistics.

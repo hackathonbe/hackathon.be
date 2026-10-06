@@ -1,0 +1,29 @@
+name: 'Game Tech Jam #2'
+edition: 2nd edition
+series: game-tech-jam
+type: game-jam
+start_date: 2026-10-07
+end_date: 2026-10-07
+city: Namur
+region: wallonia
+venue: Haute École Albert Jacquard, Av. Comte de Smet de Nayer 20
+format: in-person
+organizer: Haute École Albert Jacquard (HEAJ)
+themes:
+  - game tech
+  - visual effects
+  - shaders
+audience: open
+languages:
+  - FR
+url: https://www.eventbrite.be/e/billets-game-tech-jam-2-2001184563901
+source_url: https://www.eventbrite.be/e/billets-game-tech-jam-2-2001184563901?aff=ebdssbdestsearch
+description: 'Evening mini-jam: a short talk, then two hours of creation on a surprise theme plus
+  live shader battles.'
+recurring: true
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes: 'Short format (18:00-22:00), not a full weekend jam. Open to professionals, students, alumni
+  and the curious. Date of edition #1 not found.'

@@ -1,0 +1,31 @@
+name: 'CrossTechXperience Hackathon #2'
+edition: 2nd edition (2025)
+series: crosstechxperience-hackathon
+type: hackathon
+start_date: 2025-12-05
+end_date: 2025-12-07
+city: Mons
+region: wallonia
+venue: CLICK, Boulevard Initialis 30, 7000 Mons
+format: in-person
+organizer: CrossTechXperience (Interreg France-Wallonie-Vlaanderen project)
+themes:
+  - immersive tech
+  - interactive
+  - gaming
+audience: open
+languages:
+  - FR
+  - NL
+url: https://crosstechxperience.eu/hackathon-2-2025/
+source_url: https://crosstechxperience.eu/hackathon-2-2025/
+description:
+  Three-day cross-border hackathon on immersive and gaming technology for students, researchers
+  and companies.
+recurring: true
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes: 'Participants from northern France, Wallonia and Flanders. Hackathon #1 was in February 2025
+  at Rubika Valenciennes (France, out of scope).'

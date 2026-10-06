@@ -1,0 +1,32 @@
+name: 'CASSINI Hackathon Brussels: EU Space for Consumer Experience'
+edition: 10th edition
+series: cassini-hackathon-brussels
+type: hackathon
+start_date: 2025-11-07
+end_date: 2025-11-09
+city: Brussels
+region: brussels
+venue: BeCentral
+format: in-person
+organizer: BeCentral (local organiser) for the European Commission CASSINI programme
+themes:
+  - space data
+  - Copernicus
+  - Galileo
+  - consumer applications
+audience: open
+languages:
+  - EN
+url: https://www.cassini.eu/hackathons/node/99
+source_url: https://www.cassini.eu/hackathons/node/99
+description: Belgian site of the EU-wide space-data hackathon, run simultaneously in ten European
+  locations.
+recurring: true
+published: true
+confidence: medium
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  'Confirmed from the CASSINI list of local organisers (BeCentral, Brussels). Exact on-site format
+  (in-person vs hybrid) and language not verified. The series runs twice a year but Belgium is not
+  always a site: none for the 12th edition (27-29 Nov 2026).'

@@ -1,0 +1,32 @@
+name: Belgian Navy Hackathon 2
+edition: 2nd
+series: belgian-navy-hackathon
+type: hackathon
+start_date: 2026-03-09
+end_date: 2026-03-10
+city: Zeebrugge
+region: flanders
+venue: ABC Tower
+format: in-person
+organizer: Belgian Defence / Inno4Def
+themes:
+  - defence
+  - maritime
+  - procurement
+  - data
+audience: open
+languages:
+  - EN
+url: https://inno4def.be/navy-hackathon-2/
+source_url: https://www.cyber3lab.be/en/news/past-cybersecurity-ai-web3-community-events
+description:
+  Open-innovation event where Navy staff, students, researchers and companies tackle maritime
+  technology and procurement challenges.
+recurring: true
+published: true
+confidence: medium
+listed_by: crawler
+checked_on: 2026-10-06
+notes: The official page shows 'Monday March 9 / Tuesday March 10' without a year; year 2026 follows
+  from the weekdays, the page's Nov 2025 publish date and the Howest Cyber3Lab listing. Separate from
+  Battlefield of Things.

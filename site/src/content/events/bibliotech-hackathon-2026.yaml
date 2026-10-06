@@ -1,0 +1,26 @@
+name: BiblioTech Hackathon
+series: bibliotech-hackathon
+type: hackathon
+start_date: 2026-03-16
+end_date: 2026-03-26
+region: flanders
+organizer: KU Leuven Libraries
+themes:
+  - digital humanities
+  - library collections
+  - data
+url: https://bib.kuleuven.be/english/research/digital-humanities/bibliotech-hackathon/2026
+source_url: https://set.kuleuven.be/phd/news/16-26-march-bibliotech-2026-hackathon
+description: Ten-day digital humanities hackathon where teams build projects on KU Leuven library
+  collection datasets.
+recurring: true
+published: false
+review: Dates from a URL slug only; official page unreadable
+confidence: low
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  kuleuven.be pages could not be opened (robots.txt timeout). Name and organiser come from search
+  result titles; dates 16-26 March 2026 come only from the URL slug of the KU Leuven news item. City
+  (organiser is Leuven-based), venue, audience and language not confirmed. Earlier edition in 2023;
+  a 2026 team poster exists on Zenodo.

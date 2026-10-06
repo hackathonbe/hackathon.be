@@ -1,0 +1,30 @@
+name: Hacking Health Liège
+edition: 1st edition (2025)
+series: hacking-health-liege
+type: hackathon
+start_date: 2025-05-09
+end_date: 2025-05-10
+city: Liège
+region: wallonia
+venue: La Grand Poste
+format: in-person
+organizer: CHU de Liège, ULiège-RISE, Bridge 2 Health (B2H)
+themes:
+  - health
+  - medical innovation
+audience: open
+languages:
+  - FR
+url: https://www.liegecreative.be/evenements/hacking-health-liege-2025
+source_url: https://www.news.uliege.be/cms/c_20426424/fr/succes-pour-la-premiere-edition-du-hacking-health-liege-2025
+description: Two-day health hackathon where carers, patients, students and entrepreneurs prototype
+  solutions to healthcare challenges in mixed teams.
+recurring: true
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes: 'Answers the open question: the 2025 edition was the first one and falls inside the window.
+  About 100 registered participants, 16 hours of work. Official liegecreative.be page appeared in
+  search results but could not be opened (robots); details confirmed on the ULiège news page. Language
+  inferred from the French-language sources.'

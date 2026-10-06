@@ -1,0 +1,30 @@
+name: 'EP PerMed Hackathon: Non-invasive Biomarkers in Personalised Medicine'
+edition: 2026 (1st edition)
+type: hackathon
+start_date: 2026-03-03
+end_date: 2026-03-04
+city: Ostend
+region: flanders
+venue: Thermae Palace
+format: in-person
+organizer:
+  Flemish Government, Department WEWIS, for the European Partnership for Personalised Medicine
+  (EP PerMed)
+themes:
+  - health
+  - personalised medicine
+  - biomarkers
+audience: application
+languages:
+  - EN
+url: https://www.eppermed.eu/news-events/events/ep-permed-hackathon-the-use-of-non-invasive-biomarkers-within-personalised-medicine-approaches/
+source_url: https://www.ewi-vlaanderen.be/nieuws/tweedaagse-hackathon-oostende-maakt-gepersonaliseerde-geneeskunde-concreet
+description: European two-day hackathon where interdisciplinary teams designed personalised-medicine
+  solutions with expert mentors.
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  100+ participants from 17 countries in 18 teams. Registration was open to researchers, innovators,
+  engineers and clinicians; exact selection mechanism not checked.

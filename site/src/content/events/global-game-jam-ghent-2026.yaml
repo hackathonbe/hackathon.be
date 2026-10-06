@@ -1,0 +1,25 @@
+name: Global Game Jam Gent
+series: global-game-jam-ghent
+type: game-jam
+start_date: 2026-01-30
+end_date: 2026-02-01
+city: Ghent
+region: flanders
+venue: Menagerie Media (next to Game Nest), Dendermondsesteenweg 48
+format: in-person
+organizer: Stan Loiseaux / ParaFauna Studios with Game Nest
+themes:
+  - games
+audience: open
+languages:
+  - NL
+  - EN
+url: https://globalgamejam.org/jam-sites/2026/ggj-gent
+source_url: https://globalgamejam.org/jam-sites/2026/ggj-gent
+description: Ghent site of the worldwide game jam weekend, hosted near the Game Nest hub.
+recurring: true
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes: 18+, 20 EUR fee, capacity about 40, registration via gamenest.be/ggj.

@@ -1,0 +1,27 @@
+name: MoMu Hackathon
+series: momu-hackathon
+type: hackathon
+start_date: 2025-11-22
+end_date: 2025-11-23
+city: Antwerp
+region: flanders
+venue: MoMu Library and Royal Academy of Fine Arts Antwerp fashion department studios
+format: in-person
+organizer: MoMu - Fashion Museum Antwerp
+themes:
+  - fashion
+  - heritage
+  - digital culture
+audience: application
+languages:
+  - EN
+url: https://www.momu.be/en/magazine/hackathon-2025
+source_url: https://www.momu.be/en/magazine/hackathon-2025
+description: Weekend at the fashion museum turning its study collection into new digital experiences.
+recurring: true
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes: 35 international participants. Audience set to 'by application' because the 2026 edition runs
+  a call for participants; the 2025 selection process itself was not checked.

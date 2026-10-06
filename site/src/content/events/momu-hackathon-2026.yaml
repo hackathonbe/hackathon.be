@@ -1,0 +1,30 @@
+name: MoMu Hackathon
+series: momu-hackathon
+type: hackathon
+start_date: 2026-11-21
+end_date: 2026-11-22
+city: Antwerp
+region: flanders
+venue: MoMu Library & Dries Van Noten Study Center, Nationalestraat 28
+format: in-person
+organizer: MoMu - Fashion Museum Antwerp, with Masjien
+themes:
+  - fashion
+  - heritage
+  - 3D
+  - games
+  - AR/VR
+  - AI
+audience: application
+languages:
+  - EN
+  - NL
+url: https://www.momu.be/en/magazine/hackathon-2026-call-for-participants
+source_url: https://www.momu.be/en/magazine/hackathon-2026-call-for-participants
+description: Weekend creative-tech hackathon reimagining a museum's fashion study collection through
+  digital experiences.
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes: Apply by 8 Nov 2026 via online form; a committee selects participants for a mix of skills.

@@ -1,0 +1,25 @@
+name: KU Leuven Datathon
+series: ku-leuven-datathon
+type: datathon
+region: flanders
+organizer: Leuven Statistics Research Centre (LStat), KU Leuven
+themes:
+  - data science
+  - statistics
+audience: students
+url: https://lstat.kuleuven.be/datathon2026
+source_url: https://lstat.kuleuven.be/datathon2026
+description:
+  Yearly student data-analysis competition run by KU Leuven's statistics centre with industry
+  partners.
+recurring: true
+published: false
+review: No date found; official page unreadable
+confidence: low
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  "Only the page title 'Datathon 2026' and a registration form URL (https://lstat.kuleuven.be/forms/registrationdatathon2026)
+  appeared in search results; kuleuven.be could not be opened (robots.txt timeout). Date, venue, city
+  (organiser is Leuven-based), status and eligibility for non-KU Leuven students are all unconfirmed.
+  Earlier editions: 2020, 2024."

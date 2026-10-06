@@ -1,0 +1,26 @@
+name: ElevenLabs Worldwide Hackathon Ghent
+type: hackathon
+start_date: 2025-12-11
+end_date: 2025-12-11
+city: Ghent
+region: flanders
+format: in-person
+organizer: AI Tinkerers Ghent, with ElevenLabs and Wintercircus
+themes:
+  - AI
+  - voice
+  - conversational agents
+audience: application
+url: https://ghent.aitinkerers.org/p/elevenlabs-global-hackathon-ghent
+source_url: https://ghent.aitinkerers.org/p/elevenlabs-global-hackathon-ghent
+description:
+  Evening build sprint for experienced AI builders, the Ghent stop of a worldwide voice-agent
+  hackathon.
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  "Page gives 'Thursday, December 11' 18:00-22:30 without a year; 2025 inferred from the weekday.
+  Venue only shared with accepted attendees (Wintercircus is listed as partner, not confirmed as venue).
+  Year confirmed: the co-organiser's event archive (ns2agi.com) lists it under December 2025."

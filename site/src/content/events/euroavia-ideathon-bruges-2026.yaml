@@ -1,0 +1,24 @@
+name: EUROAVIA Ideathon
+type: ideathon
+start_date: 2026-11-03
+end_date: 2026-11-08
+city: Bruges
+region: flanders
+format: in-person
+organizer: EUROAVIA (local group AS Oostende)
+themes:
+  - aerospace
+  - industry challenges
+audience: students
+languages:
+  - EN
+url: https://ideathon.euroavia.eu/
+source_url: https://ideathon.euroavia.eu/
+description: International student ideathon where teams solve aerospace challenges set by industry
+  partners.
+published: true
+confidence: medium
+listed_by: crawler
+checked_on: 2026-10-06
+notes: Bachelor/master students 18+, teams of 3-5; challenges revealed on 4 Nov. Venue not stated.
+  The series is international, so Belgium may be a one-off host.

@@ -1,0 +1,27 @@
+name: Louvain-li-Nux Game Jam
+series: louvain-li-nux-game-jam
+type: game-jam
+city: Louvain-la-Neuve
+region: wallonia
+venue: UCLouvain computer rooms (exact room to be announced)
+format: in-person
+organizer: Louvain-li-Nux (UCLouvain kot-à-projet)
+themes:
+  - game development
+  - open source
+languages:
+  - FR
+url: https://louvainlinux.org/activites/game-jam
+source_url: https://louvainlinux.org/activites/game-jam
+description: Weekend where teams create a video game from scratch, run by UCLouvain's Linux student
+  project.
+recurring: true
+published: false
+review: No date published
+confidence: low
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  Site lists it as 'Q1 2026' with the date still to be fixed - probably the first term of academic
+  year 2026-27 (autumn 2026), but that reading is not confirmed. Open to all skill levels; not stated
+  whether non-UCLouvain participants can register. No past edition date found.

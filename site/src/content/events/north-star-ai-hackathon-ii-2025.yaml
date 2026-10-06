@@ -1,0 +1,31 @@
+name: AI Hackathon II
+edition: 2nd
+series: north-star-ai-hackathon
+type: hackathon
+start_date: 2025-05-10
+end_date: 2025-05-10
+city: Antwerp
+region: flanders
+venue: The Beacon, Sint-Pietersvliet 7
+format: in-person
+organizer: North Star (North Star VZW) with The Beacon
+themes:
+  - AI
+  - agents
+  - location-aware apps
+audience: open
+languages:
+  - EN
+url: https://www.ns2agi.com/events/ai-hackathon-ii/
+source_url: https://www.thebeacon.eu/innovation/events/1336388807899/
+description:
+  Free one-day build event where small teams create agentic AI projects around an Antwerp-themed
+  use case.
+recurring: true
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes: The Beacon lists it as 'Agentic Hackaton II', North Star as 'AI Hackathon II'. Teams of max
+  3. First edition was March 2025 (before the date window). Language inferred from English-only event
+  pages.

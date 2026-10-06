@@ -1,0 +1,28 @@
+name: Tectonic Hackathon
+type: hackathon
+start_date: 2026-09-30
+end_date: 2026-10-20
+city: Ghent
+region: nationwide
+venue: Final in Ghent; preselection evening in seven cities
+format: in-person
+organizer: Tectonic (with challenge partners KBC and SD Worx)
+themes:
+  - software
+  - AI
+  - corporate challenges
+audience: open
+languages:
+  - EN
+url: https://www.tectonicconf.eu/hackathon
+source_url: https://www.tectonicconf.eu/hackathon
+description: 'Nationwide two-stage hackathon: an evening preselection in seven cities, then finals
+  in Ghent for a 10,000 EUR prize.'
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes: 'Two separate dates, not a continuous event: preselection round on 30 Sep 2026 (18:00-23:00,
+  already held), finals on 20 Oct 2026 in Ghent (still upcoming). Teams of 3-4, free. Per-city venues
+  not captured. Checked on the official page on 6 Oct 2026: registration closed 29 Sep 2026; 32 teams
+  go to the final.'

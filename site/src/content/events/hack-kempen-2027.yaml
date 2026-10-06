@@ -1,0 +1,28 @@
+name: '#Hack Kempen'
+series: hack-kempen
+type: hackathon
+city: Geel
+region: flanders
+venue: Innovatiecampus Geel
+format: in-person
+organizer: Hack Kempen (volunteer organisation)
+themes:
+  - regional innovation
+  - mobility
+audience: open
+languages:
+  - NL
+url: https://www.hackkempen.be/
+source_url: https://www.hackkempen.be/
+description: Regional hackathon for the Kempen bringing students and professionals together on local
+  challenges.
+recurring: true
+published: false
+review: No date yet (planned Feb/Mar 2027)
+confidence: low
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  "No exact date: site only says the next hackathon is planned for February/March 2027, preceded
+  by a 'Hackademy' in late October 2026. Venue is that of the last edition (25-26 March 2023), not
+  confirmed for 2027."

@@ -1,0 +1,31 @@
+name: 'CrossTechXperience Hackathon #3'
+edition: 3rd edition (2026)
+series: crosstechxperience-hackathon
+type: hackathon
+start_date: 2026-12-11
+end_date: 2026-12-13
+city: Kortrijk
+region: flanders
+venue: Howest, 8500 Kortrijk
+format: in-person
+organizer: CrossTechXperience (Interreg France-Wallonie-Vlaanderen project) with Howest
+themes:
+  - immersive tech
+  - interactive
+  - gaming
+audience: open
+languages:
+  - FR
+  - NL
+url: https://www.crosstechxperience.eu/hackathon-3-2026/
+source_url: https://www.crosstechxperience.eu/hackathon-3-2026/
+description: Third cross-border hackathon on immersive, interactive and gaming technologies, hosted
+  at Howest in Kortrijk.
+recurring: true
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  Registration deadline 26 November 2026. Online preparatory workshops for registered participants
+  (one on 20 November). Exact Howest building not specified.

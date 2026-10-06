@@ -1,0 +1,28 @@
+name: European Defense Tech Hackathon Brussels
+type: hackathon
+start_date: 2026-03-13
+end_date: 2026-03-15
+city: Brussels
+region: brussels
+format: in-person
+organizer: European Defense Tech Hub (EDTH)
+themes:
+  - defence
+  - drones
+  - counter-UAS
+  - sensing
+  - mesh networking
+audience: application
+languages:
+  - EN
+url: https://luma.com/edth-2026-brussels
+source_url: https://luma.com/edth-2026-brussels
+description: Weekend defence-tech hackathon with overnight hacking and a public demo day, part of
+  a European series.
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  Exact address only shared with registered participants. Friday pre-meetup, hacking Saturday-Sunday,
+  100+ hackers expected. EDTH runs a recurring European series; whether Brussels recurs is unknown.

@@ -1,0 +1,30 @@
+name: Next Level Challenge
+series: next-level-challenge
+type: hackathon
+start_date: 2026-03-10
+end_date: 2026-03-11
+city: Leuven
+region: flanders
+venue: Sportoase, Philipssite 6
+format: in-person
+organizer: NEXT Leuven
+themes:
+  - AI
+  - data
+  - supply chain
+  - fintech
+  - industry
+audience: students
+languages:
+  - EN
+url: https://nextlevelchallenge.be/
+source_url: https://nextlevelchallenge.be/
+description:
+  '24-hour student hackathon in Leuven: teams build a prototype and business case for company
+  challenges.'
+recurring: true
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes: Teams of 4-5 students from any field, up to 250 participants.

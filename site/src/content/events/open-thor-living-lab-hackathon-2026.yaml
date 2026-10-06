@@ -1,0 +1,28 @@
+name: Open Thor Living Lab Hackathon
+type: hackathon
+city: Genk
+region: flanders
+venue: EnergyVille 1, Thor Park 8310
+organizer: EnergyVille (with VITO and KU Leuven)
+themes:
+  - energy
+  - buildings
+  - data
+audience: professionals
+languages:
+  - NL
+url: https://energyville.be/event/hackathon-verken-de-nieuwe-digitale-tools-van-open-thor-living-lab/
+source_url: https://energyville.be/event/hackathon-verken-de-nieuwe-digitale-tools-van-open-thor-living-lab/
+description:
+  Programme inviting energy companies to test and co-create EnergyVille's new data platform
+  and benchmarking tool.
+published: false
+review: Multi-month co-creation track, not a single event
+confidence: low
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  Billed as a hackathon but the page lists a four-month period (1 Mar - 30 Jun 2026), so it looks
+  like an extended test/co-creation track rather than a single event. Aimed at companies with energy
+  solutions for buildings. Format and actual session dates not confirmed. Listed period was 1 Mar
+  - 30 Jun 2026.

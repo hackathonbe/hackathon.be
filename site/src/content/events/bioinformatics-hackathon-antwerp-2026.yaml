@@ -1,0 +1,26 @@
+name: Joint International Bioinformatics Hackathon Antwerp
+type: hackathon
+start_date: 2026-09-09
+end_date: 2026-09-11
+city: Antwerp
+region: flanders
+venue: UAntwerp City Campus, Prinsstraat 13
+format: in-person
+organizer: VIB-UAntwerp and the Babraham Institute / University of Cambridge
+themes:
+  - bioinformatics
+  - genomics
+  - computational biology
+audience: open
+languages:
+  - EN
+url: https://2026.biohack.live/
+source_url: https://www.eventbrite.com/e/joint-international-bioinformatics-hackathon-antwerp-tickets-1991921907045
+description: Three-day bioinformatics hackathon run in parallel in Antwerp and Cambridge, open to
+  beginners and experts.
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes: Details confirmed on Eventbrite; 2026.biohack.live appeared in search results as the event
+  site but was not opened. Language inferred.

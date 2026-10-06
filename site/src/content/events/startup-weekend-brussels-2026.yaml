@@ -1,0 +1,28 @@
+name: Startup Weekend Brussels
+series: startup-weekend-brussels
+type: startup-weekend
+city: Brussels
+region: brussels
+format: in-person
+organizer: Startup Weekend Brussels
+themes:
+  - AI
+  - emerging tech
+  - startups
+audience: open
+languages:
+  - EN
+url: https://startupweekend.brussels/2026-edition
+source_url: https://startupweekend.brussels/2026-edition
+description: 54-hour startup-building weekend announced with an AI focus, without confirmed dates.
+recurring: true
+published: false
+review: No date was ever published; may not have taken place
+confidence: low
+listed_by: crawler
+checked_on: 2026-10-06
+notes: "NOT confirmed: the site only says 'Spring 2026 (expected)' with pre-registration open, and
+  that season has passed with no dates or venue published, so it may not have taken place. Status
+  'upcoming' only reflects how the page presents it. The Techstars community page for Brussels now
+  redirects to a generic page. Verify before publishing. Re-checked on 6 Oct 2026: page still says
+  'Spring 2026 (TBA)'."

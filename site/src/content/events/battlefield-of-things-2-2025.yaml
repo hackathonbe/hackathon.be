@@ -1,0 +1,30 @@
+name: 'Battlefield of Things 2: Drones'
+edition: 2nd edition
+series: battlefield-of-things
+type: hackathon
+start_date: 2025-05-30
+end_date: 2025-06-01
+city: Sint-Truiden
+region: flanders
+venue: Hangar 27, DronePort, Lichtenberglaan 1035
+format: in-person
+organizer: Belgian Defence (Innovation for Defence / Inno4Def)
+themes:
+  - defence
+  - drones
+  - counter-drone
+  - procurement
+audience: open
+languages:
+  - EN
+url: https://inno4def.be/both2/
+source_url: https://inno4def.be/both2/
+description:
+  Defence innovation weekend where civilians, students and military personnel worked together
+  on drone and anti-drone concepts.
+recurring: true
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes: Open to civilians (industry, students, hobbyists) alongside Defence staff; free.

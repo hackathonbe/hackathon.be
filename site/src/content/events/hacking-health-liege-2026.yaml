@@ -1,0 +1,31 @@
+name: Hacking Health Liège
+series: hacking-health-liege
+type: hackathon
+start_date: 2026-03-13
+end_date: 2026-03-13
+city: Liège
+region: wallonia
+venue: La Grande Poste, Quai sur Meuse 19
+format: in-person
+organizer: Bridge 2 Health, CHU de Liège, ULiège RISE
+themes:
+  - health
+  - medtech
+  - biopharma
+audience: open
+languages:
+  - FR
+url: https://www.hackinghealth.be/
+source_url: https://www.biowin.org/events/118-hacking-health-liege-2026/
+description:
+  Health innovation hackathon mixing clinicians, patients, designers and developers around
+  real hospital challenges.
+recurring: true
+published: true
+confidence: medium
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  BioWin listing gives 13 March 2026, 08:30-23:30, but its text also mentions a 'two-day challenge';
+  end date may be 14 March. First edition was in 2025. The official site reports 150 participants
+  and 14 pitched projects for 2026 but no dates.

@@ -1,0 +1,30 @@
+name: nf-core Hackathon (Brussels site)
+edition: March 2026
+series: nf-core-hackathon
+type: hackathon
+start_date: 2026-03-11
+end_date: 2026-03-13
+city: Brussels
+region: brussels
+venue: Google Brussels office
+format: hybrid
+organizer: nf-core community (local contacts from UGent and Hartwig Medical Foundation)
+themes:
+  - bioinformatics
+  - Nextflow
+  - open source
+audience: open
+languages:
+  - EN
+url: https://nf-co.re/events/2026/hackathon-march-2026/brussels-google
+source_url: https://nf-co.re/events/2026/hackathon-march-2026
+description: In-person Brussels node of a global open-source bioinformatics pipeline hackathon run
+  across many local sites.
+recurring: true
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes: Global hackathon is distributed/online with local hubs; Brussels was the only Belgian hub in
+  2026 (the March 2025 edition had a Ghent University hub, before the date window). Limited seats,
+  registration required.

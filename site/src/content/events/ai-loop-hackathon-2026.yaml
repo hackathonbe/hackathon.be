@@ -1,0 +1,29 @@
+name: 'Hackathon: Learn with the AI Loop'
+type: hackathon
+start_date: 2026-10-14
+end_date: 2026-10-15
+city: Louvain-la-Neuve
+region: wallonia
+venue: The POD, Rue de Rodeuhaie 4
+format: in-person
+organizer: The POD with AI Loop
+themes:
+  - AI
+  - software development
+  - upskilling
+audience: open
+languages:
+  - EN
+  - FR
+url: https://luma.com/ur6uo8ob
+source_url: https://luma.com/ur6uo8ob?locale=fr
+description:
+  Two-day learning hackathon where mixed teams of about five practise AI-assisted software
+  development.
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes:
+  Aimed at developers, tech leads, product people, freelancers, students and company staff. Language
+  is a best reading of the Luma page (French interface, English content).

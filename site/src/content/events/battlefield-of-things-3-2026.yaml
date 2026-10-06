@@ -1,0 +1,30 @@
+name: 'Battlefield of Things 3: Trench Electromagnetic Warfare'
+edition: 3rd edition
+series: battlefield-of-things
+type: hackathon
+start_date: 2026-05-22
+end_date: 2026-05-24
+city: Marche-les-Dames
+region: wallonia
+venue: Commando Training Centre, Marche-les-Dames
+format: in-person
+organizer: Belgian Defence (Innovation for Defence / Inno4Def)
+themes:
+  - defence
+  - electronic warfare
+  - radio
+  - counter-jamming
+audience: open
+languages:
+  - EN
+url: https://inno4def.be/both-3/
+source_url: https://inno4def.be/both-3/
+description: 2.5-day defence hackathon on electronic warfare, pairing civilians and military on a
+  commando training site.
+recurring: true
+published: true
+confidence: high
+listed_by: crawler
+checked_on: 2026-10-06
+notes: Open to industry, students, researchers, radio amateurs, hackers and makers; free, individual
+  registration, max 5 people per company. Inno4Def also lists a 'Navy Hackathon 2' without a date.
