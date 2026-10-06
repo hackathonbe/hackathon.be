@@ -1,0 +1,50 @@
+---
+import { Image } from 'astro:assets';
+import michel from '../../assets/photos/michel-e1456686054610.jpg';
+import jcc from '../../assets/photos/JCC_Speaker_HackBelgium_300.jpg';
+---
+<section id="curators" style="border-bottom: 1px solid rgba(255,255,255,0.08)">
+<div style="max-width: 1240px; margin: 0 auto; padding: 112px 32px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(380px, 100%), 1fr)); gap: 56px 80px; align-items: start">
+<div style="display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 20px">
+<div style="display: flex; align-items: center; gap: 12px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent)"><span style="width: 8px; height: 8px; background: var(--accent); display: inline-block"></span>The curators</div>
+<h2 style="font-family: 'Bricolage Grotesque', 'Arial Black', sans-serif; font-optical-sizing: auto; font-weight: 800; font-size: clamp(34px, 3.6vw, 52px); line-height: 1.02; letter-spacing: -0.03em; margin: 0; text-wrap: balance; color: #F3F5F7">Kept alive by two people who keep showing up.</h2>
+<p style="font-size: 18px; line-height: 1.6; color: #A3ACB9; margin: 0; max-width: 480px; text-wrap: pretty">Hackathon Belgium is curated by Michel and Jean-Christophe, who organise, facilitate and attend hackathons across the country. Spotted an event we missed? Tell them.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px 28px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #A3ACB9">
+<span><span style="color: #F3F5F7">Since 2011</span></span>
+<span><span style="color: #F3F5F7">150+</span> hackathons tracked</span>
+<span><span style="color: #F3F5F7">20</span> cities</span>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 16px">
+<div style="background: #12161D; border: 1px solid rgba(255,255,255,0.08); border-radius: 20px; padding: 28px; display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start">
+<Image src={michel} alt="Michel Duchateau" width={192} height={192} loading="lazy" style="width: 96px; height: 96px; border-radius: 16px; object-fit: cover; flex: 0 0 auto" />
+<div style="display: flex; flex-direction: column; gap: 14px; flex: 1 1 220px; min-width: 0">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<h3 style="font-family: 'Bricolage Grotesque', 'Arial Black', sans-serif; font-optical-sizing: auto; font-weight: 600; font-size: 24px; letter-spacing: -0.02em; margin: 0; color: #F3F5F7">Michel Duchateau</h3>
+<p style="font-size: 15px; line-height: 1.5; color: #A3ACB9; margin: 0">Global Facilitator, Startup Weekend · Chief Innovation Officer at Convidencia</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<a href="http://www.convidencia.com" style="display: inline-flex; align-items: center; min-height: 36px; padding: 0 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.16); color: #F3F5F7; font-size: 13px; font-weight: 500">Website</a>
+<a href="https://x.com/miduchateau" style="display: inline-flex; align-items: center; min-height: 36px; padding: 0 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.16); color: #F3F5F7; font-size: 13px; font-weight: 500">X</a>
+<a href="https://be.linkedin.com/in/mduchateau" style="display: inline-flex; align-items: center; min-height: 36px; padding: 0 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.16); color: #F3F5F7; font-size: 13px; font-weight: 500">LinkedIn</a>
+</div>
+</div>
+</div>
+<div style="background: #12161D; border: 1px solid rgba(255,255,255,0.08); border-radius: 20px; padding: 28px; display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start">
+<Image src={jcc} alt="Jean-Christophe Cuvelier" width={192} height={192} loading="lazy" style="width: 96px; height: 96px; border-radius: 16px; object-fit: cover; flex: 0 0 auto" />
+<div style="display: flex; flex-direction: column; gap: 14px; flex: 1 1 220px; min-width: 0">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<h3 style="font-family: 'Bricolage Grotesque', 'Arial Black', sans-serif; font-optical-sizing: auto; font-weight: 600; font-size: 24px; letter-spacing: -0.02em; margin: 0; color: #F3F5F7">Jean-Christophe Cuvelier</h3>
+<p style="font-size: 15px; line-height: 1.5; color: #A3ACB9; margin: 0">AI Consultant · Evangelist for Sovereign &amp; Ethical AI at Onyx</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<a href="https://x.com/totophe" style="display: inline-flex; align-items: center; min-height: 36px; padding: 0 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.16); color: #F3F5F7; font-size: 13px; font-weight: 500">X</a>
+<a href="https://be.linkedin.com/in/totophe" style="display: inline-flex; align-items: center; min-height: 36px; padding: 0 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.16); color: #F3F5F7; font-size: 13px; font-weight: 500">LinkedIn</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>

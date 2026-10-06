@@ -1,0 +1,76 @@
+---
+import { BELGIUM_OUTLINE } from '../../lib/belgium-outline';
+import { agoLabel, plural, type HomeData } from '../../lib/home';
+
+interface Props {
+  home: HomeData;
+}
+const { home } = Astro.props;
+const { upcomingCount, next, updatedDaysAgo, cityCount, dots } = home;
+
+// Same six hubs as in the design, labelled next to their dots. Other cities get a dot only.
+const LABELS: Record<string, { text: string; dx: number; dy: number; anchor?: string }> = {
+  Brussels: { text: 'BRUSSELS', dx: -10.8, dy: 4.6, anchor: 'end' },
+  Antwerp: { text: 'ANTWERP', dx: 12.2, dy: 4 },
+  Ghent: { text: 'GHENT', dx: -11.9, dy: 4, anchor: 'end' },
+  Leuven: { text: 'LEUVEN', dx: 12.4, dy: 4 },
+  Liège: { text: 'LIÈGE', dx: 12.9, dy: 4.4 },
+  Charleroi: { text: 'CHARLEROI', dx: 0, dy: 22.6, anchor: 'middle' },
+};
+---
+<section class="hb-grid" style="position: relative; overflow: hidden; border-bottom: 1px solid rgba(255,255,255,0.08)">
+<div style="position: relative; max-width: 1240px; margin: 0 auto; padding: 80px 32px 88px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(460px, 100%), 1fr)); gap: 56px 48px; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 32px">
+<div style="display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; align-items: center; gap: 12px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent)"><span style="width: 8px; height: 8px; background: var(--accent); display: inline-block"></span>Everything about hackathons in Belgium</div>
+<h1 style="font-family: 'Bricolage Grotesque', 'Arial Black', sans-serif; font-optical-sizing: auto; font-weight: 800; font-size: clamp(48px, 6.2vw, 92px); line-height: 0.92; letter-spacing: -0.04em; margin: 0; text-wrap: balance; color: #F3F5F7">Find your next hackathon.</h1>
+<p style="font-size: 20px; line-height: 1.55; color: #A3ACB9; margin: 0; max-width: 520px; text-wrap: pretty">Every hackathon in Belgium, in one calendar — updated as they're announced. Free, open, no sign-up.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a href="/calendar" class="hb-btn" style="display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 24px; border-radius: 12px; background: var(--accent); color: #0B0E13; font-size: 16px; font-weight: 600">Browse the calendar<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+<a href="webcal://hackathon.be/calendar.ics" style="display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 22px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.18); color: #F3F5F7; font-size: 16px; font-weight: 500"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>Subscribe to the calendar</a>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.04em; color: #A3ACB9">
+<span style="display: inline-flex; align-items: center; gap: 10px"><span class="hb-dot" style="width: 8px; height: 8px; border-radius: 50%; background: var(--accent); display: inline-block"></span><span style="color: #F3F5F7">{upcomingCount}</span> upcoming</span>
+{next && (
+<>
+<span style="color: rgba(255,255,255,0.25)">/</span>
+<span>{next.ongoing ? 'on now' : next.days === 0 ? 'starts' : 'next in'} {!next.ongoing && <span style="color: #F3F5F7">{next.days === 0 ? 'today' : plural(next.days, 'day')}</span>} · {next.city}</span>
+</>
+)}
+{updatedDaysAgo !== null && (
+<>
+<span style="color: rgba(255,255,255,0.25)">/</span>
+<span>updated <span style="color: #F3F5F7">{agoLabel(updatedDaysAgo)}</span></span>
+</>
+)}
+</div>
+</div>
+<div style="position: relative; width: 100%; max-width: 560px; margin: 0 auto; aspect-ratio: 560 / 480">
+<div style="position: absolute; inset: -12%; pointer-events: none; background: radial-gradient(ellipse 55% 55% at 50% 45%, color-mix(in oklab, var(--accent) 15%, transparent), transparent 70%)"></div>
+<svg viewBox="0 0 560 480" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible" role="img" aria-label="Map of Belgium with hackathon cities">
+<path d={BELGIUM_OUTLINE} fill="#12161D" stroke="rgba(255,255,255,0.22)" stroke-width="1.5" stroke-linejoin="round"></path>
+<g style="color: var(--accent)">
+{dots.map((dot) => {
+  const hub = dot.city === 'Brussels';
+  const outer = hub ? 14 : 11;
+  const inner = hub ? 5.5 : 4.5;
+  return (
+    <>
+      <circle cx={dot.x} cy={dot.y} r={outer} fill="currentColor" opacity="0.18"></circle>
+      <circle cx={dot.x} cy={dot.y} r={inner} fill="currentColor"></circle>
+    </>
+  );
+})}
+</g>
+<g font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" letter-spacing="1.5" fill="#A3ACB9">
+{dots.filter((dot) => LABELS[dot.city]).map((dot) => {
+  const label = LABELS[dot.city];
+  return <text x={dot.x + label.dx} y={dot.y + label.dy} text-anchor={label.anchor}>{label.text}</text>;
+})}
+</g>
+</svg>
+<div style="position: absolute; left: 0; bottom: 0; display: inline-flex; align-items: center; gap: 10px; padding: 10px 14px; border-radius: 10px; background: rgba(11,14,19,0.85); border: 1px solid rgba(255,255,255,0.1); font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #A3ACB9"><span style="width: 8px; height: 8px; border-radius: 50%; background: var(--accent); display: inline-block"></span>Hackathons in {cityCount} cities</div>
+</div>
+</div>
+</section>
