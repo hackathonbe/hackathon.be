@@ -156,7 +156,8 @@ hackathon.be/
 │   │   ├── robots.txt       # SEO: Search engine rules
 │   │   ├── favicon.ico      # Site icon
 │   │   ├── apple-touch-icon.png
-│   │   └── wp-media/        # Images
+│   │   └── wp-media/        # Logos and legacy files served as-is
+│   ├── src/assets/photos/   # Photos, optimised at build time
 │   ├── src/
 │   │   ├── components/      # Reusable Astro components
 │   │   │   ├── Header.astro
@@ -201,7 +202,7 @@ see [docs/listings.md](docs/listings.md).
 2. **Make your changes**:
 
    - Edit files in `site/src/`
-   - Add images to `site/public/wp-media/`
+   - Add photos to `site/src/assets/photos/` and use `<Image>` from `astro:assets`, which resizes and compresses them at build time (files in `public/` are served as-is)
    - Test locally with `npm run dev`
 
 3. **Check your code**:

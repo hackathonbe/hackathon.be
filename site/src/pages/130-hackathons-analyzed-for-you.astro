@@ -1,5 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { Image } from 'astro:assets';
+import cover from '../assets/photos/Hackathon-fake-book-cover.png';
 const description = "Free 85-page study analyzing 130 hackathons. Learn best practices, success factors, and insights from hackathon organizers and participants across Belgium.";
 ---
 
@@ -9,13 +11,7 @@ const description = "Free 85-page study analyzing 130 hackathons. Learn best pra
     
     <div class="flex flex-col md:flex-row gap-8 mb-12">
       <div class="md:w-1/3 flex-shrink-0">
-        <img 
-          src="https://hackathon.be/wp-media/Hackathon-fake-book-cover.png" 
-          alt="How to Organize Great Hackathons - Study Cover" 
-          class="w-full max-w-sm mx-auto rounded-lg shadow-lg"
-          width="350" 
-          height="350"
-        />
+        <Image src={cover} alt="How to Organize Great Hackathons - Study Cover" class="w-full max-w-sm mx-auto rounded-lg shadow-lg" width={350} height={350} densities={[1, 2]} />
       </div>
       
       <div class="md:w-2/3">
