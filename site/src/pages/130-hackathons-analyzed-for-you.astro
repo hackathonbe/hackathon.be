@@ -6,124 +6,118 @@ const description = "Free 85-page study analyzing 130 hackathons. Learn best pra
 ---
 
 <Layout title="130 Hackathons Analyzed - Free Study" description={description} url="/130-hackathons-analyzed-for-you">
-  <article class="max-w-4xl mx-auto">
-    <h1 class="text-5xl font-bold mb-12 text-gray-900">130 hackathons analyzed for you</h1>
-    
-    <div class="flex flex-col md:flex-row gap-8 mb-12">
-      <div class="md:w-1/3 flex-shrink-0">
-        <Image src={cover} alt="How to Organize Great Hackathons - Study Cover" class="w-full max-w-sm mx-auto rounded-lg shadow-lg" width={350} height={350} densities={[1, 2]} />
+  <article class="hb-wrap hb-page">
+    <div class="hb-narrow flex flex-col gap-5 mb-14">
+      <div class="hb-eyebrow">Free study</div>
+      <h1 class="hb-h1">130 hackathons analyzed for you</h1>
+    </div>
+
+    <div class="grid gap-12 md:grid-cols-[minmax(0,1fr)_minmax(0,2fr)] items-center mb-20">
+      <div>
+        <Image src={cover} alt="How to Organize Great Hackathons - Study Cover" class="w-full max-w-sm mx-auto rounded-2xl border border-line" width={350} height={350} densities={[1, 2]} />
       </div>
-      
-      <div class="md:w-2/3">
-        <h2 class="text-4xl font-bold mb-6 uppercase tracking-wider text-gray-800">
-          How to Organize Great Hackathons
-        </h2>
-        
-        <p class="text-lg text-gray-700 mb-6">
-          Get the study based on data from hackathons in Belgium:
-        </p>
-        
-        <ul class="space-y-2 mb-8">
-          <li class="flex items-center text-lg">
-            <span class="text-blue-600 mr-3">✓</span>
-            <span><strong class="font-semibold">130 events</strong> analyzed</span>
+
+      <div class="flex flex-col gap-6">
+        <h2 class="hb-h2">How to Organize Great Hackathons</h2>
+        <p class="hb-lead">Get the study based on data from hackathons in Belgium:</p>
+        <ul class="flex flex-col gap-2">
+          <li class="flex items-baseline gap-3 text-lg">
+            <span class="text-accent" aria-hidden="true">✓</span>
+            <span><strong>130 events</strong> analyzed</span>
           </li>
-          <li class="flex items-center text-lg">
-            <span class="text-blue-600 mr-3">✓</span>
-            <span><strong class="font-semibold">50 examples</strong> included</span>
+          <li class="flex items-baseline gap-3 text-lg">
+            <span class="text-accent" aria-hidden="true">✓</span>
+            <span><strong>50 examples</strong> included</span>
           </li>
-          <li class="flex items-center text-lg">
-            <span class="text-blue-600 mr-3">✓</span>
-            <span><strong class="font-semibold">13 testimonials</strong> from experts</span>
+          <li class="flex items-baseline gap-3 text-lg">
+            <span class="text-accent" aria-hidden="true">✓</span>
+            <span><strong>13 testimonials</strong> from experts</span>
           </li>
-          <li class="flex items-center text-lg">
-            <span class="text-blue-600 mr-3">✓</span>
-            <span><strong class="font-semibold">85 pages</strong> of insights</span>
+          <li class="flex items-baseline gap-3 text-lg">
+            <span class="text-accent" aria-hidden="true">✓</span>
+            <span><strong>85 pages</strong> of insights</span>
           </li>
         </ul>
+        <div>
+          <a href="http://bit.ly/StudyPublicHackathons" target="_blank" rel="noopener noreferrer" class="hb-cta">
+            Get the Study FREE
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M4 20h16" /></svg>
+          </a>
+        </div>
       </div>
     </div>
 
-    <div class="prose prose-lg max-w-none">
-      <div class="bg-blue-50 border-l-4 border-blue-600 p-6 mb-8 rounded-r-lg">
-        <p class="text-lg leading-relaxed">
-          More than 150 public hackathons have been organized in Belgium since 2011. 
-          <a href="http://www.convidencia.com" class="text-blue-600 hover:text-blue-800 font-semibold" target="_blank" rel="noopener noreferrer">Convidencia</a>, 
-          experts in hackathons, analysed events based on data and experience from 130 events. 
-          <strong class="text-blue-700">They published their study for FREE!</strong>
+    <div class="hb-narrow flex flex-col gap-12">
+      <div class="hb-panel p-8">
+        <p class="text-lg leading-relaxed text-muted m-0">
+          More than 150 public hackathons have been organized in Belgium since 2011.
+          <a href="http://www.convidencia.com" class="hb-link" target="_blank" rel="noopener noreferrer">Convidencia</a>,
+          experts in hackathons, analysed events based on data and experience from 130 events.
+          <strong class="text-fg">They published their study for FREE!</strong>
         </p>
       </div>
 
-      <h2 class="text-3xl font-bold mt-12 mb-6">What you get</h2>
-      
-      <p class="text-lg text-gray-700 mb-4">
-        In 85 pages, you get practical tips to help you concretely set up a hackathon:
-      </p>
-      
-      <ul class="space-y-3 mb-8">
-        <li class="flex items-start">
-          <span class="text-blue-600 mr-3 mt-1">→</span>
+      <section class="flex flex-col gap-6">
+        <h2 class="hb-h2">What you get</h2>
+        <p class="hb-text">In 85 pages, you get practical tips to help you concretely set up a hackathon:</p>
+        <ul class="flex flex-col gap-3 text-muted text-[17px] leading-relaxed">
+        <li class="flex items-baseline gap-3">
+          <span class="text-accent" aria-hidden="true">→</span>
           <span>Best time in the year to organize your event</span>
         </li>
-        <li class="flex items-start">
-          <span class="text-blue-600 mr-3 mt-1">→</span>
+        <li class="flex items-baseline gap-3">
+          <span class="text-accent" aria-hidden="true">→</span>
           <span>Roles of the different organizers</span>
         </li>
-        <li class="flex items-start">
-          <span class="text-blue-600 mr-3 mt-1">→</span>
+        <li class="flex items-baseline gap-3">
+          <span class="text-accent" aria-hidden="true">→</span>
           <span>Top 5 business models</span>
         </li>
-        <li class="flex items-start">
-          <span class="text-blue-600 mr-3 mt-1">→</span>
+        <li class="flex items-baseline gap-3">
+          <span class="text-accent" aria-hidden="true">→</span>
           <span>Clear objectives for the event (a hackathon about what, for whom, how long, etc.) whether for organizers or participants</span>
         </li>
-        <li class="flex items-start">
-          <span class="text-blue-600 mr-3 mt-1">→</span>
+        <li class="flex items-baseline gap-3">
+          <span class="text-accent" aria-hidden="true">→</span>
           <span>Ideal locations</span>
         </li>
-        <li class="flex items-start">
-          <span class="text-blue-600 mr-3 mt-1">→</span>
+        <li class="flex items-baseline gap-3">
+          <span class="text-accent" aria-hidden="true">→</span>
           <span>Key details for a great event (good wifi, catering, showers, etc.)</span>
         </li>
-        <li class="flex items-start">
-          <span class="text-blue-600 mr-3 mt-1">→</span>
+        <li class="flex items-baseline gap-3">
+          <span class="text-accent" aria-hidden="true">→</span>
           <span>Advice to find a name for your event</span>
         </li>
-        <li class="flex items-start">
-          <span class="text-blue-600 mr-3 mt-1">→</span>
+        <li class="flex items-baseline gap-3">
+          <span class="text-accent" aria-hidden="true">→</span>
           <span>Top 10 common mistakes to avoid</span>
         </li>
-      </ul>
+        </ul>
+      </section>
 
-      <h2 class="text-3xl font-bold mt-12 mb-6">Download</h2>
-      
-      <p class="text-lg text-gray-700 mb-8">
-        Get the results after months of research, investigation and analysis, and find all the information 
-        about these events gathered in this unique study:
-      </p>
-
-      <div class="text-center my-12">
-        <a 
-          href="http://bit.ly/StudyPublicHackathons" 
-          target="_blank"
-          rel="noopener noreferrer"
-          class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold text-lg px-12 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105"
-        >
-          Get the Study FREE
-        </a>
-      </div>
-
-      <div class="mt-12 pt-8 border-t border-gray-200">
-        <p class="text-sm text-gray-600">
-          <strong>Published:</strong> December 27, 2017 | 
-          <strong>Tags:</strong> 
-          <span class="inline-flex gap-2 ml-2">
-            <span class="bg-gray-200 px-2 py-1 rounded text-xs">download</span>
-            <span class="bg-gray-200 px-2 py-1 rounded text-xs">free</span>
-            <span class="bg-gray-200 px-2 py-1 rounded text-xs">hackathon</span>
-            <span class="bg-gray-200 px-2 py-1 rounded text-xs">study</span>
-          </span>
+      <section class="flex flex-col gap-6">
+        <h2 class="hb-h2">Download</h2>
+        <p class="hb-text">
+          Get the results after months of research, investigation and analysis, and find all the information
+          about these events gathered in this unique study:
         </p>
+        <div>
+          <a href="http://bit.ly/StudyPublicHackathons" target="_blank" rel="noopener noreferrer" class="hb-cta">
+            Get the Study FREE
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M4 20h16" /></svg>
+          </a>
+        </div>
+      </section>
+
+      <div class="hb-rule pt-8 flex flex-wrap items-center gap-x-4 gap-y-3 text-sm text-muted">
+        <span class="hb-label">Published December 27, 2017</span>
+        <span class="flex flex-wrap gap-2">
+          <span class="hb-tag">download</span>
+          <span class="hb-tag">free</span>
+          <span class="hb-tag">hackathon</span>
+          <span class="hb-tag">study</span>
+        </span>
       </div>
     </div>
   </article>

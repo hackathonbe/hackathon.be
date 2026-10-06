@@ -1,0 +1,30 @@
+---
+// Header shared by every page. The current section is shown in white, the rest in grey.
+const path = Astro.url.pathname;
+const isHome = path === '/';
+
+const links = [
+  { href: '/calendar', label: 'Calendar', active: path.startsWith('/calendar') },
+  { href: '/hackathons/', label: 'All hackathons', active: path.startsWith('/hackathons') },
+  {
+    href: '/#resources',
+    label: 'Free resources',
+    active: path.startsWith('/130-hackathons') || path.startsWith('/the-hackathon-canvas'),
+  },
+  { href: '/#curators', label: 'About', active: false },
+];
+---
+
+<header style="border-bottom: 1px solid rgba(255,255,255,0.08)">
+<nav aria-label="Main" style="max-width: 1240px; margin: 0 auto; padding: 20px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 32px">
+<a href="/" style="display: inline-flex; align-items: baseline; font-family: 'Bricolage Grotesque', 'Arial Black', sans-serif; font-optical-sizing: auto; font-weight: 800; font-size: 24px; letter-spacing: -0.03em; color: #F3F5F7">hackathon<span style="color: var(--accent)">.be</span></a>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 28px; font-size: 15px; font-weight: 500">
+{links.map((link) => (
+<a href={link.href} aria-current={link.active ? 'page' : undefined} style={`color: ${link.active ? '#F3F5F7' : '#A3ACB9'}; padding: 8px 0`}>{link.label}</a>
+))}
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px">
+<a href={isHome ? '#submit' : '/calendar#submit'} style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.18); color: #F3F5F7; font-size: 15px; font-weight: 500">Submit a hackathon</a>
+</div>
+</nav>
+</header>

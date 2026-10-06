@@ -20,16 +20,21 @@ const months = groupByMonth(upcoming.filter((event) => startDay(event) >= today)
 ---
 
 <Layout title="Hackathon Calendar - Belgium" description={description} url="/calendar">
-  <div class="max-w-4xl mx-auto">
-    <h1 class="text-4xl font-bold mb-12">Hackathon Calendar</h1>
-
-    <h2 class="text-3xl font-bold mb-6 mt-8">Upcoming hackathons in Belgium</h2>
+  <div class="hb-wrap hb-page">
+    <div class="hb-narrow flex flex-col gap-5 mb-14">
+      <div class="hb-eyebrow">Calendar</div>
+      <h1 class="hb-h1">Hackathon Calendar</h1>
+      <p class="hb-lead">
+        Upcoming hackathons in Belgium, earliest first. You can also follow them in your own calendar
+        with the <a href="/calendar.ics" class="hb-link">calendar feed</a>.
+      </p>
+    </div>
 
     {
       ongoing.length > 0 && (
-        <section class="mb-10" data-month-group>
-          <h3 class="text-lg font-semibold text-gray-700 mb-4">Happening now</h3>
-          <ul class="space-y-6">
+        <section class="mb-12" data-month-group>
+          <h2 class="hb-label mb-4">Happening now</h2>
+          <ul class="space-y-4">
             {ongoing.map((event) => (
               <EventCard event={event} />
             ))}
@@ -40,9 +45,9 @@ const months = groupByMonth(upcoming.filter((event) => startDay(event) >= today)
 
     {
       months.map((month) => (
-        <section class="mb-10" data-month-group>
-          <h3 class="text-lg font-semibold text-gray-700 mb-4">{month.label}</h3>
-          <ul class="space-y-6">
+        <section class="mb-12" data-month-group>
+          <h2 class="hb-label mb-4">{month.label}</h2>
+          <ul class="space-y-4">
             {month.events.map((event) => (
               <EventCard event={event} />
             ))}
@@ -51,20 +56,24 @@ const months = groupByMonth(upcoming.filter((event) => startDay(event) >= today)
       ))
     }
 
-    <p id="no-upcoming" class="text-gray-600 py-6" hidden={upcoming.length > 0}>
+    <p id="no-upcoming" class="hb-text py-6" hidden={upcoming.length > 0}>
       No upcoming hackathons are listed right now. Know of one? Submit it below.
     </p>
 
-    <p class="text-gray-600">
+    <p class="hb-text">
       Looking for an earlier event?
-      <a href="/hackathons/" class="text-blue-600 hover:underline">Browse all hackathons</a>, past and
-      upcoming.
+      <a href="/hackathons/" class="hb-link">Browse all hackathons</a>, past and upcoming.
     </p>
 
-    <h2 id="submit" class="text-3xl font-bold mb-8 mt-16 pt-8 border-t border-gray-200 scroll-mt-24">
-      Submit your hackathon
-    </h2>
-    <div class="typeform-widget" data-url="https://hackathonbelgium.typeform.com/to/NVPAI3" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=NVPAI3&amp;utm_source=typeform.com-14717312-Free&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN" style="color: #999" target="_blank" rel="noopener noreferrer">Typeform</a> </div>
+    <div class="hb-rule mt-20 pt-16 scroll-mt-8" id="submit">
+      <div class="hb-narrow flex flex-col gap-5 mb-10">
+        <div class="hb-eyebrow">For organisers</div>
+        <h2 class="hb-h2">Submit your hackathon</h2>
+      </div>
+      <div class="rounded-2xl overflow-hidden bg-white p-2">
+        <div class="typeform-widget" data-url="https://hackathonbelgium.typeform.com/to/NVPAI3" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=NVPAI3&amp;utm_source=typeform.com-14717312-Free&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN" style="color: #999" target="_blank" rel="noopener noreferrer">Typeform</a> </div>
+      </div>
+    </div>
 
     <script is:inline>
       // The page is built once a day. Between builds, drop events that have ended.
@@ -84,4 +93,3 @@ const months = groupByMonth(upcoming.filter((event) => startDay(event) >= today)
     </script>
   </div>
 </Layout>
-

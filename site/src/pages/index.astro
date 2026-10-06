@@ -1,6 +1,5 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import HomeHeader from '../components/home/HomeHeader.astro';
 import Hero from '../components/home/Hero.astro';
 import Upcoming from '../components/home/Upcoming.astro';
 import Floor from '../components/home/Floor.astro';
@@ -8,19 +7,14 @@ import What from '../components/home/What.astro';
 import Resources from '../components/home/Resources.astro';
 import Curators from '../components/home/Curators.astro';
 import Submit from '../components/home/Submit.astro';
-import HomeFooter from '../components/home/HomeFooter.astro';
 import { getHomeData } from '../lib/home';
-import '../styles/home.css';
 
 const title = "Hackathon Belgium — Home";
 const description = "Find hackathons happening in Belgium. Join our community of 5000+ participants across 20 cities. 150+ events since 2011. Meet your peers, innovate, and learn.";
 const home = await getHomeData();
 ---
 
-<Layout title={title} description={description} bare>
-  <link slot="head" rel="preconnect" href="https://fonts.googleapis.com" />
-  <link slot="head" rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link slot="head" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" />
+<Layout title={title} description={description}>
   <!-- Structured Data (JSON-LD) -->
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
@@ -55,15 +49,11 @@ const home = await getHomeData();
     }
   })} />
 
-  <div id="top" class="hb-home">
-    <HomeHeader />
-    <Hero home={home} />
-    <Upcoming cards={home.cards} />
-    <Floor />
-    <What />
-    <Resources />
-    <Curators />
-    <Submit />
-    <HomeFooter />
-  </div>
+  <Hero home={home} />
+  <Upcoming cards={home.cards} />
+  <Floor />
+  <What />
+  <Resources />
+  <Curators />
+  <Submit />
 </Layout>
