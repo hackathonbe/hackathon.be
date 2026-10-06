@@ -4,6 +4,9 @@ on:
   # Trigger the workflow every time you push to the `main` branch
   push:
     branches: [main]
+  # Rebuild every night so events that have ended leave the calendar
+  schedule:
+    - cron: "17 3 * * *"
   # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
 
