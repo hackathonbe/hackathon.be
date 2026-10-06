@@ -1,6 +1,5 @@
 ---
-// `bare` pages bring their own header, footer and background (the homepage).
-const { title, description, image, url, bare = false } = Astro.props;
+const { title, description, image, url } = Astro.props;
 
 // Default SEO values
 const defaultTitle = 'Hackathon Belgium';
@@ -15,7 +14,8 @@ const pageImage = image || defaultImage;
 const pageUrl = url || Astro.url.pathname;
 const canonicalUrl = `${siteUrl}${pageUrl}`;
 
-import Header from '../components/Header.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
 import '../styles.css';
 ---
 <!doctype html>
@@ -53,26 +53,24 @@ import '../styles.css';
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     
     <!-- Additional Meta -->
-    <meta name="theme-color" content={bare ? '#0B0E13' : '#2563eb'} />
+    <meta name="theme-color" content="#0B0E13" />
     <meta name="robots" content="index, follow" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" />
     <slot name="head" />
 
     <!-- Analytics -->
     <script is:inline defer src="https://analytics.rand.be/s.js" data-website-id="c8418f28-c931-471b-9d03-b7a0b8e7b6fa"></script>
   </head>
-  {bare ? (
-    <body>
-      <slot />
-    </body>
-  ) : (
-    <body class="antialiased text-gray-900">
-      <Header />
-      <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+  <body>
+    <div id="top" class="hb-home">
+      <SiteHeader />
+      <main>
         <slot />
       </main>
-      <footer class="bg-gray-100">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-sm text-gray-600">Copyright © 2025 Hackathon Belgium</div>
-      </footer>
-    </body>
-  )}
+      <SiteFooter />
+    </div>
+  </body>
 </html>

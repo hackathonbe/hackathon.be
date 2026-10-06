@@ -35,26 +35,28 @@ const description = `Hackathons, game jams and similar events in ${city}, Belgiu
 ---
 
 <Layout title={title} description={description} url={cityPath(city)}>
-  <div class="max-w-4xl mx-auto">
-    <nav class="text-sm text-gray-500 mb-6" aria-label="Breadcrumb">
-      <a href="/hackathons/" class="hover:text-blue-600 hover:underline">All hackathons</a>
+  <div class="hb-wrap hb-page">
+    <nav class="hb-label mb-8" aria-label="Breadcrumb">
+      <a href="/hackathons/" class="hover:underline underline-offset-4">All hackathons</a>
     </nav>
 
-    <h1 class="text-4xl font-bold mb-12">Hackathons in {city}</h1>
+    <div class="hb-narrow flex flex-col gap-5 mb-14">
+      <div class="hb-eyebrow">City</div>
+      <h1 class="hb-h1">Hackathons in {city}</h1>
+    </div>
 
-    <h2 class="text-3xl font-bold mb-6 mt-8">Upcoming</h2>
+    <h2 class="hb-h2 mb-6">Upcoming</h2>
     {
       upcoming.length > 0 ? (
-        <ul class="space-y-6">
+        <ul class="space-y-4">
           {upcoming.map((event) => (
             <EventCard event={event} withYear />
           ))}
         </ul>
       ) : (
-        <p class="text-gray-600">
+        <p class="hb-text">
           No upcoming hackathons are listed in {city} right now. See the
-          <a href="/calendar" class="text-blue-600 hover:underline">calendar</a> for the rest of
-          Belgium.
+          <a href="/calendar" class="hb-link">calendar</a> for the rest of Belgium.
         </p>
       )
     }
@@ -62,8 +64,8 @@ const description = `Hackathons, game jams and similar events in ${city}, Belgiu
     {
       past.length > 0 && (
         <>
-          <h2 class="text-3xl font-bold mb-6 mt-12">Past events</h2>
-          <ul class="space-y-6">
+          <h2 class="hb-h2 mb-6 mt-16">Past events</h2>
+          <ul class="space-y-4">
             {past.map((event) => (
               <EventCard event={event} withYear />
             ))}
@@ -72,17 +74,12 @@ const description = `Hackathons, game jams and similar events in ${city}, Belgiu
       )
     }
 
-    <h2 class="text-2xl font-bold mb-4 mt-16 pt-8 border-t border-gray-200">Other cities</h2>
+    <h2 class="hb-label mt-20 pt-8 hb-rule mb-4">Other cities</h2>
     <ul class="flex flex-wrap gap-2">
       {
         others.map((other) => (
           <li>
-            <a
-              href={other.path}
-              class="inline-block bg-white border border-gray-200 hover:border-blue-600 hover:text-blue-600 text-gray-700 text-sm px-3 py-1.5 rounded-full transition-colors"
-            >
-              {other.city}
-            </a>
+            <a href={other.path} class="hb-pill">{other.city}</a>
           </li>
         ))
       }

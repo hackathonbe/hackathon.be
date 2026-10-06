@@ -66,14 +66,14 @@ const facts = [
 <Layout title={title} description={description} url={eventPath(event)}>
   {jsonLd && <script type="application/ld+json" set:html={jsonLdString(jsonLd)} />}
 
-  <article class="max-w-4xl mx-auto">
-    <nav class="text-sm text-gray-500 mb-6" aria-label="Breadcrumb">
-      <a href="/hackathons/" class="hover:text-blue-600 hover:underline">All hackathons</a>
+  <article class="hb-wrap hb-page">
+    <nav class="hb-label mb-8" aria-label="Breadcrumb">
+      <a href="/hackathons/" class="hover:underline underline-offset-4">All hackathons</a>
       {
         data.city && (
           <>
             <span aria-hidden="true"> / </span>
-            <a href={cityPath(data.city)} class="hover:text-blue-600 hover:underline">
+            <a href={cityPath(data.city)} class="hover:underline underline-offset-4">
               {data.city}
             </a>
           </>
@@ -81,109 +81,87 @@ const facts = [
       }
     </nav>
 
-    <h1 class="text-4xl font-bold mb-4">{data.name}</h1>
-    <p class="text-xl font-semibold text-blue-600 mb-4">{when} · {place}</p>
+    <div class="hb-narrow">
+      <div class="flex flex-wrap gap-2 mb-6">
+        {data.status !== 'scheduled' && <span class="hb-tag hb-tag-alert">{data.status}</span>}
+        <span class="hb-tag hb-tag-accent">{typeLabel}</span>
+        <span class="hb-tag">{upcoming ? 'Upcoming' : 'Past event'}</span>
+      </div>
 
-    <div class="flex flex-wrap gap-2 mb-8">
+      <h1 class="hb-h1 mb-5">{data.name}</h1>
+      <p class="font-mono text-lg font-medium text-accent mb-8">{when} · {place}</p>
+
+      {data.description && <p class="hb-lead mb-10">{data.description}</p>}
+
+      <dl class="hb-panel px-6 py-2 mb-10 divide-y divide-white/10">
+        {
+          facts.map(([label, value]) => (
+            <div class="py-4 sm:grid sm:grid-cols-[10rem_minmax(0,1fr)] sm:gap-6">
+              <dt class="hb-label sm:pt-1">{label}</dt>
+              <dd class="text-fg break-words">{value}</dd>
+            </div>
+          ))
+        }
+      </dl>
+
+      <div class="flex flex-col sm:flex-row flex-wrap gap-3 mb-16">
+        {
+          data.url && (
+            <a href={data.url} target="_blank" rel="noopener noreferrer" class="hb-cta">
+              Visit the event website
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+            </a>
+          )
+        }
+        {
+          data.city && (
+            <a href={cityPath(data.city)} class="hb-cta-ghost">
+              More hackathons in {data.city}
+            </a>
+          )
+        }
+      </div>
+
       {
-        data.status !== 'scheduled' && (
-          <span class="text-sm font-semibold uppercase tracking-wide bg-red-50 text-red-700 px-3 py-1 rounded">
-            {data.status}
-          </span>
+        editions.length > 0 && (
+          <section class="mb-16">
+            <h2 class="hb-h2 mb-6">Other editions</h2>
+            <ul class="hb-panel divide-y divide-white/10 px-6">
+              {editions.map((edition) => (
+                <li class="py-3 flex flex-wrap gap-x-4 gap-y-1">
+                  <a href={eventPath(edition)} class="font-medium hover:underline underline-offset-4">
+                    {edition.data.name}
+                  </a>
+                  <span class="text-muted text-sm">
+                    {formatDateRange(edition)} · {placeLabel(edition)}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </section>
         )
       }
-      <span class="text-sm font-medium bg-blue-50 text-blue-700 px-3 py-1 rounded">{typeLabel}</span>
-      {
-        upcoming ? (
-          <span class="text-sm font-medium bg-green-50 text-green-700 px-3 py-1 rounded">
-            Upcoming
-          </span>
-        ) : (
-          <span class="text-sm font-medium bg-gray-100 text-gray-700 px-3 py-1 rounded">
-            Past event
-          </span>
-        )
-      }
+
+      <aside class="text-sm text-muted leading-relaxed hb-rule pt-6">
+        {
+          data.listed_by === 'organizer' ? (
+            <p>This listing was provided by the organiser.</p>
+          ) : (
+            <p>
+              Hackathon Belgium put this listing together from public sources
+              {data.checked_on && <> and last checked it on {formatLongDate(data.checked_on)}</>}. It
+              is not an official page of the event.
+            </p>
+          )
+        }
+        <p class="mt-2">
+          Is this your event, or is something wrong?
+          <a href="/calendar#submit" class="hb-link">Tell us</a> or
+          <a href={editUrl} target="_blank" rel="noopener noreferrer" class="hb-link"
+            >edit this listing on GitHub</a
+          >.
+        </p>
+      </aside>
     </div>
-
-    {data.description && <p class="text-lg text-gray-700 leading-relaxed mb-8">{data.description}</p>}
-
-    <dl class="bg-white rounded-lg shadow-md px-6 py-2 mb-8 divide-y divide-gray-100">
-      {
-        facts.map(([label, value]) => (
-          <div class="py-3 sm:grid sm:grid-cols-[10rem_minmax(0,1fr)] sm:gap-6">
-            <dt class="text-sm font-semibold text-gray-500 sm:pt-0.5">{label}</dt>
-            <dd class="text-gray-900 break-words">{value}</dd>
-          </div>
-        ))
-      }
-    </dl>
-
-    <div class="flex flex-col sm:flex-row gap-4 mb-12">
-      {
-        data.url && (
-          <a
-            href={data.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="inline-block text-center bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-md transition-colors"
-          >
-            Visit the event website →
-          </a>
-        )
-      }
-      {
-        data.city && (
-          <a
-            href={cityPath(data.city)}
-            class="inline-block text-center bg-white hover:bg-gray-50 text-gray-800 font-medium px-6 py-3 rounded-md border border-gray-200 transition-colors"
-          >
-            More hackathons in {data.city}
-          </a>
-        )
-      }
-    </div>
-
-    {
-      editions.length > 0 && (
-        <section class="mb-12">
-          <h2 class="text-2xl font-bold mb-4">Other editions</h2>
-          <ul class="space-y-2">
-            {editions.map((edition) => (
-              <li>
-                <a href={eventPath(edition)} class="text-blue-600 hover:underline">
-                  {edition.data.name}
-                </a>
-                <span class="text-gray-500">
-                  {' '}
-                  · {formatDateRange(edition)} · {placeLabel(edition)}
-                </span>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )
-    }
-
-    <aside class="text-sm text-gray-500 border-t border-gray-200 pt-6">
-      {
-        data.listed_by === 'organizer' ? (
-          <p>This listing was provided by the organiser.</p>
-        ) : (
-          <p>
-            Hackathon Belgium put this listing together from public sources
-            {data.checked_on && <> and last checked it on {formatLongDate(data.checked_on)}</>}. It
-            is not an official page of the event.
-          </p>
-        )
-      }
-      <p class="mt-2">
-        Is this your event, or is something wrong?
-        <a href="/calendar#submit" class="text-blue-600 hover:underline">Tell us</a> or
-        <a href={editUrl} target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline"
-          >edit this listing on GitHub</a
-        >.
-      </p>
-    </aside>
   </article>
 </Layout>

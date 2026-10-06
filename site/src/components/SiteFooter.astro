@@ -1,11 +1,20 @@
+---
+const links = [
+  { href: '/calendar', label: 'Calendar' },
+  { href: '/hackathons/', label: 'All hackathons' },
+  { href: '/#resources', label: 'Free resources' },
+  { href: '/#curators', label: 'About' },
+  { href: '/calendar#submit', label: 'Submit a hackathon' },
+];
+---
+
 <footer>
 <div style="max-width: 1240px; margin: 0 auto; padding: 40px 32px 48px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px 32px">
 <a href="/" style="display: inline-flex; align-items: baseline; font-family: 'Bricolage Grotesque', 'Arial Black', sans-serif; font-optical-sizing: auto; font-weight: 800; font-size: 20px; letter-spacing: -0.03em; color: #F3F5F7">hackathon<span style="color: var(--accent)">.be</span></a>
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px; font-size: 14px">
-<a href="/calendar" style="color: #A3ACB9; padding: 6px 0">Calendar</a>
-<a href="#resources" style="color: #A3ACB9; padding: 6px 0">Free resources</a>
-<a href="#curators" style="color: #A3ACB9; padding: 6px 0">About</a>
-<a href="#submit" style="color: #A3ACB9; padding: 6px 0">Submit a hackathon</a>
+{links.map((link) => (
+<a href={link.href} style="color: #A3ACB9; padding: 6px 0">{link.label}</a>
+))}
 </div>
 <div style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.06em; color: #A3ACB9">© {new Date().getFullYear()} Hackathon Belgium</div>
 </div>
