@@ -1,0 +1,77 @@
+---
+import { CARD_COUNT, FILTERS, type HomeCard } from '../../lib/home';
+
+interface Props {
+  cards: HomeCard[];
+}
+const { cards } = Astro.props;
+
+const chip = 'min-height: 40px; padding: 0 16px; border-radius: 999px; font-family: \'IBM Plex Sans\', system-ui, sans-serif; font-size: 14px; cursor: pointer';
+const tag = 'font-family: \'JetBrains Mono\', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #A3ACB9; padding: 5px 10px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.14)';
+---
+<section id="upcoming" style="border-bottom: 1px solid rgba(255,255,255,0.08)">
+<div style="max-width: 1240px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column; gap: 36px">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 24px 48px">
+<div style="display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; align-items: center; gap: 12px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent)"><span style="width: 8px; height: 8px; background: var(--accent); display: inline-block"></span>Upcoming</div>
+<h2 style="font-family: 'Bricolage Grotesque', 'Arial Black', sans-serif; font-optical-sizing: auto; font-weight: 800; font-size: clamp(34px, 3.6vw, 52px); line-height: 1.02; letter-spacing: -0.03em; margin: 0; text-wrap: balance; color: #F3F5F7">Next on the calendar.</h2>
+</div>
+<div role="group" aria-label="Filter hackathons" style="display: flex; flex-wrap: wrap; gap: 8px">
+{FILTERS.map((filter, index) => (
+<button type="button" class="hb-chip" data-filter={filter.key} aria-pressed={index === 0 ? 'true' : 'false'} style={index === 0
+  ? `${chip}; border: 1px solid var(--accent); background: var(--accent); color: #0B0E13; font-weight: 600`
+  : `${chip}; border: 1px solid rgba(255,255,255,0.16); background: transparent; color: #F3F5F7; font-weight: 500`}>{filter.label}</button>
+))}
+</div>
+</div>
+<div id="hb-cards" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr)); gap: 16px">
+{cards.map((card, index) => (
+<a href={card.href} class:list={['hb-card', index >= CARD_COUNT && 'hb-hide']} data-filters={card.filters.join(' ')} style="background: #12161D; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 22px; color: #F3F5F7; min-height: 260px">
+<div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 12px">
+<div style="display: flex; flex-direction: column; gap: 6px; font-family: 'JetBrains Mono', ui-monospace, monospace; color: var(--accent)"><span style="font-size: 40px; font-weight: 500; letter-spacing: -0.03em; line-height: 1">{card.day}</span><span style="font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #A3ACB9; white-space: nowrap">{card.month} · {card.span}</span></div>
+<div style="display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 6px">{card.format && <span style={tag}>{card.format}</span>}{card.languages && <span style={tag}>{card.languages}</span>}</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px"><div style="font-family: 'Bricolage Grotesque', 'Arial Black', sans-serif; font-optical-sizing: auto; font-weight: 600; font-size: 22px; letter-spacing: -0.02em; line-height: 1.15">{card.name}</div><div style="font-size: 14px; color: #A3ACB9">{card.place}</div></div>
+<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto">{card.theme && <span style="font-size: 12px; font-weight: 500; color: #F3F5F7; padding: 5px 10px; border-radius: 6px; background: rgba(255,255,255,0.07)">{card.theme}</span>}{card.audience && <span style="font-size: 12px; font-weight: 500; color: #F3F5F7; padding: 5px 10px; border-radius: 6px; background: rgba(255,255,255,0.07)">{card.audience}</span>}</div>
+</a>
+))}
+</div>
+<p id="hb-empty" class="hb-hide" style="margin: 0; font-size: 16px; color: #A3ACB9">Nothing announced for this filter yet. Check the full calendar, or tell us about an event.</p>
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 24px; padding-top: 8px">
+<a href="/calendar" style="display: inline-flex; align-items: center; gap: 8px; font-size: 16px; font-weight: 600; color: var(--accent)">See the full calendar<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px">
+<span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #A3ACB9">Never miss one</span>
+<a href="/calendar.ics" style="display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 16px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.18); color: #F3F5F7; font-size: 14px; font-weight: 500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>Add to your calendar</a>
+</div>
+</div>
+</div>
+</section>
+
+<script>
+  // Filter chips pick the first four events that match, out of the ones rendered above.
+  const CARD_COUNT = 4;
+  const chips = document.querySelectorAll<HTMLButtonElement>('.hb-chip[data-filter]');
+  const cards = document.querySelectorAll<HTMLElement>('#hb-cards > a');
+  const empty = document.getElementById('hb-empty');
+
+  function apply(filter: string) {
+    let shown = 0;
+    cards.forEach((card) => {
+      const match = filter === 'all' || (card.dataset.filters ?? '').split(' ').includes(filter);
+      const visible = match && shown < CARD_COUNT;
+      if (visible) shown += 1;
+      card.classList.toggle('hb-hide', !visible);
+    });
+    empty?.classList.toggle('hb-hide', shown > 0);
+    chips.forEach((chip) => {
+      const active = chip.dataset.filter === filter;
+      chip.setAttribute('aria-pressed', String(active));
+      chip.style.background = active ? 'var(--accent)' : 'transparent';
+      chip.style.borderColor = active ? 'var(--accent)' : 'rgba(255,255,255,0.16)';
+      chip.style.color = active ? '#0B0E13' : '#F3F5F7';
+      chip.style.fontWeight = active ? '600' : '500';
+    });
+  }
+
+  chips.forEach((chip) => chip.addEventListener('click', () => apply(chip.dataset.filter ?? 'all')));
+</script>

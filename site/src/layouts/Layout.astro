@@ -1,5 +1,6 @@
 ---
-const { title, description, image, url } = Astro.props;
+// `bare` pages bring their own header, footer and background (the homepage).
+const { title, description, image, url, bare = false } = Astro.props;
 
 // Default SEO values
 const defaultTitle = 'Hackathon Belgium';
@@ -52,20 +53,26 @@ import '../styles.css';
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     
     <!-- Additional Meta -->
-    <meta name="theme-color" content="#2563eb" />
+    <meta name="theme-color" content={bare ? '#0B0E13' : '#2563eb'} />
     <meta name="robots" content="index, follow" />
     <slot name="head" />
 
     <!-- Analytics -->
     <script is:inline defer src="https://analytics.rand.be/s.js" data-website-id="c8418f28-c931-471b-9d03-b7a0b8e7b6fa"></script>
   </head>
-  <body class="antialiased text-gray-900">
-    <Header />
-    <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+  {bare ? (
+    <body>
       <slot />
-    </main>
-    <footer class="bg-gray-100">
-      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-sm text-gray-600">Copyright © 2025 Hackathon Belgium</div>
-    </footer>
-  </body>
+    </body>
+  ) : (
+    <body class="antialiased text-gray-900">
+      <Header />
+      <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <slot />
+      </main>
+      <footer class="bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-sm text-gray-600">Copyright © 2025 Hackathon Belgium</div>
+      </footer>
+    </body>
+  )}
 </html>
