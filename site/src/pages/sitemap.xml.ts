@@ -24,6 +24,7 @@ export const GET: APIRoute = async () => {
     { path: '/', lastmod: today, changefreq: 'weekly', priority: '1.0' },
     { path: '/calendar', lastmod: today, changefreq: 'daily', priority: '0.9' },
     { path: '/hackathons/', lastmod: today, changefreq: 'weekly', priority: '0.8' },
+    { path: '/submit/', lastmod: '2026-10-07', changefreq: 'yearly', priority: '0.5' },
     {
       path: '/130-hackathons-analyzed-for-you',
       lastmod: '2025-10-01',
