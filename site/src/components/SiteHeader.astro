@@ -1,7 +1,6 @@
 ---
 // Header shared by every page. The current section is shown in white, the rest in grey.
 const path = Astro.url.pathname;
-const isHome = path === '/';
 
 const links = [
   { href: '/calendar', label: 'Calendar', active: path.startsWith('/calendar') },
@@ -24,7 +23,7 @@ const links = [
 ))}
 </div>
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px">
-<a href={isHome ? '#submit' : '/calendar#submit'} style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.18); color: #F3F5F7; font-size: 15px; font-weight: 500">Submit a hackathon</a>
+<a href="/submit/" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.18); color: #F3F5F7; font-size: 15px; font-weight: 500">Submit a hackathon</a>
 </div>
 </nav>
 </header>
