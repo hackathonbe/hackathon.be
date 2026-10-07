@@ -3,8 +3,9 @@ series: vlaanderen-hackathon
 type: hackathon
 start_date: 2026-10-12
 end_date: 2026-10-14
+city: Brussels
 region: flanders
-venue: Not published (winner announced at Flanders Expo, Ghent)
+venue: Marie Elisabeth Belpairegebouw
 format: in-person
 organizer: Digitaal Vlaanderen, VLAIO, PIO, Sandbox Vlaanderen
 themes:
@@ -16,7 +17,7 @@ audience: open
 languages:
   - NL
 url: https://www.vlaio.be/nl/nieuws/oproep-dien-voor-10-juni-jouw-project-voor-de-vlaanderen-hackathon-2026
-source_url: https://www.vlaio.be/nl/nieuws/oproep-dien-voor-10-juni-jouw-project-voor-de-vlaanderen-hackathon-2026
+source_url: https://www.vlaanderen.be/trefdag-vlaanderen-digitaal/veel-gestelde-vragen-vlaanderen-hackathon
 description:
   Yearly Flemish government hackathon where open teams build improvements to real public-service
   processes.
@@ -24,7 +25,7 @@ recurring: true
 published: true
 confidence: medium
 listed_by: crawler
-checked_on: 2026-10-06
-notes: City is that of the awards ceremony (Trefdag Vlaanderen Digitaal, Flanders Expo Gent, 22 Oct
-  2026); location of the hackathon days is not stated on the page. Free, anyone can take part; project
+checked_on: 2026-10-07
+notes: Hackathon days held at the Marie Elisabeth Belpairegebouw in Brussels (FAQ page, 7 Oct 2026); awards
+  ceremony at Trefdag Vlaanderen Digitaal, Flanders Expo Gent, 22 Oct 2026. Free, anyone can take part; project
   ideas were due 10 June 2026.
