@@ -1,0 +1,28 @@
+name: IA Days Créathon
+type: ideathon
+start_date: 2026-11-03
+end_date: 2026-11-05
+city: Liège
+region: wallonia
+venue: HELMo Siège social, Mont Saint-Martin 45
+format: in-person
+organizer: HELMo
+themes:
+  - AI
+  - creative
+languages:
+  - FR
+url: https://www.helmo.be/fr/agenda/ia-days-creathon
+source_url: https://www.helmo.be/fr/agenda/ia-days-creathon
+description: Three-day creative challenge in Liège where teams build a video, a short digital book or
+  an event production on a societal theme, with AI tools and professional coaches.
+published: false
+review: Openness not stated (contact is HELMo's student life service) and it is a creative challenge
+  rather than a clear hackathon; curator to decide.
+confidence: medium
+listed_by: crawler
+checked_on: 2026-10-09
+notes:
+  Found on the HELMo agenda, part of the IA Days run by Digital Wallonia. Dates, venue and
+  organiser come from the event page. The page states no eligibility criteria and no fee. Registration
+  is through a "Participer" link on the page.
