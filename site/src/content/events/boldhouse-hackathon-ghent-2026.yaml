@@ -1,0 +1,27 @@
+name: The Boldhouse Hackathon
+type: hackathon
+start_date: 2026-11-07
+end_date: 2026-11-07
+city: Ghent
+region: flanders
+venue: BOLDHOUSE coworking club, Sint-Baafsplein 10
+format: in-person
+organizer: Angee Garcia (BOLDHOUSE)
+themes:
+  - AI
+  - Claude
+audience: open
+languages:
+  - EN
+url: https://luma.com/ad6ia68g
+source_url: https://luma.com/ad6ia68g
+description: One-day hackathon in a Ghent coworking space where participants build a project with an AI assistant and pitch it to a panel at the end of the day.
+published: false
+review: The Luma page gives "Saturday, 7 November" without a year. 7 November is a Saturday in 2026, but the year is not stated on the page.
+confidence: medium
+listed_by: crawler
+checked_on: 2026-10-19
+notes:
+  Found on the Luma Brussels AI listing. Luma page says registration is free, 40 spots, teams of up
+  to three or solo, doors 10:00, pitches 18:00, ends 21:00. Open to anyone. Year inferred only from
+  the weekday.
