@@ -1,6 +1,9 @@
 ---
 import { Image } from 'astro:assets';
-import michel from '../../assets/photos/michel-e1456686054610.jpg';
+import michel from '../../assets/photos/michel-duchateau.webp';
+
+// TODO: replace with the book's own page once it has a public URL
+const bookUrl = 'https://hackathoncanvas.co';
 import jcc from '../../assets/photos/jc-cuvelier.jpg';
 ---
 <section id="curators" style="border-bottom: 1px solid rgba(255,255,255,0.08)">
@@ -23,10 +26,17 @@ import jcc from '../../assets/photos/jc-cuvelier.jpg';
 <div style="display: flex; flex-direction: column; gap: 14px; flex: 1 1 220px; min-width: 0">
 <div style="display: flex; flex-direction: column; gap: 6px">
 <h3 style="font-family: 'Bricolage Grotesque', 'Arial Black', sans-serif; font-optical-sizing: auto; font-weight: 600; font-size: 24px; letter-spacing: -0.02em; margin: 0; color: #F3F5F7">Michel Duchateau</h3>
-<p style="font-size: 15px; line-height: 1.5; color: #A3ACB9; margin: 0">Global Facilitator, Startup Weekend · Chief Innovation Officer at Convidencia</p>
+<p style="font-size: 15px; line-height: 1.5; color: #A3ACB9; margin: 0">Chief Innovation Officer &amp; Partner at Convidencia · Hackathon designer, facilitator &amp; methodology creator</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px; font-size: 15px; line-height: 1.6; color: #A3ACB9">
+<p style="margin: 0">With over 130 hackathons facilitated, Michel Duchateau is an experienced hackathon designer and facilitator.</p>
+<p style="margin: 0">He is the creator of the <a href="https://hackathoncanvas.co" style="color: #F3F5F7; text-decoration: underline">Hackathon Canvas</a> and author of <a href={bookUrl} style="color: #F3F5F7; text-decoration: underline"><em>How to organize great hackathons</em></a>, a practical guide to designing and facilitating successful hackathons.</p>
+<p style="margin: 0">Today, he also explores AI-augmented hackathons, combining human creativity, artificial intelligence and multi-agent collaboration.</p>
 </div>
 <div style="display: flex; flex-wrap: wrap; gap: 8px">
-<a href="http://www.convidencia.com" style="display: inline-flex; align-items: center; min-height: 36px; padding: 0 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.16); color: #F3F5F7; font-size: 13px; font-weight: 500">Website</a>
+<a href="https://hackathoncanvas.co" style="display: inline-flex; align-items: center; min-height: 36px; padding: 0 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.16); color: #F3F5F7; font-size: 13px; font-weight: 500">Hackathon Canvas</a>
+<a href={bookUrl} style="display: inline-flex; align-items: center; min-height: 36px; padding: 0 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.16); color: #F3F5F7; font-size: 13px; font-weight: 500">The book</a>
+<a href="https://www.convidencia.com" style="display: inline-flex; align-items: center; min-height: 36px; padding: 0 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.16); color: #F3F5F7; font-size: 13px; font-weight: 500">Website</a>
 <a href="https://x.com/miduchateau" style="display: inline-flex; align-items: center; min-height: 36px; padding: 0 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.16); color: #F3F5F7; font-size: 13px; font-weight: 500">X</a>
 <a href="https://be.linkedin.com/in/mduchateau" style="display: inline-flex; align-items: center; min-height: 36px; padding: 0 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.16); color: #F3F5F7; font-size: 13px; font-weight: 500">LinkedIn</a>
 </div>
