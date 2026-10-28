@@ -1,0 +1,28 @@
+name: Hacking for Good
+edition: 2026
+series: hacking-for-good
+type: hackathon
+start_date: 2026-10-29
+end_date: 2026-10-29
+city: Ghent
+region: flanders
+format: in-person
+organizer: Google Cloud, Google Research and BSPHO
+themes:
+  - AI
+  - healthtech
+  - social impact
+audience: open
+languages:
+  - EN
+url: https://rsvp.withgoogle.com/events/solve_with_google_2026
+source_url: https://hackathonhub.eu/events/hacking-for-good-2026-ghent-2026
+description: One-day generative AI hackathon in Ghent on improving coordination and data sharing in Belgium's paediatric oncology network.
+published: true
+confidence: medium
+listed_by: crawler
+checked_on: 2026-10-28
+notes:
+  Confirmed only on the HackathonHub Europe listing (date, city, organisers, open to all industries
+  and experience levels). The listing gives no venue. The organiser's RSVP page was not opened.
+  BSPHO is the Belgian Society of Paediatric Haematology Oncology.
