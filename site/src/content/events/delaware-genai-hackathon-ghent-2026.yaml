@@ -1,0 +1,27 @@
+name: GenAI Hackathon
+edition: 2nd edition
+series: delaware-genai-hackathon
+type: hackathon
+start_date: 2026-11-10
+end_date: 2026-11-10
+city: Ghent
+region: flanders
+venue: delaware Ghent office, Amelia Earhartlaan 10
+format: in-person
+organizer: delaware
+themes:
+  - generative AI
+  - business processes
+audience: application
+url: https://delaware.pro/en-be/events/genai-hackathon
+source_url: https://delaware.pro/en-be/events/genai-hackathon
+description: One-day company-hosted workshop where business teams build generative AI use cases for their own processes.
+published: false
+review: Aimed at process owners and business staff of client companies (1 to 3 per company), so it is
+  unclear whether it is open to the public. The 10 November date is only a planned second edition
+  with pre-registration.
+confidence: low
+listed_by: crawler
+checked_on: 2026-11-07
+notes: The first edition (4 June 2026, same venue) is at capacity. Second edition date comes from
+  the same page; no separate page for it was opened.
