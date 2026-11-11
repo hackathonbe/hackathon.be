@@ -1,0 +1,35 @@
+name: Hack the Rails
+type: hackathon
+start_date: 2026-11-21
+end_date: 2026-11-21
+city: Brussels
+region: brussels
+format: in-person
+organizer: Seven Events, with European Sleeper as title partner
+themes:
+  - rail
+  - night trains
+  - mobility
+  - payments
+audience: application
+languages:
+  - EN
+url: https://luma.com/f0eeirec
+source_url: https://luma.com/f0eeirec
+description:
+  One-day hackathon in Brussels about night trains, with a track on European Sleeper's operational
+  data, a trip-planner track and a free wildcard track. Free, for about 60 hackers in 20 teams.
+published: true
+confidence: medium
+listed_by: crawler
+checked_on: 2026-11-11
+notes:
+  "Luma page opened 2026-11-11. Date (Saturday 21 November 2026), free entry, approval-based
+  registration and the 60-hacker cap come from that page; it showed 4 spots remaining. Venue left out
+  on purpose: the page lists BeCentral, Cantersteen 12, 1000 Brussels, but also says 'Venue TBD
+  though secured > discussing 3 options', all in 1000 Brussels. Doors 10:00, demos 17:40, awards and
+  dinner 19:00. Partners named: European Sleeper, City of Brussels, Stripe, ElevenLabs, Commons Hub
+  Brussels, Ingram Technologies; jury from European Sleeper, SNCB, City of Brussels and Collibra. The
+  European Sleeper track requires an NDA and IP release. Search engines still index this same Luma
+  address as 'ENERGY data visualisation Hackathon' at Commons Hub Brussels on the same date, so the
+  event seems to have been renamed. Language not stated; EN assumed from the page text."
