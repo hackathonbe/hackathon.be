@@ -1,0 +1,32 @@
+name: Rise Tekno-Kamp
+edition: 6th edition
+series: rise-tekno-kamp
+type: hackathon
+city: Brussels
+region: brussels
+venue: Schaerbeek (building not named in the source)
+format: in-person
+organizer: Tekno-Family asbl
+themes:
+  - environment
+  - engineering
+  - employability
+source_url: https://bx1.be/communes/schaerbeek/24-heures-pour-innover-et-convaincre-un-hackathon-a-schaerbeek-pour-renforcer-lemployabilite-des-jeunes/
+description: 24-hour hackathon in Schaerbeek where mixed teams of young people from Brussels work on
+  environmental engineering challenges and present to a jury of professionals.
+recurring: true
+published: false
+review: No exact date, venue or registration rules on any page that could be opened; openness is
+  not confirmed
+confidence: low
+listed_by: crawler
+checked_on: 2026-11-12
+notes: "Only source is a BX1 article published 5 April 2026 saying the hackathon took place 'ce
+  week-end', which points to 4-5 April 2026, but the article gives no dates, so start_date is left
+  out. The article calls it the sixth edition, organised by the asbl Tekno-Family, with dozens of
+  young Brussels participants in mixed teams (engineering, business, IT) working on a passive house
+  or wastewater treatment challenge, paid for by an engineering company it does not name. Not
+  stated: building, how to register, who may enter, languages. No organiser page for the event was
+  found. Schaerbeek is filed under city Brussels, like the other Brussels municipalities. A U Square
+  agenda page for a Tekno Family closing ceremony in December 2025 appeared in search results but
+  was not opened."
