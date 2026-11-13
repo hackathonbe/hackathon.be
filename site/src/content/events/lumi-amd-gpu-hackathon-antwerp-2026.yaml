@@ -1,0 +1,32 @@
+name: 'Hackathon: Optimizing for AMD GPUs'
+type: hackathon
+start_date: 2026-05-18
+end_date: 2026-05-22
+city: Antwerp
+region: flanders
+venue: University of Antwerp, City Campus, Prinsstraat 13
+format: in-person
+organizer: CSC / LUMI User Support Team, with HPE and AMD
+themes:
+  - high-performance computing
+  - GPU
+  - research software
+audience: application
+languages:
+  - EN
+url: https://lumi-supercomputer.eu/events/hackathon-optimizing-for-amd-gpus/
+source_url: https://ssl.eventilla.com/event/MKGdl
+description: Five-day on-site hackathon where selected research and company teams tune their own
+  software for the AMD GPUs of the LUMI supercomputer, with mentors from HPE, AMD and the LUMI
+  support team.
+published: true
+confidence: medium
+listed_by: crawler
+checked_on: 2026-11-13
+notes: Past event. Name, dates, venue, language and eligibility confirmed on the Eventilla
+  registration page (opened 2026-11-13); dates and place also on the LUMI hackathon listing
+  (lumi-supercomputer.eu/category_events/hackathon/). The `url` is the link given on that listing
+  and was not opened itself. Applications were open to researchers and companies in LUMI consortium
+  or EuroHPC countries, deadline 1 April 2026; teams were selected. It is a mentored code
+  optimisation week without a competition or prizes, so a curator may judge it closer to a
+  workshop. Whether it returns to Belgium is unknown, so `recurring` is left out.
