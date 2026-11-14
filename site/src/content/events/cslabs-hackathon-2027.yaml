@@ -1,0 +1,30 @@
+name: 'AI for Good: CSLabs Hackathon'
+series: cslabs-hackathon
+type: hackathon
+start_date: 2027-03-19
+end_date: 2027-03-21
+city: Namur
+region: wallonia
+format: in-person
+organizer: CSLabs (junior enterprise of the UNamur Faculty of Computer Science)
+themes:
+  - AI
+  - social good
+audience: open
+languages:
+  - FR
+url: https://hackathon.cslabs.be/
+source_url: https://hackathon.cslabs.be/
+description: Weekend hackathon run by UNamur computer science students, rethinking how AI can be used
+  for a better world. No specific skills are required to join.
+recurring: true
+published: false
+review: The page gives the dates and says anyone can join, but does not state a venue or city. Namur is
+  assumed from the organiser and previous editions.
+confidence: medium
+listed_by: crawler
+checked_on: 2026-11-06
+notes:
+  Edition title and dates from hackathon.cslabs.be (opened 2026-11-06). Registration is through the
+  site's inscription page. Venue and city are not on the page; the earlier editions were at UNamur in
+  Namur.
