@@ -1,0 +1,35 @@
+name: 'Stripe Hackathon: Agentic commerce II [e-invoicing]'
+edition: 2nd edition
+series: stripe-community-hackathon-brussels
+type: hackathon
+start_date: 2026-06-27
+end_date: 2026-06-27
+city: Brussels
+region: brussels
+venue: Collibra, Rue Picard 11, 1000 Brussels
+format: in-person
+organizer: Stripe Community Brussels and Seven Events, with Collibra
+themes:
+  - AI agents
+  - payments
+  - e-invoicing
+audience: open
+languages:
+  - EN
+url: https://luma.com/t0vqp8cc
+source_url: https://luma.com/t0vqp8cc
+description: One-day build event on AI agents for online transactions, with one track on Peppol
+  e-invoicing and one on agents that buy and analyse data, closed by five-minute pitches to a jury.
+published: true
+confidence: medium
+listed_by: crawler
+checked_on: 2026-11-14
+notes:
+  "Past event, found on 14 Nov 2026. Name, venue, programme and 'All levels of expertise welcome'
+  are in the visible text of the Luma page. The visible text shows no calendar date; the date
+  (27 June 2026, 10:30 to 20:30 Brussels time) is in the page's embedded event data, and
+  nomad.watch/events/stripe-hackathon-agentic-commerce-ii-e-invoicing-20260627 gives the same day.
+  Registration was through Luma with host approval and is now closed. Language inferred from the
+  page text. The series slug is my own grouping of the Stripe Community hackathons in Brussels
+  (same hosts as the 18 April 2026 and 22 November 2025 events); the page itself calls this the
+  'Second hackathon in Agentic Commerce'."
