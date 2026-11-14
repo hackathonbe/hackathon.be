@@ -1,0 +1,29 @@
+name: Student Hackathon
+type: hackathon
+start_date: 2026-02-09
+end_date: 2026-02-09
+city: Ghent
+region: flanders
+venue: TechWolf, Overzet 14A, 9000 Ghent
+format: in-person
+organizer: TechWolf
+themes:
+  - AI
+  - coding
+audience: students
+url: https://luma.com/g430ku8z
+source_url: https://luma.com/g430ku8z
+description: Afternoon hackathon for students at the TechWolf office, with an AI coding workshop,
+  a team challenge for pairs and pitches for a prize pool.
+published: false
+review: Private Luma event with host approval; the page does not say which students could enter or how they were invited, so it may be a recruitment event rather than an open one
+confidence: low
+listed_by: crawler
+checked_on: 2026-11-14
+notes:
+  "Past event, found on 14 Nov 2026. Name, venue, programme (lunch at 13:00, workshop, hackathon,
+  pitches, dinner; teams of two; prize pool of 2000 euro) are in the visible text of the Luma page.
+  The visible text shows no date; the date (9 February 2026, 13:00 to 22:00 Brussels time) is in
+  the page's embedded event data only, where the event is also marked private with approval
+  required. Organiser inferred from the venue and the hosts' TechWolf e-mail address. The name on
+  the page is only 'Student Hackathon'."

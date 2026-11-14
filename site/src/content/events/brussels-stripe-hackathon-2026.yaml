@@ -1,0 +1,32 @@
+name: The Brussels Stripe Hackathon
+series: stripe-community-hackathon-brussels
+type: hackathon
+start_date: 2026-04-18
+end_date: 2026-04-18
+city: Brussels
+region: brussels
+venue: Commons Hub Brussels, Rue de la Madeleine 51, 1000 Brussels
+format: in-person
+organizer: Stripe Community Brussels, Ingram Technologies and Commons Hub Brussels
+themes:
+  - payments
+  - AI agents
+  - startups
+audience: open
+languages:
+  - EN
+url: https://luma.com/2h9lv4j5
+source_url: https://luma.com/2h9lv4j5
+description: Half-day hackathon where solo builders and teams of up to three build a paid solution
+  to an everyday problem on top of Stripe, then pitch it to judges.
+published: true
+confidence: medium
+listed_by: crawler
+checked_on: 2026-11-14
+notes:
+  "Past event, found on 14 Nov 2026. Name, venue, format and openness ('you are welcome to join by
+  yourself, or as a team') are in the visible text of the Luma page, which is marked Past Event.
+  The visible text shows no calendar date; the date (18 April 2026, 14:00 to 21:00 Brussels time)
+  is in the page's embedded event data only. Registration was free on Luma without approval.
+  Language inferred from the page text. The series slug is my own grouping of the Stripe Community
+  hackathons in Brussels."

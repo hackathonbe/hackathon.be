@@ -2,8 +2,9 @@ name: Agentic Payments Hackathon with Stripe
 type: hackathon
 start_date: 2025-11-22
 end_date: 2025-11-22
-city: Antwerp
-region: flanders
+city: Brussels
+region: brussels
+venue: Commons Hub Brussels, Rue de la Madeleine 51, 1000 Brussels
 format: in-person
 organizer: North Star with Stripe
 themes:
@@ -16,8 +17,17 @@ source_url: https://www.ns2agi.com/events/stripe-hackathon
 description: One-day build event exploring AI agents that handle checkout, reconciliation and other
   money flows.
 published: false
-review: Invite-only (30 builders)
+review: Was drafted as invite-only in Antwerp; the sources now show an open event in Brussels, so a curator should decide whether to publish
 confidence: medium
 listed_by: crawler
-checked_on: 2026-10-06
-notes: Page says 30 builders were invited, so it was invite/selection based. Venue not stated.
+checked_on: 2026-11-14
+notes:
+  "Page says 30 builders were invited, so it was invite/selection based. Venue not stated. Update
+  14 Nov 2026: the source page (ns2agi.com/events/stripe-hackathon) gives 'Commons Hub Brussels,
+  Belgium' as the place and says the hackathon 'brought together 30 builders'; it does not say they
+  were invited. City, region and venue corrected from Antwerp to Brussels. The Luma page of the
+  same event (https://luma.com/f7gs82fe) confirms 22 November 2025 at Commons Hub Brussels, Rue de
+  la Madeleine 51, 14:00 to about 19:00, hosted by the Stripe Community and Ingram Technologies,
+  with free public registration without approval. The audience field is left at application
+  because neither page settles it outright. The file name still says antwerp because files are
+  never renamed."
