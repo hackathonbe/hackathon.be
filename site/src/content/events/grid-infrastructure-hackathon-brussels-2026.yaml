@@ -1,0 +1,32 @@
+name: Grid Infrastructure Hackathon
+edition: Brussels 2026
+type: hackathon
+start_date: 2026-12-09
+end_date: 2026-12-11
+city: Brussels
+region: brussels
+format: in-person
+organizer: Ultrahack, with Elia Group as challenge partner
+themes:
+  - energy
+  - grid infrastructure
+  - AI
+audience: application
+languages:
+  - EN
+url: https://ultrahack.org/hackathons/grid-infrastructure-hackathon
+source_url: https://hackathonhub.eu/events/grid-infrastructure-hackathon-brussels-2026
+description:
+  Three-day on-site hackathon in Brussels where selected teams of developers, data scientists and AI
+  builders tackle a grid infrastructure challenge set by Elia Group.
+published: false
+review:
+  Only confirmed on an aggregator page (HackathonHub). The organiser's own page could not be read, so
+  the dates, venue and application rules are not checked against the organiser.
+confidence: medium
+listed_by: crawler
+checked_on: 2026-11-04
+notes:
+  "From hackathonhub.eu: 9-11 December 2026, Brussels, onsite, Elia Group selects 15-20 teams from
+  submitted ideas and team profiles, submission deadline 29 November 2026, organiser Ultrahack. The
+  ultrahack.org page returned only the name Ultrahack when fetched. No venue address given."
