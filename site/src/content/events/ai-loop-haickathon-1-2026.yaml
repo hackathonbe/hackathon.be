@@ -1,0 +1,32 @@
+name: 'AI-LOOP Haickathon #1'
+edition: Building and learning with AI
+type: hackathon
+start_date: 2026-06-12
+end_date: 2026-06-12
+city: Louvain-la-Neuve
+region: wallonia
+venue: The POD, Rue de Rodeuhaie 4
+format: in-person
+organizer: The POD with AI Loop
+themes:
+  - AI
+  - software development
+url: https://luma.com/esen67zx
+source_url: https://luma.com/esen67zx
+description:
+  One-day hackathon where mixed teams from different companies worked on a business challenge with
+  AI coaches, followed by a public evening of pitches and demos.
+published: false
+review:
+  Openness unclear. The Luma page says registration is by company, not individual, after an
+  onboarding with the organiser, and the title calls it an exclusive event.
+confidence: medium
+listed_by: crawler
+checked_on: 2026-11-15
+notes:
+  "Past event, found 15 Nov 2026. From luma.com/esen67zx: online kick-off on Discord Thursday 11 June
+  2026 17:00-18:30, in-person hackathon Friday 12 June 2026 09:00-18:00 at The POD, 1348
+  Ottignies-Louvain-la-Neuve. Aimed at developers, technical leads, product profiles and AI
+  practitioners. The closing night (luma.com/g8x1jiz6, same day 18:00-21:30) was open to the public.
+  Same organisers as ai-loop-hackathon-2026 (October 2026); no series slug set because the two
+  events carry different names. Language not stated."

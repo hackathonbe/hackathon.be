@@ -6,6 +6,7 @@ start_date: 2026-11-24
 end_date: 2026-11-25
 city: Antwerp
 region: flanders
+venue: A Room with a ZOO, Koningin Astridplein 20-26
 format: in-person
 organizer: Hack The Future / Cronos Groep
 themes:
@@ -20,11 +21,14 @@ source_url: https://www.hackthefuture.be/
 description: Next edition of the themed two-day hackathon for IT and creative students.
 recurring: true
 published: true
-confidence: medium
+confidence: high
 listed_by: crawler
-checked_on: 2026-11-11
+checked_on: 2026-11-15
 notes:
   Dates from hackthefuture.be; city and edition title from the Cyber3Lab events calendar (cyber3lab.be).
   Venue not confirmed for 2026; the 2026 subsite URL appeared in that calendar and was not opened.
   Language assumed from the 2025 edition. Dates re-checked on hackthefuture.be on 6 Oct 2026; the
-  page does not name the city or venue.
+  page does not name the city or venue. Update 15 Nov 2026, the 2026 subsite
+  (www.2026.hackthefuture.be) was opened and confirms 24-25 November 2026, Antwerp, venue A Room
+  with a ZOO (main entrance Koningin Astridplein 20-26), Dutch-language site, for students in the
+  last or second-to-last year of an IT or creative programme. Registrations are closed.
