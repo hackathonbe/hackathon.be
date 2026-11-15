@@ -22,7 +22,7 @@ description:
 published: true
 confidence: medium
 listed_by: crawler
-checked_on: 2026-11-11
+checked_on: 2026-11-15
 notes:
   "Luma page opened 2026-11-11. Date (Saturday 21 November 2026), free entry, approval-based
   registration and the 60-hacker cap come from that page; it showed 4 spots remaining. Venue left out
@@ -32,4 +32,4 @@ notes:
   Brussels, Ingram Technologies; jury from European Sleeper, SNCB, City of Brussels and Collibra. The
   European Sleeper track requires an NDA and IP release. Search engines still index this same Luma
   address as 'ENERGY data visualisation Hackathon' at Commons Hub Brussels on the same date, so the
-  event seems to have been renamed. Language not stated; EN assumed from the page text."
+  event seems to have been renamed. Language not stated; EN assumed from the page text. Re-checked 15 Nov 2026: date unchanged; the location block now gives BeCentral, Cantersteen 12 with room details (Central Hall, first floor; hacking on the second floor), but the About text still says the venue is to be decided, so venue is still left out."
