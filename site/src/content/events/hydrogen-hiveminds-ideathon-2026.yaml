@@ -1,0 +1,38 @@
+name: Hydrogen HiveMinds Ideathon
+type: ideathon
+city: Brussels
+region: brussels
+venue: Silversquare Bailli, Avenue Louise 231
+format: in-person
+organizer: BE-HyFE project and partners, with KreativDistrikt
+themes:
+  - hydrogen
+  - energy
+  - research
+languages:
+  - EN
+url: https://hiveminds.hackerearth.com/
+source_url: https://hiveminds.hackerearth.com/
+description:
+  Three-day ideathon where teams of Belgian academic researchers from different disciplines work out
+  future hydrogen pathways for Belgium, with warm-up sessions and mentors from industry.
+published: false
+review:
+  The event dates are not confirmed on any page that could be opened, and it is open only to
+  Belgian academics at PhD level and above, so a curator should decide whether it counts as open.
+confidence: low
+listed_by: crawler
+checked_on: 2026-11-17
+notes:
+  "Past event, found by search on 17 Nov 2026. hiveminds.hackerearth.com (opened) calls it a 3-day
+  ideathon for multidisciplinary academic teams of 3-5 people, organised by the BE-HyFE project and
+  its partners, for 'Belgian academics (PhD level and above)'. It shows only a campaign window, 19
+  January to 20 March 2026, marked as over, and its map link points to Silversquare Bailli, Av.
+  Louise 231, 1050 Bruxelles; the page does not say in so many words that the three days were held
+  there. A UCLouvain iMMC news item of 26 March 2026 (opened, uclouvain.be) says it lasted three
+  days, gathered 29 researchers, was supported by FPS Economy and run with KreativDistrikt, with
+  mentors from Fluxys, Sirris, Solhyd, FPS Economy and Agfa; it gives no dates or venue. A search
+  snippet gave 18-20 March 2026, which would match the end of the campaign window, but no opened
+  page states it, so start_date is left out. Audience left out: none of the allowed values fits
+  'academics, PhD and above'. Language not stated; EN assumed from the page text. Whether it will be
+  repeated is unknown."
