@@ -17,7 +17,7 @@ Pages that list several events.
 | [Inno4Def events and hackathons](https://inno4def.be/events-hackathons/)                           | Belgian Defence: Battlefield of Things, Navy Hackathon               |
 | [FTI Festival programme](https://www.ftifestival.be/programma)                                     | Flanders Technology & Innovation, yearly in October and November     |
 | [Cyber3Lab community calendar](https://www.cyber3lab.be/en/news/cybersecurity-ai-community-events) | Howest list of cybersecurity, AI and web3 events                     |
-| [PXL Digital external events](https://pxl-digital.pxl.be/i-talent/extern-events-25-26)             | A school's list of outside hackathons; new page each academic year   |
+| [PXL Digital external events](https://pxl-digital.pxl.be/x-talent/extern-events-26-27)             | A school's list of outside hackathons; new page each academic year   |
 | [FOSDEM fringe list](https://archive.fosdem.org/2026/fringe/)                                      | Hack days and code sprints around FOSDEM, late January               |
 | [Global Game Jam site map](https://globalgamejam.org/map/2026)                                     | Four Belgian sites in 2026                                           |
 | [itch.io jams](https://itch.io/jams/upcoming)                                                      | Brussels GameJam and the DAE jam were listed here                    |
