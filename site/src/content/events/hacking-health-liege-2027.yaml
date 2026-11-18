@@ -19,7 +19,11 @@ recurring: true
 published: true
 confidence: medium
 listed_by: crawler
-checked_on: 2026-10-06
+checked_on: 2026-11-18
 notes:
   Official site announces 12 March 2027; venue and end date not given yet. Participant and project
-  registration via forms on the site.
+  registration via forms on the site. Re-checked 18 Nov 2026, hackinghealth.be still shows 12 March
+  2027 as save-the-date next to 'Dates à venir' and names no venue. A ULiège news page
+  (news.uliege.be/cms/c_20402181/en/hacking-health-liege-2027) gives Friday 12 March 2027, 8:30 to
+  22:30, at La Grand Poste, Liège, free with required pre-registration, but its text still says
+  'Hacking Health Liège 2026' in places, so the venue is not filled in yet.
