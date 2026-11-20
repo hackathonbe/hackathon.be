@@ -1,0 +1,36 @@
+name: VibeHack
+edition: Prompter l'inclusion
+type: hackathon
+start_date: 2026-12-01
+end_date: 2026-12-01
+city: Brussels
+region: brussels
+venue: BeCentral, Cantersteen 12
+format: in-person
+organizer: BeCode, with Eqla, Lovable and BeCentral
+themes:
+  - web accessibility
+  - digital inclusion
+  - AI
+  - no-code
+audience: open
+languages:
+  - FR
+url: https://www.eventbrite.be/e/billets-vibehack-prompter-linclusion-2004373788959
+source_url: https://www.eventbrite.be/e/billets-vibehack-prompter-linclusion-2004373788959
+description:
+  Afternoon hackathon in Brussels where teams build a website with an AI no-code tool and make it
+  usable for keyboard, screen-reader and low-vision users, then present it to a jury.
+published: true
+confidence: medium
+listed_by: crawler
+checked_on: 2026-11-20
+notes:
+  "Eventbrite page opened 20 Nov 2026. It gives 'mardi 1 décembre, 13:30 - 17:30' without a year;
+  2026 is taken from the weekday (1 December falls on a Tuesday in 2026) and from the event showing
+  as upcoming in Eventbrite's Brussels hackathon listing. Venue BeCentral, 12 Cantersteen, 1000
+  Brussels. The page calls it 'un hackathon en présentiel', open to anyone curious with or without
+  technical experience, held in French. Teams build with Lovable, test with guidance from Eqla
+  (association for blind and visually impaired people) and present to a jury. No prizes, price,
+  capacity or registration deadline shown on the page. Only four hours long, so a curator may want
+  to judge whether it is too small for the site."

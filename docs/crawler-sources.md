@@ -8,31 +8,33 @@ remove one when it goes quiet.
 
 Pages that list several events.
 
-| Page                                                                                               | What it covers                                                       |
-| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| [Luma, Brussels AI listings](https://luma.com/discover/brussels/ai)                                | Where most AI community hackathons are announced                     |
-| [North Star events](https://www.ns2agi.com/)                                                       | Antwerp AI community; also co-hosts Ghent and Brussels events        |
-| [AI Tinkerers Belgium](https://belgium.aitinkerers.org/)                                           | Brussels, Ghent, Antwerp; mostly meetups, some hackathons            |
-| [FARI calendar](https://www.fari.brussels/calendar)                                                | Brussels AI hackathons and challenges                                |
-| [Inno4Def events and hackathons](https://inno4def.be/events-hackathons/)                           | Belgian Defence: Battlefield of Things, Navy Hackathon               |
-| [FTI Festival programme](https://www.ftifestival.be/programma)                                     | Flanders Technology & Innovation, yearly in October and November     |
-| [Cyber3Lab community calendar](https://www.cyber3lab.be/en/news/cybersecurity-ai-community-events) | Howest list of cybersecurity, AI and web3 events                     |
-| [PXL Digital external events](https://pxl-digital.pxl.be/x-talent/extern-events-26-27)             | A school's list of outside hackathons; new page each academic year   |
-| [FOSDEM fringe list](https://archive.fosdem.org/2026/fringe/)                                      | Hack days and code sprints around FOSDEM, late January               |
-| [Global Game Jam site map](https://globalgamejam.org/map/2026)                                     | Four Belgian sites in 2026                                           |
-| [itch.io jams](https://itch.io/jams/upcoming)                                                      | Brussels GameJam and the DAE jam were listed here                    |
-| [WALGA](https://www.walga.be/)                                                                     | Walloon game industry: KISS Game Jam, Game Jam Franco-Belge          |
-| [Digital Wallonia agenda](https://www.digitalwallonia.be/fr/agenda/)                               | Walloon digital events                                               |
-| [Bridge 2 Health events](https://b2h.be/fr/events/)                                                | Health and femtech hackathons                                        |
-| [European Commission events](https://commission.europa.eu/get-involved/events_en)                  | Search for "hackathon"; EU events held in Brussels                   |
-| [CASSINI Hackathons](https://www.cassini.eu/hackathons/)                                           | Twice a year; Belgium hosted the 10th edition only                   |
-| [EUDIS Defence Hackathon organisers](https://eudis-hackathon.eu/local-organisers/)                 | No Belgian site in 2025 or 2026; check each edition                  |
-| [VLIR PhD events](https://phd.vlir.be/en/events/)                                                  | Interuniversity research hackathons                                  |
-| [Open Knowledge Belgium](https://openknowledge.be/activities/)                                     | Civic tech and open data                                             |
-| [Belgium Hacker Agenda](https://hackeragenda.be/)                                                  | Hackerspace events; advertises RSS, ICS and a JSON API, not read yet |
-| [HackathonHub Europe](https://hackathonhub.eu/events)                                              | Aggregator with a loose definition of hackathon                      |
-| [dev.events, Belgium](https://dev.events/hackathons/EU/BE)                                         | Aggregator; mostly online events                                     |
-| [Eventbrite, hackathons in Brussels](https://www.eventbrite.com/d/belgium--brussel/hackathon/)     | Search page                                                          |
+| Page                                                                                                                         | What it covers                                                       |
+| ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| [Luma, Brussels AI listings](https://luma.com/discover/brussels/ai)                                                          | Where most AI community hackathons are announced                     |
+| [North Star events](https://www.ns2agi.com/)                                                                                 | Antwerp AI community; also co-hosts Ghent and Brussels events        |
+| [AI Tinkerers Belgium](https://belgium.aitinkerers.org/)                                                                     | Brussels, Ghent, Antwerp; mostly meetups, some hackathons            |
+| [FARI calendar](https://www.fari.brussels/calendar)                                                                          | Brussels AI hackathons and challenges                                |
+| [Inno4Def events and hackathons](https://inno4def.be/events-hackathons/)                                                     | Belgian Defence: Battlefield of Things, Navy Hackathon               |
+| [FTI Festival programme](https://www.ftifestival.be/programma)                                                               | Flanders Technology & Innovation, yearly in October and November     |
+| [Cyber3Lab community calendar](https://www.cyber3lab.be/en/news/cybersecurity-ai-community-events)                           | Howest list of cybersecurity, AI and web3 events                     |
+| [PXL Digital external events](https://pxl-digital.pxl.be/x-talent/extern-events-26-27)                                       | A school's list of outside hackathons; new page each academic year   |
+| [FOSDEM fringe list](https://archive.fosdem.org/2026/fringe/)                                                                | Hack days and code sprints around FOSDEM, late January               |
+| [Global Game Jam site map](https://globalgamejam.org/map/2026)                                                               | Four Belgian sites in 2026                                           |
+| [itch.io jams](https://itch.io/jams/upcoming)                                                                                | Brussels GameJam and the DAE jam were listed here                    |
+| [WALGA](https://www.walga.be/)                                                                                               | Walloon game industry: KISS Game Jam, Game Jam Franco-Belge          |
+| [Digital Wallonia agenda](https://www.digitalwallonia.be/fr/agenda/)                                                         | Walloon digital events                                               |
+| [Bridge 2 Health events](https://b2h.be/fr/events/)                                                                          | Health and femtech hackathons                                        |
+| [European Commission events](https://commission.europa.eu/get-involved/events_en)                                            | Search for "hackathon"; EU events held in Brussels                   |
+| [CASSINI Hackathons](https://www.cassini.eu/hackathons/)                                                                     | Twice a year; Belgium hosted the 10th edition only                   |
+| [EUDIS Defence Hackathon organisers](https://eudis-hackathon.eu/local-organisers/)                                           | No Belgian site in 2025 or 2026; check each edition                  |
+| [VLIR PhD events](https://phd.vlir.be/en/events/)                                                                            | Interuniversity research hackathons                                  |
+| [Open Knowledge Belgium](https://openknowledge.be/activities/)                                                               | Civic tech and open data                                             |
+| [Belgium Hacker Agenda](https://hackeragenda.be/)                                                                            | Hackerspace events; advertises RSS, ICS and a JSON API, not read yet |
+| [HackathonHub Europe](https://hackathonhub.eu/events)                                                                        | Aggregator with a loose definition of hackathon                      |
+| [dev.events, Belgium](https://dev.events/hackathons/EU/BE)                                                                   | Aggregator; mostly online events                                     |
+| [Eventbrite, hackathons in Brussels](https://www.eventbrite.com/d/belgium--brussel/hackathon/)                               | Search page                                                          |
+| [Eventbrite, hackathons in Brussels, alternative address](https://www.eventbrite.com.au/fr_BE/d/belgium--brussel/hackathon/) | Same search; opens when the address above is refused                 |
+| [Luma, Brussels](https://luma.com/brussels)                                                                                  | All Brussels events on Luma, not only AI                             |
 
 ## Yearly series
 
