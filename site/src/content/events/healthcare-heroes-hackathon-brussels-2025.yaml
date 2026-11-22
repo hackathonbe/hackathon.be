@@ -1,0 +1,35 @@
+name: Healthcare Heroes Hackathon
+edition: 4th edition
+series: healthcare-heroes-hackathon
+type: hackathon
+start_date: 2025-11-14
+end_date: 2025-11-15
+city: Brussels
+region: brussels
+venue: Comet Meetings Louise, Place Stéphanie 20
+format: in-person
+organizer: AbbVie
+themes:
+  - healthcare
+  - design thinking
+audience: students
+languages:
+  - EN
+url: https://www.healthcareheroes.be/
+source_url: https://www.healthcareheroes.be/
+description:
+  Two-day student hackathon in Brussels where teams use design thinking to work out ideas for
+  the future of healthcare and present them to a jury.
+published: true
+confidence: medium
+listed_by: crawler
+checked_on: 2026-11-22
+notes:
+  "Past event, found on 22 Nov 2026. Home page: 'November 14 and 15, 2025', 4th edition, 'by
+  AbbVie', aimed at students of health, business, management, marketing or communication. FAQ
+  page (https://www.healthcareheroes.be/faq.html): open to all higher education students in
+  Belgium, at most 100 students, first come first served, free, held in English, venue Comet
+  Meetings Louise, Place Stéphanie 20, 1050 Brussels. Confidence is medium because the site still
+  shows a 'Register now' link a year later and the FAQ carries no date, so the FAQ details may
+  belong to another edition. No 2026 or 2027 edition is announced; `recurring` left out for that
+  reason. The site refuses plain HTTP clients (403) but opens in a browser."

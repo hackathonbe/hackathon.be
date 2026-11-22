@@ -1,0 +1,29 @@
+name: Next Level Challenge
+series: next-level-challenge
+type: hackathon
+city: Leuven
+region: flanders
+format: in-person
+organizer: NEXT Leuven
+audience: students
+url: https://nextlevelchallenge.be/
+source_url: https://www.nextleuven.be/events/next-level-challenge
+description:
+  '24-hour student hackathon in Leuven: teams build a prototype and business case for company
+  challenges.'
+recurring: true
+published: false
+review:
+  Date not confirmed. The organiser's page shows "Wednesday, March 10, 2027" next to "March 10 &
+  11, 2026", with venue to be announced and registration not open yet
+confidence: low
+listed_by: crawler
+checked_on: 2026-11-22
+notes:
+  "NEXT Leuven's event page, opened 22 Nov 2026, is titled 'Next Level Challenge 2027' with 'More
+  info coming soon!', location 'TBA', 'Registrations WILL OPEN SOON' and the date line 'Wednesday,
+  March 10, 2027 March 10 & 11, 2026'. The 2026 edition ran on 10 and 11 March 2026, so the 2027
+  date may be a leftover with only the year changed; start_date is left out until the organiser
+  confirms it. The event's own site, https://nextlevelchallenge.be/, still describes the 2026
+  edition (Sportoase, Philipssite 6). City taken from the organiser's description of a hackathon
+  in Leuven; venue for 2027 unknown."
