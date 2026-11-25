@@ -1,0 +1,32 @@
+name: 'SPECS Hack: Brussels'
+edition: "Brussels '26"
+type: hackathon
+start_date: 2026-12-10
+end_date: 2026-12-11
+city: Brussels
+region: brussels
+themes:
+  - augmented reality
+  - XR
+url: https://devevents.specs.com/specshackbrussels26
+source_url: https://www.maubon.com/2026/11/augmented-times-monthly-augmented-reality-news-october-2026-2/
+description:
+  Two-day hackathon in Brussels on building augmented reality experiences for SPECS glasses, held in
+  the same week as the UnitedXR Europe conference.
+published: false
+review:
+  Name, dates and city are only confirmed on a third-party news roundup. The organiser's page could
+  not be opened (it blocks automated visitors), so the venue, who can take part and whether
+  applications are still open are not checked.
+confidence: low
+listed_by: crawler
+checked_on: 2026-11-23
+notes:
+  "From the Augmented Times roundup on maubon.com, opened 23 Nov 2026: 'SPECS Hack: Brussels '26 -
+  December 10 / 11 - Brussels', linking to devevents.specs.com/specshackbrussels26. The same list
+  gives United XR Europe as 7 - 9 December, Brussels. The organiser page returned 403 to the fetch
+  tool, to curl and to a headless browser. Not confirmed on any opened page, seen in search result
+  snippets only: venue The Egg Brussels (Rue Bara 175), 100 developers in 20 teams, selection by
+  application with a deadline of 20 November 2026, 100,000 USD in prizes, organiser Snap (Specs
+  developer relations). If the deadline is right, applications are already closed. Organizer,
+  venue, format, audience and languages are left out until the organiser page has been read."
