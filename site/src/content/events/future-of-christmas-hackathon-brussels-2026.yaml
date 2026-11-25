@@ -1,0 +1,35 @@
+name: Future of Christmas Hackathon
+type: hackathon
+city: Brussels
+region: brussels
+venue: Betacowork, Rue des Pères Blancs 4, 1040 Brussels
+format: in-person
+organizer: Seven Events, hosted by Betacowork
+themes:
+  - families
+  - kids
+  - creative coding
+audience: application
+languages:
+  - EN
+url: https://luma.com/qb00kmal
+source_url: https://luma.com/qb00kmal
+description:
+  Free family-friendly afternoon hackathon in Brussels for children from 8 years old and their
+  parents, building with new technology in teams. No coding experience needed.
+published: false
+review:
+  The page only says 'December 19th', with no year, weekday or times, so the start date is left
+  out. It is very likely 19 December 2026 (the event shows as upcoming on Luma's Brussels page). It
+  is also a family build afternoon with no judging or pitches mentioned, so a curator should decide
+  whether it belongs.
+confidence: low
+listed_by: crawler
+checked_on: 2026-11-20
+notes:
+  'Luma page opened 20 Nov 2026, found through luma.com/brussels. Presented by Seven Events (the
+  organiser of Hack the Rails), hosted by Betacowork. Ages 8 and up, kids and parents together, one
+  signup per attendee, registration subject to host approval. Free, food and drinks covered by
+  sponsors. Partners named: Maker Camp (200 Minecraft Education licences) and Stripe; Collibra,
+  Lego, Discord and Lovable are named as possible partners only. Language not stated; EN assumed
+  from the page text. If confirmed, set start_date and end_date to 2026-12-19.'

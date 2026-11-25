@@ -1,0 +1,39 @@
+name: 'Hackathon: Feeding the Future Ghent'
+type: hackathon
+start_date: 2026-11-30
+end_date: 2026-12-04
+city: Ghent
+region: flanders
+venue: Day 1 at ILVO Technologie en Voeding, Brusselsesteenweg 370, Merelbeke-Melle; day 2 at School
+  Keerpunt, Campus Oase, Ghent
+format: in-person
+organizer: CollectiveUP, for 28DIGITAL and EIT Food (EIT Girls Go STEM)
+themes:
+  - food security
+  - agriculture
+  - STEM for girls
+audience: students
+languages:
+  - NL
+  - EN
+url: https://www.eventbrite.be/e/hackathon-feeding-the-future-ghent-tickets-2003457920572
+source_url: https://www.eventbrite.be/e/hackathon-feeding-the-future-ghent-tickets-2003457920572
+description:
+  Free two-day hackathon for girls aged 14 to 19, who visit an agricultural research institute, form
+  teams around a food or soil challenge and pitch their idea to a jury in Ghent.
+published: false
+review:
+  Not clear whether any girl aged 14 to 19 can register or whether it is run for pupils of the host
+  school (School Keerpunt), which would make it a closed school activity. The page also gives no
+  year. A curator should decide whether a hackathon for secondary-school pupils belongs on the site.
+confidence: medium
+listed_by: crawler
+checked_on: 2026-11-20
+notes: "Eventbrite page opened 20 Nov 2026. Two separate days, both obligatory: 'DAY 1 - Monday 30
+  November, ILVO, Melle' and 'DAY 2 - Friday 4 December, School Keerpunt, Ghent', so the event is
+  not five days long; end_date is the second day. No year on the page; 2026 is taken from the
+  weekdays and from the event showing as upcoming in Eventbrite's listing. Participants meet at
+  School Keerpunt, Campus Bijloke, on day 1 and go to ILVO by bus. 40 participants, free, Dutch and
+  English. Day 2 ends with a public two-minute pitch competition before a jury of three, trophies
+  for the top three. The page says it is for 'girls aged 14 to 19'; the 'Who can join?' FAQ answer
+  could not be read. audience is set to students for lack of a closer value."
