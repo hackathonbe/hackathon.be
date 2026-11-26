@@ -59,7 +59,7 @@ Pages of one event that comes back every year, usually in the same month.
 | [CodeBash](https://carriere.infosupport.com/codebash-2025/)                                                                    | Mechelen, October                                   |
 | [Hack Kempen](https://www.hackkempen.be/)                                                                                      | Geel, planned for February or March 2027            |
 | [KU Leuven LStat Datathon](https://lstat.kuleuven.be/datathon2026)                                                             | Page could not be opened by the search              |
-| [KU Leuven BiblioTech](https://bib.kuleuven.be/english/research/digital-humanities/bibliotech-hackathon/2026)                  | March; page could not be opened by the search       |
+| [KU Leuven BiblioTech](https://bib.kuleuven.be/english/research/digital-humanities/bibliotech-hackathon/2026)                  | March; KU Leuven staff and students only            |
 | [Louvain-li-Nux](https://louvainlinux.org/activites/game-jam)                                                                  | Game jam, date to be announced                      |
 | [Startup Weekend Brussels](https://startupweekend.brussels/2026-edition)                                                       | Still shows "Spring 2026" without a date            |
 

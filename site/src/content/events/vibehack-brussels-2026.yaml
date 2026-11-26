@@ -24,7 +24,7 @@ description:
 published: true
 confidence: medium
 listed_by: crawler
-checked_on: 2026-11-20
+checked_on: 2026-11-26
 notes:
   "Eventbrite page opened 20 Nov 2026. It gives 'mardi 1 décembre, 13:30 - 17:30' without a year;
   2026 is taken from the weekday (1 December falls on a Tuesday in 2026) and from the event showing
@@ -33,4 +33,5 @@ notes:
   technical experience, held in French. Teams build with Lovable, test with guidance from Eqla
   (association for blind and visually impaired people) and present to a jury. No prizes, price,
   capacity or registration deadline shown on the page. Only four hours long, so a curator may want
-  to judge whether it is too small for the site."
+  to judge whether it is too small for the site. Re-checked 26 Nov 2026: same date, time and venue,
+  no cancellation or sold-out notice."

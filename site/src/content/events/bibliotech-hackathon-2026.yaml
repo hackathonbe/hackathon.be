@@ -10,17 +10,24 @@ themes:
   - library collections
   - data
 url: https://bib.kuleuven.be/english/research/digital-humanities/bibliotech-hackathon/2026
-source_url: https://set.kuleuven.be/phd/news/16-26-march-bibliotech-2026-hackathon
+source_url: https://bib.kuleuven.be/english/research/digital-humanities/bibliotech-hackathon/2026
 description: Ten-day digital humanities hackathon where teams build projects on KU Leuven library
   collection datasets.
 recurring: true
 published: false
-review: Dates from a URL slug only; official page unreadable
+review:
+  Dates now confirmed on the official page, but the page says it is open to KU Leuven students,
+  researchers and staff only, so it is not open to people outside the organising body
 confidence: low
 listed_by: crawler
-checked_on: 2026-10-06
+checked_on: 2026-11-26
 notes:
   kuleuven.be pages could not be opened (robots.txt timeout). Name and organiser come from search
   result titles; dates 16-26 March 2026 come only from the URL slug of the KU Leuven news item. City
   (organiser is Leuven-based), venue, audience and language not confirmed. Earlier edition in 2023;
-  a 2026 team poster exists on Zenodo.
+  a 2026 team poster exists on Zenodo. Update 26 Nov 2026, the official KU Leuven Libraries page
+  now opens. It gives a 'Meet the Data, Meet the People' session on 12 March 2026, infrastructure
+  training the next day, a working period of 16-26 March 2026 and a closing event on 26 March. It
+  says the hackathon is 'open to all KU Leuven students, researchers, and staff'; no technical
+  expertise required. No venue is named and no 2027 edition is mentioned. source_url was changed to
+  this page.

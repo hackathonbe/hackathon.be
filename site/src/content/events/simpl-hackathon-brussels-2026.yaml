@@ -26,7 +26,7 @@ review:
   event, so a curator should decide whether it counts as a hackathon. No venue on the page.
 confidence: medium
 listed_by: crawler
-checked_on: 2026-11-20
+checked_on: 2026-11-26
 notes:
   "From simpl-programme.ec.europa.eu/events/hackathon, opened 18 Nov 2026: 9 December 2026, 'will
   take place in Brussels', remote participation 'may be considered', open to all participants with
@@ -36,4 +36,5 @@ notes:
   a search snippet mentioned 'Coudenberg Entrance' but no opened page confirms it. The Commission
   newsroom item (ec.europa.eu/newsroom/simpl, item 959756) says 9 December 2026 in its text but its
   date field reads 09/10/2026. The 3rd Simpl Annual Community Event follows on 10 December 2026 in
-  Brussels with separate registration. Language not stated; EN assumed from the page."
+  Brussels with separate registration. Language not stated; EN assumed from the page. Re-checked
+  26 Nov 2026: the page still gives 9 December 2026 in Brussels, no venue and no change notice."

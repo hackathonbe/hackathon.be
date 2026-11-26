@@ -15,16 +15,21 @@ languages:
   - FR
 url: https://hackathon.cslabs.be/
 source_url: https://hackathon.cslabs.be/
-description: Weekend hackathon run by UNamur computer science students, rethinking how AI can be used
+description:
+  Weekend hackathon run by UNamur computer science students, rethinking how AI can be used
   for a better world. No specific skills are required to join.
 recurring: true
 published: false
-review: The page gives the dates and says anyone can join, but does not state a venue or city. Namur is
+review:
+  The page gives the dates and says anyone can join, but does not state a venue or city. Namur is
   assumed from the organiser and previous editions.
 confidence: medium
 listed_by: crawler
-checked_on: 2026-11-06
+checked_on: 2026-11-26
 notes:
   Edition title and dates from hackathon.cslabs.be (opened 2026-11-06). Registration is through the
   site's inscription page. Venue and city are not on the page; the earlier editions were at UNamur in
-  Namur.
+  Namur. Re-checked 2026-11-26, hackathon.cslabs.be still shows 19 to 21 March 2027 and the theme,
+  still without a venue. The inscription page asks for a 20 euro deposit, refunded on attendance,
+  and for participants to be over 18 or have parental permission; it asks for the applicant's
+  school but does not say the event is limited to students.
