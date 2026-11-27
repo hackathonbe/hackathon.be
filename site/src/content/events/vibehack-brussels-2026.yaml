@@ -24,7 +24,7 @@ description:
 published: true
 confidence: medium
 listed_by: crawler
-checked_on: 2026-11-26
+checked_on: 2026-11-27
 notes:
   "Eventbrite page opened 20 Nov 2026. It gives 'mardi 1 décembre, 13:30 - 17:30' without a year;
   2026 is taken from the weekday (1 December falls on a Tuesday in 2026) and from the event showing

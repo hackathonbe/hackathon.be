@@ -5,7 +5,7 @@ end_date: 2026-12-04
 city: Ghent
 region: flanders
 venue: Day 1 at ILVO Agrotechniek, Burgemeester van Gansberghelaan 115, Merelbeke-Melle; day 2 at
-  School Keerpunt, Campus Oase, Ghent
+  School Keerpunt, Campus Bijloke, Jozef Kluyskensstraat 27, Ghent
 format: in-person
 organizer: CollectiveUP, for 28DIGITAL and EIT Food (EIT Girls Go STEM)
 themes:
@@ -28,7 +28,7 @@ review:
   year. A curator should decide whether a hackathon for secondary-school pupils belongs on the site.
 confidence: medium
 listed_by: crawler
-checked_on: 2026-11-26
+checked_on: 2026-11-27
 notes: "Eventbrite page opened 20 Nov 2026. Two separate days, both obligatory: 'DAY 1 - Monday 30
   November, ILVO, Melle' and 'DAY 2 - Friday 4 December, School Keerpunt, Ghent', so the event is
   not five days long; end_date is the second day. No year on the page; 2026 is taken from the
@@ -43,4 +43,11 @@ notes: "Eventbrite page opened 20 Nov 2026. Two separate days, both obligatory: 
   is at Keerpunt, Campus Oase, Spitaalpoortstraat 50, Ghent. The 'Who can join?' answer still could
   not be read. A separate Eventbrite listing, 'Girls Go STEM hackathon: Public Pitch & Award
   Ceremony', Fri 4 Dec 16:00 at Freinetscholen Keerpunt, Buurtschool Oase50, Ghent, appeared in
-  Eventbrite's hackathon listing but was not opened."
+  Eventbrite's hackathon listing but was not opened. Re-checked 27 Nov 2026: same two days, no
+  cancellation notice. The agenda now puts day 2 at 'School Keerpunt, campus Bijloke, Jozef
+  Kluyskensstraat 27, 9000 Ghent', the same place as the day 1 meeting point; 'Oase' and
+  'Spitaalpoortstraat' no longer appear anywhere on the page, so venue was changed. The 'Who can
+  join?' question is listed without a readable answer. The separate Eventbrite page for the public
+  pitch and award ceremony (eventbrite.be/e/2005396804827) was opened: Fri 4 Dec, 16:00 to 18:30,
+  Jozef Kluyskensstraat 29, 9000 Gent, organiser CollectiveUP, open to the public; it speaks of
+  'girls and boys' pitching, while the hackathon page says girls aged 14 to 19."
