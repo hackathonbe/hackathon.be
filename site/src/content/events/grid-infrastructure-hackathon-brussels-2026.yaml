@@ -25,8 +25,8 @@ review:
   the dates, venue and application rules are not checked against the organiser.
 confidence: medium
 listed_by: crawler
-checked_on: 2026-11-26
+checked_on: 2026-11-28
 notes:
   'From hackathonhub.eu: 9-11 December 2026, Brussels, onsite, Elia Group selects 15-20 teams from
   submitted ideas and team profiles, submission deadline 29 November 2026, organiser Ultrahack. The
-  ultrahack.org page returned only the name Ultrahack when fetched. No venue address given. Re-checked 15 Nov 2026: hackathonhub.eu still shows the same dates, deadline and status Open; ultrahack.org still could not be read. Re-checked 26 Nov 2026: same result on both pages; hackathonhub.eu shows 9-11 December, deadline 29 November, status Open.'
+  ultrahack.org page returned only the name Ultrahack when fetched. No venue address given. Re-checked 15 Nov 2026: hackathonhub.eu still shows the same dates, deadline and status Open; ultrahack.org still could not be read. Re-checked 26 Nov 2026: same result on both pages; hackathonhub.eu shows 9-11 December, deadline 29 November, status Open. Re-checked 28 Nov 2026: same on hackathonhub.eu (9-11 December, deadline 29 November, open, no venue); ultrahack.org still shows only its title.'
