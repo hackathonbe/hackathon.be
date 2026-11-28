@@ -11,6 +11,7 @@ themes:
   - data spaces
   - open source
   - documentation
+venue: European Commission, Rue de la Loi 51, 1040 Brussels
 audience: open
 languages:
   - EN
@@ -23,10 +24,10 @@ published: false
 review:
   Name, date, city and openness are confirmed on the organiser's page, but the page says it is not a
   competition. It is a guided install-and-document day held the day before the Simpl community
-  event, so a curator should decide whether it counts as a hackathon. No venue on the page.
+  event, so a curator should decide whether it counts as a hackathon.
 confidence: medium
 listed_by: crawler
-checked_on: 2026-11-26
+checked_on: 2026-11-28
 notes:
   "From simpl-programme.ec.europa.eu/events/hackathon, opened 18 Nov 2026: 9 December 2026, 'will
   take place in Brussels', remote participation 'may be considered', open to all participants with
@@ -37,4 +38,8 @@ notes:
   newsroom item (ec.europa.eu/newsroom/simpl, item 959756) says 9 December 2026 in its text but its
   date field reads 09/10/2026. The 3rd Simpl Annual Community Event follows on 10 December 2026 in
   Brussels with separate registration. Language not stated; EN assumed from the page. Re-checked
-  26 Nov 2026: the page still gives 9 December 2026 in Brussels, no venue and no change notice."
+  26 Nov 2026: the page still gives 9 December 2026 in Brussels, no venue and no change notice.
+  Re-checked 28 Nov 2026: the page now has an 'At a glance' block with 'Rue de la Loi 51, 1040
+  Brussels, Belgium', '9 December 2026, 10:00 - 18:00 CET' and 'Open to all participants'; access
+  to the Commission premises needs prior registration (by e-mail), remote participation is not
+  foreseen. venue was added. No change notice."

@@ -24,7 +24,7 @@ description:
 published: true
 confidence: medium
 listed_by: crawler
-checked_on: 2026-11-26
+checked_on: 2026-11-28
 notes:
   "Eventbrite page opened 20 Nov 2026. It gives 'mardi 1 décembre, 13:30 - 17:30' without a year;
   2026 is taken from the weekday (1 December falls on a Tuesday in 2026) and from the event showing
@@ -34,4 +34,6 @@ notes:
   (association for blind and visually impaired people) and present to a jury. No prizes, price,
   capacity or registration deadline shown on the page. Only four hours long, so a curator may want
   to judge whether it is too small for the site. Re-checked 26 Nov 2026: same date, time and venue,
-  no cancellation or sold-out notice."
+  no cancellation or sold-out notice. Re-checked 28 Nov 2026: same date, time and venue
+  on the event page; Eventbrite's Brussels hackathon listing marks it 'Presque complet' (almost
+  full)."
